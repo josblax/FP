@@ -6,8 +6,8 @@
 * 4\. Estructuras de salida.
 *   4.1\. instrucción **cout**
 * 5\. Tipos de Variables
-*   5.1\. Enteros: int, short, long (unsigned)
-*   5.2\. Números con punto decimal: float, double
-*   5.3\. Booleanos o Lógico: bool
-*   5.4\. Texto o caracteres: string, char
+*     5.1\. Enteros: int, short, long (unsigned)
+*     5.2\. Números con punto decimal: float, double
+*     5.3\. Booleanos o Lógico: bool
+*     5.4\. Texto o caracteres: string, char
 

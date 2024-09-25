@@ -1,3 +1,5 @@
 # Palabra Reservada.
 
-## Son palabras usadas para escribir una gramática válida que puede ser procesada por la computadora.
+## Son palabras usadas para escribir una gramática correcta que puede ser interpretada o compilada por la computadora para producir un resultado.
+
+

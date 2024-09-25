@@ -4,4 +4,4 @@
 * 2\. Palabras reservadas.
 * 3\. Comentarios en el código
 * 4\. Estructuras de salida.
-*   4.1\. instrucción **cout**
+*   4.1\. instrucción #### cout

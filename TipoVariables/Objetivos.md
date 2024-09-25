@@ -10,4 +10,7 @@
 *     5.2\. Números con punto decimal: float, double
 *     5.3\. Booleanos o Lógico: bool
 *     5.4\. Texto o caracteres: string, char
+*     5.5\. Contenedores: Arreglos, Vectores
+*     5.6\. Estructuras: Structs
+*     5.7\. Clases y Objetos: class
 

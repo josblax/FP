@@ -2,8 +2,8 @@
 
 Los nombres de variables deben de reflejar el uso para el que es usado la variable, y para que posteriores programadores puedan comprender el código.
 
-1. Las asignaciones crean nombres.
-2. Los nombres de variables pueden ser de cualquier longitud
+
+1. Los nombres de variables pueden ser de cualquier longitud
 3. Los nombres son diferenciables en mayúsculas o minúsculas.
 4. Se pueden separar las asignaciones en la misma línea mediante punto y coma.
 5. Puedes usar guión bajo "_" como separador o iniciador de un nombre de una variable.

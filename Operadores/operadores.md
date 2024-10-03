@@ -8,3 +8,4 @@
 # Numeros y matematicas
 
 
+![Precedencia](https://github.com/josblax/FP/blob/main/imagenes/precedencia.png)

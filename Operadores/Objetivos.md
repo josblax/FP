@@ -3,7 +3,7 @@
 * 1\. Operadores aritméticos.
 *    1.1\. Suma **+**
 *    1.2\. Resta **-**
-*    1.3\. Múltiplicación *****
+*    1.3\. Múltiplicación *
 *    1.4\. División **/**
 *    1.5\. Módulo o residuo **%**
 * 2\. Operadores de incremento y decremento.

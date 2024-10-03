@@ -3,5 +3,8 @@
 * La precedencia es la combinación de valores, variables, operadores y funciones que son expresiones que necesitan ser evaluadas y validas. Por ejemplo 5-7
 * La mayor precedencia la tienen los parentesis, donde evaluará lo que se encuentre adentro antes que nada.
 * La evaluación de los operadores aritméticos básicos (+,*,-,/) tienen una propiedad asociativa de izquierda a derecha.
-* Algunos operadores, como las asignaciones y comparaciones, no tienen asociación en Python. 
 *  La precedencia es la jerarquía con la que las expresiones son evaluadas, Por ejemplo 10-4*2, donde la multiplicación tiene una mayor prioridad que la suma.
+
+# Numeros y matematicas
+
+![Precedencia.png](attachment:Precedencia.png)

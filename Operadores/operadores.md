@@ -7,4 +7,4 @@
 
 # Numeros y matematicas
 
-![Precedencia.png](attachment:Precedencia.png)
+

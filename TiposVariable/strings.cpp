@@ -1,4 +1,15 @@
-// Declarar e imprimir un texto
+// ConsoleApplication16.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <iomanip>
+#include <algorithm>
+using namespace std;
+int main()
+{
+    // Declarar e imprimir un texto
 
     string texto0 = "Hola, mundo!";
     cout << texto0 << endl;
@@ -26,3 +37,4 @@
     cout << "Introduce una linea de texto: ";
     getline(cin, nombreCompleto);
     cout << "tu nombre completo : " << nombreCompleto << endl;
+}

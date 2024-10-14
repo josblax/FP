@@ -24,6 +24,20 @@
 
 # Operadores Aritméticos
 
+Los operadores aritméticos básicos en programación son fundamentales para realizar operaciones matemáticas. Aquí te los explico:
+
+Suma (+): Adiciona dos números. Ejemplo: int suma = 5 + 3; // Resultado: 8
+
+Resta (-): Resta un número de otro. Ejemplo: int resta = 5 - 3; // Resultado: 2
+
+Multiplicación ()*: Multiplica dos números. Ejemplo: int multiplicacion = 5 * 3; // Resultado: 15
+
+División (/): Divide un número entre otro. Ejemplo: int division = 6 / 3; // Resultado: 2
+
+Módulo (%): Devuelve el residuo de una división. Ejemplo: int modulo = 5 % 3; // Resultado: 2
+
+## Ejercicios
+
 ```C++
 // Operaciones Aritméticas
 

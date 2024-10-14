@@ -24,6 +24,80 @@
 
 # Operadores Aritméticos
 
+```C++
+// Operaciones Aritméticas
+
+// Enteros
+int a = 10;
+int b = 20;
+int c;
+
+//Flotantes
+flotador x = 15,5;
+flotación y = 5,2;
+flotador z;
+
+// 1.Adición
+c = a + b; // 30
+z = x + y; // 20.7
+
+//2. Sustracción
+c = a - b; // -10
+z = x - y; // 10.3
+
+//3. Multiplicación
+c = a * b; // 200
+z = x * y; // 80.6
+
+//4. División
+c = b / a; // 2
+z = x / y; // 2.98077
+
+//5. Módulo (resto de la división)
+c = b % a; // 0
+
+//6. Operaciones mixtas
+z = a + x; // 25.5
+z = b - y; // 14.8
+z = a * y; // 52.0
+z = b / x; // 1.29032
+z = (a + b) * x / y; // 86.5385
+
+//7. Más ejemplos con flotadores
+z = x + 10,3; // 25.8
+z = y * 2,5; // 13.0
+z = x / 2,0; // 7.75
+z = y - 3,2; // 2.0
+
+//8. Combinación de números enteros y flotantes
+z = a + x - b / 2,0 + y * 1,5; // 23.8
+
+//9. Combinaciones más complejas
+z = (a + x) * (b - y) / (a * y); // 1.12308
+
+//10. Operaciones aritméticas de tipo mixto
+doble d = 7,4;
+z = a + d; // 17.4
+z = b - d; // 12.6
+z = d * y; // 38.48
+z = d / x; // 0.477419
+
+//11. Números negativos
+int negInt = -25;
+float negFloat = -12.3;
+
+c = a + negInt; // -15
+c = b + negFloat; // 7.7
+z = negFloat - y; // -17.5
+z = negInt * b; // -500
+
+//12. Incremento y decremento
+A++; // 11
+b--; // 19
+x += 2,5; // 18.0
+y -= 1,2; // 4.0
+
+```
 
 # Operadores de asignación
 

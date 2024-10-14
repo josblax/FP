@@ -1,7 +1,5 @@
 # Operadores
 
-# Operadores
-
 ## Los operadores son de suma importancia en programación ya que permiten operaciones o acciones sobre datos, variables y valores.
 
 ### Los operadores aritméticos son importantes para realizar cálculos matemáticos básicos. Nos permiten procesamiento numérico, desde calculos que requieren resolver o contestar problemas o casos que en escencia requieren operaciones simples o complejos.

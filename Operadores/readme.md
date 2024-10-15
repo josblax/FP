@@ -142,6 +142,113 @@ y -= 1,2; // 4.0
 
 * "<=" Menor o igual - Verdadero si el operando izquierdo es menor o igual al derecho, x <= y.
 
+## Ejercicios
+
+```C++
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    // Operadores Comparacion
+    // Enteros
+    int a = 10;
+    int b = 20;
+    int c;
+    //Flotantes
+    float x = 15.5;
+    float y = 5.2;
+    float z;
+    // Es para imprimir true 
+    // en lugar de 1
+    // false en lugar de cero 
+    cout << boolalpha;
+
+    // 1. Igualdad
+    cout << "(a == b) "
+        <<(a == b) << endl;
+    cout << "(x == y) "
+        <<(x == y) << endl;
+    // 2. Desigualdad
+    cout << (a != b) << endl;
+    cout << (x != y) << endl;
+    // 3. Mayor que
+    cout << "(a > b) "<<
+        (a > b) << endl;
+    cout << (x > y) << endl;
+    // 4. Menor que
+    cout << (a < b) << endl;
+    cout << (x < y) << endl;
+    // 5. Mayor o igual que
+    cout << (a >= b) << endl;
+    cout << (x >= y) << endl;
+    // 6. Menor o igual que
+    cout << (a <= b) << endl;
+    cout << (x <= y) << endl;
+    // 7. Comparaciones de 
+    // tipos mixtos
+    cout << (a > y) << endl;
+    cout << (x < b) << endl;
+    // 8. Valores negativos
+    cout << (a > -b) << endl;
+    cout << (x < -y) << endl;
+    // 9. Combinación de 
+    // comparaciones
+    cout << ((a < b) and 
+        (x > y)) 
+        << endl;
+    cout << ((a == 10) or 
+        (x == 5.2)) 
+        << endl;
+
+    // 10. Comparaciones 
+    // anidadas
+    cout << (a > b - 10) 
+        << endl;
+    cout << (x <= y + 10.3) 
+        << endl;
+
+    // 11. Comparación con 
+    // constantes
+    cout << (a == 10) << endl;
+    cout << (y == 5.2) << endl;
+
+    // 12. Comparación con 
+    // los resultados de las 
+    // operaciones aritméticas
+    cout << ((a + b) < 
+        (x * y)) << endl;
+    cout << ((b - a) >= 
+        (x / y)) << endl;
+    // 13. Comparación de 
+    // resultados negativos 
+    // y positivos
+    cout << (-a < b) << endl;
+    cout << ((-x) > y) << endl;
+    // 14. Combinación de 
+    // aritmética y 
+    // comparación
+        cout << ((a * b) > 
+            (x - y)) << endl;
+    cout << ((b / a) <= 
+        (x + y)) << endl;
+    // 15. Comparaciones 
+    // encadenadas
+    cout << (a < b and b < x) 
+        << endl;
+    cout << (y > x and x > a) 
+        << endl;
+    // 16. Comparación de 
+    // módulos
+    cout << ((b % a) == 0) 
+        << endl;
+    
+}
+
+
+```
 # Los operadores lógicos
 
 * Los operadores lógicos son operaciones usadas con valores y variables. Y siempre regresan como resultado Verdadero ó Falso.

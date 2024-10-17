@@ -2,6 +2,10 @@
 
 La instrucción **if.. else** es una condiciónante que evalúa una expresión, y si esta, es verdadera ejecutará las instrucciones entre las llaves **{ }**, en caso de que la evaluanción de la expresión es falsa se debe usar la instrucción **else** que ejecutará otras instrucciones si el resultado es falso.
 
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/imagenes/ifelse2.png" alt="Layout app" width="400" height="600">
+</p>
+
 ## Ejercicios if - else
 
 1.	Encontrar si un número es par o impar.

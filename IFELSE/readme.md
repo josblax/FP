@@ -2,6 +2,21 @@
 
 La instrucción **if.. else** es una condiciónante que evalúa una expresión, y si esta, es verdadera ejecutará las instrucciones entre las llaves **{ }**, en caso de que la evaluanción de la expresión es falsa se debe usar la instrucción **else** que ejecutará otras instrucciones si el resultado es falso.
 
+```C++
+if (condiciones)
+{
+  // Ejecuta las instrucciones en caso de ser verdadero
+} else
+{
+  // Ejecuta las instrucciones en caso de ser falso.
+}
+```
+
+## if necesita condiciones
+
+* Usa **if** para ejecutar el bloque de código en caso de la condición sea verdadera
+* Usa **else** para ejecutar el bloque de código en caso de que la condición sea falsa.
+
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/imagenes/ifelse2.png" alt="Layout app" width="1024" height="800">
 </p>

@@ -5,5 +5,6 @@ Fundamentos de Programación
 
 ```YAML
 map :
-  - llave : value
+  - llave1 : value1
+  - llave2 : value2
 ```

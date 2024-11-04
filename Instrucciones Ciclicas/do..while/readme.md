@@ -14,3 +14,8 @@ do
 } while (condicion);
 
 ```
+
+## Ejercicios do..while
+1. Crear un menú usando la instrucción do.while, que imprima la opción seleccionada. Use 6 opciones. La opción 6 debe salir del menú.
+2. Crear un juego de adivina el número, usando la instrucción do..while.
+3. Preguntar la edad de una persona, usando 

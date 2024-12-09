@@ -160,4 +160,26 @@ Console.WriteLine("Random.Next rango : "+rand.Next(0,2));
 Console.WriteLine("Random.Next double : "+rand.NextDouble());
 ```
 
+Declaración de arreglos de 1 dimensión
+
+Formato:
+```C#
+//<tipo_variable>[] nombre_arreglo = new  <tipo_variable>[# de elementos]
+//Ejemplo:
+int[] naturales = new naturales[10]{ 0 ,1, 2, 3, 4, 5, 6, 7, 8, 9 };
+// declaración sin inicializar el numero de elementos
+int[] numeros = { 1, 2, 3, 4, 5 }; // Declaración e inicialización de un arreglo de enteros
+string[] nombres = { "Ana", "Luis", "Carlos" }; // Declaración e inicialización de un arreglo de strings
+// imprimir arreglos
+for (int i=0; i <=9; i++)
+{
+   Console.Write(naturales[i]+" ,");
+}
+Console.WriteLine();
+// formato de impresión con foreach
+foreach (var elemento in naturales)
+{
+   Console.Write(elemento+" ,");
+}
+
 

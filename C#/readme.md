@@ -1,5 +1,17 @@
 # C# 
 
+## Tipos de variable
+Son básicamente los mismos tipos de variable que **C++**
+
+Ejemplos:
+```C#
+int numero = 10; // Variable de tipo entero 
+double decimal = 5.99; // Variable de tipo doble 
+char letra = 'A'; // Variable de tipo carácter 
+bool esVerdad = true;
+```
+___
+
 ## Estructuras de salida.
 
 Método: Console.WriteLine
@@ -34,6 +46,15 @@ Console.WriteLine(string).
 //Ejemplos:
 Console.WriteLine(“Esto es un string”);
 Console.WriteLine(“Hola Mundo”);
+```
+
+### Conversión de string a número
+
+Puedes convertir un string a un número llamando al método Parse, que se encuentra en los tipos de variable numéricos (int, long, double, short, float, decimal, etc) o usando los métodos de la clase System.Convert. Es más eficiente usar el método Parse.
+
+```C#
+int edad;
+
 ```
 
 

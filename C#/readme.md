@@ -187,7 +187,7 @@ ___
 
 Formato:
 ```C#
-//<tipo_variable>[,] nombre_arreglo = new  <tipo_variable>[# de renglones][# de columnas]
+//<tipo_variable>[,] nombre_arreglo = new  <tipo_variable>[# de renglones , # de columnas]
 //Ejemplo:
 int[,] matriz = new int[2,2]{{1,2},{3,4}}; // Declaración e inicialización de un arreglo bidimensional
 

@@ -116,9 +116,48 @@ double num = 2;
 num = Math.Pow(num,2);
 Console.WriteLine(num);
 ```
+___
+
+## Ciclo while
+Se usa cuando se necesita ejecutar un bloque de instrucciones por un número específico de veces. Hasta que se cumpla una condición.
 
 
+```C#
+while (condición)
+{
+  instrucción1;
+  instrucción2;
+}
+```
+___
 
+## Ciclo do..while
 
+Se usa cuando se necesita ejecutar un bloque de instrucciones por un número específico de veces. Hasta que se cumpla una condición.
+A diferencia del while, este código se ejecuta al menos una vez.
+
+```C#
+do
+{
+  instrucción1;
+  instrucción2;
+} while (condición);
+```
+___
+
+## Clase Random
+
+Método: Random
+Namespace: System
+
+Representa un generador de números aleatorios, que es un algoritmo que produce una secuencia de números que cumplen ciertos requerimientos estadísticos de aleatoriedad.
+
+```C#
+
+var rand = new Random();
+Console.WriteLine("Random.Next : "+rand.Next());
+Console.WriteLine("Random.Next rango : "+rand.Next(0,2));
+Console.WriteLine("Random.Next double : "+rand.NextDouble());
+```
 
 

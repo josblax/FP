@@ -109,6 +109,13 @@ double num = 2;
 num = Math.Sqrt(num);
 Console.WriteLine(num);
 ```
+Formatos:
+Math.Pow(numero,potencia).
+```C#
+double num = 2;
+num = Math.Pow(num,2);
+Console.WriteLine(num);
+```
 
 
 

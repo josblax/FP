@@ -33,6 +33,8 @@ Console.WriteLine(“Esto es un string”);
 Console.WriteLine(“Hola Mundo”);
 ```
 
+Formatos: Console.WriteLine(string, object). 
+
 
 
 

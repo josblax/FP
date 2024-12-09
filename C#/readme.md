@@ -159,7 +159,7 @@ Console.WriteLine("Random.Next : "+rand.Next());
 Console.WriteLine("Random.Next rango : "+rand.Next(0,2));
 Console.WriteLine("Random.Next double : "+rand.NextDouble());
 ```
-
+___
 ## Declaración, inicialización e impresión de arreglos de 1 dimensión
 
 Formato:
@@ -181,5 +181,26 @@ foreach (var elemento in naturales)
 {
    Console.Write(elemento+" ,");
 }
+```
+___
+## Declaración, inicialización e impresión de arreglos de 2 dimensiones
 
+Formato:
+```C#
+//<tipo_variable>[,] nombre_arreglo = new  <tipo_variable>[# de renglones][# de columnas]
+//Ejemplo:
+int[,] matriz = new int[2,2]{{1,2},{3,4}}; // Declaración e inicialización de un arreglo bidimensional
+
+for (int i=0; i<=1; i++)
+{
+   for (int j=0; j<=1; j++)
+    {
+       Console.Write(matriz[i,j]+" ,");
+    }
+    Console.WriteLine();
+}
+
+// Acceder a los elementos del arreglo bidimensional
+Console.WriteLine(matriz[1, 1]); // Imprime: 4
+Console.WriteLine(tablero[0, 1]); // Imprime: 3
 

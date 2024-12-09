@@ -5,8 +5,8 @@ Son básicamente los mismos tipos de variable que **C++**
 
 Ejemplos:
 ```C#
-int numero = 10; // Variable de tipo entero 
-double decimal = 5.99; // Variable de tipo doble 
+int numero1 = 5; // Variable de tipo entero 
+double numero2 = 3.14; // Variable de tipo doble 
 char letra = 'A'; // Variable de tipo carácter 
 bool esVerdad = true;
 ```

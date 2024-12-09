@@ -88,7 +88,10 @@ Puedes convertir un string a un número llamando al método Parse, que se encuen
 
 ```C#
 int edad;
-
+Console.Write("Ingresa tu edad : ");
+edad = int.Parse(Console.ReadLine());
+Console.WriteLine();
+Console.WriteLine("Tu edad es : "+edad);
 ```
 
 

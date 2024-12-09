@@ -3,12 +3,46 @@
 ## Tipos de variable
 Son básicamente los mismos tipos de variable que **C++**
 
-Ejemplos:
+### Ejemplos de tipos de variable primitivas:
 ```C#
-int numero1 = 5; // Variable de tipo entero 
-double numero2 = 3.14; // Variable de tipo doble 
-char letra = 'A'; // Variable de tipo carácter 
+// Enteros
+int numero1 = 5; // Variable de tipo entero
+Console.WriteLine(numero1); 
+// Double, Float, Decimal
+double numero2 = 3.14; // Variable de tipo doble
+Console.WriteLine(numero1);
+// char
+char letra = 'A'; // Variable de tipo carácter
+Console.WriteLine(letra);
+// bool
 bool esVerdad = true;
+Console.WriteLine(esVerdad);
+//long
+long numeroGrande = 9223372036854775807; // Máximo valor de long
+Console.WriteLine(numeroGrande);
+// short
+short numeroPequeno = 32767; // Máximo valor de short
+Console.WriteLine(numeroPequeno);
+//byte
+byte numeroByte = 255; // Máximo valor de byte
+Console.WriteLine(numeroByte);
+
+```
+
+### Ejemplo de tipo de variable string
+```C#
+string texto = "Hola, mundo!"; // Variable de tipo cadena de caracteres
+```
+### Ejemplo de variables tipo comodin
+```C#
+var numero = 10;               // C# inferirá que es un int
+var texto = "Hola";            // C# inferirá que es un string
+```
+
+
+### Ejemplo de declaración de constantes
+```C#
+const int velocidadLuz = 300_000;     // Variable constante, no se puede cambiar
 ```
 ___
 

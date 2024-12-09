@@ -160,7 +160,7 @@ Console.WriteLine("Random.Next rango : "+rand.Next(0,2));
 Console.WriteLine("Random.Next double : "+rand.NextDouble());
 ```
 
-Declaración de arreglos de 1 dimensión
+## Declaración, inicialización e impresión de arreglos de 1 dimensión
 
 Formato:
 ```C#

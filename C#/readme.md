@@ -81,6 +81,7 @@ Console.WriteLine(string).
 Console.WriteLine(“Esto es un string”);
 Console.WriteLine(“Hola Mundo”);
 ```
+___
 
 ### Conversión de string a número
 
@@ -94,6 +95,20 @@ Console.WriteLine();
 Console.WriteLine("Tu edad es : "+edad);
 ```
 
+___
+
+## Operaciones aritméticas Sqrt, Pow
+
+La operación raíz cuadrada, usa el formato Math.Sqrt(). Esta operación produce como resultado la raíz cuadrada de un número especifico.
+
+Formatos:
+Math.Sqrt(numero).
+Ejemplos:
+```C#
+double num = 2;
+num = Math.Sqrt(num);
+Console.WriteLine(num);
+```
 
 
 

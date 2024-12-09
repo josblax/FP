@@ -16,7 +16,11 @@ Console.WriteLine(“Esto es un string”);
 Console.WriteLine(“Hola Mundo”);
 ```
 
-
+Formatos: Console.WriteLine(string, object). 
+```C#
+int numero = 5;
+Console.WriteLine("Tu numero es : "+numero);
+```
 ___
 
 ## Estructuras de entrada.
@@ -33,7 +37,7 @@ Console.WriteLine(“Esto es un string”);
 Console.WriteLine(“Hola Mundo”);
 ```
 
-Formatos: Console.WriteLine(string, object). 
+
 
 
 

@@ -122,3 +122,25 @@ long double h = 3.141592653589793238L;
 ---
 
 > NOTA: Usa al final del número f o L para especificar el número que quieres manejar.
+
+### bool. Variable booleana que puede tener solo dos valores {0,1} o {falso,verdadero}.
+
+> Por que solo usa 1 o 0?
+
+* Las variables booleanas en C++ solo usan 1 y 0 porque representan los dos estados posibles de un valor booleano: verdadero (true) y falso (false). En los sistemas de computación, estos valores se representan internamente como 1 para true y 0 para false debido a la simplicidad y eficiencia en la operación binaria.
+
+* El uso de 1 y 0 tiene varias ventajas:
+
+1. Simplicidad: Es fácil trabajar con valores binarios en el nivel más bajo de hardware.
+
+2. Eficiencia: Las operaciones lógicas y de control se pueden realizar rápidamente utilizando estos dos valores.
+
+3. Compatibilidad: La representación binaria es estándar en casi todos los sistemas de programación y hardware.
+
+Ejemplo:
+
+```cplusplus
+bool llueve = true; // Esto internamente es 1
+bool tiene_sombrilla = false; // Esto internamente es 0
+```
+---

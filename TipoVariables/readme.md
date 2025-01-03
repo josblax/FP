@@ -73,3 +73,14 @@ Ejemplo:
 long long d = 555688722;
 ```
 ---
+
+### unsigned. Variable que solo registra números positivos.
+
+> Limite: Rango de una variable int 0 a 4,294,967,295
+
+Ejemplo:
+
+```cplusplus
+unsigned int e = 2000;
+```
+---

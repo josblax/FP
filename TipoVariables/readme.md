@@ -189,4 +189,20 @@ getline(cin, nombre);
 cout << "Encantado de conocerte, " << nombre << "!" << endl;
 
 ```
+
+---
+
+### char. Variable que almacena un solo caracter.
+
+> Limite: uede representar caracteres desde -128 a 127 o desde 0 a 255, dependiendo de si se considera signo o no.
+
+Ejemplo:
+
+```cplusplus
+char letra = 'a';
+char digito = '2';
+char simbolo = '%';
+
+```
+
 ---

@@ -42,7 +42,8 @@
 
 3. En la siguiente pantalla aparecerá que plantilla a usar, la que debes seleccionar en la parte superior, que dice **"Aplicación de consola"** y dice **C++**. Y oprimir el botón. Siguiente donde se úbica la flecha blanca.
 
-![image](https://github.com/user-attachments/assets/2fb71bc3-853b-4e7e-a2f2-2963f25ccce3)
+![image](https://github.com/user-attachments/assets/49024eac-73ba-4d4b-a6df-f5a86baa25e8)
+
 
 
 

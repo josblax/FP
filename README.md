@@ -18,7 +18,34 @@ ____
     ├── Funciones principales de un lenguaje de programación.
     ├── Que es una palabra reservada?
     ├── Estructuras de Salida.
-        ├── Instrucción de Salida $bold{cout}
+        ├── Instrucción de Salida cout
+    ├── Nombres de Variables/Identificadores
+    ├── Tipos de Variables
+        ├── Enteros. Signed/Unsigned. Números sin punto decimal.
+            ├── int
+            ├── short
+            ├── long
+        ├── Fraccionarios. Números con punto decimal
+            ├── float. 7-8 decimales de precisión.
+            ├── double. 15-16 decimales de precisión.
+        ├── Booleanos. Valor lógico 0,1 {true, false}
+            ├── bool
+            ├── función boolalpha
+        ├── Textos y caracteres
+            ├── string
+            ├── char
+        ├── Contenedores
+            ├── Arreglos
+            ├── Clase Arreglo <array>
+            ├── Vectores <vector>
+                ├── Iteradores
+                ├── Modificadores
+        ├── Clases y Objetos
+            ├── Estructuras <struct>
+            ├── Clases y Objetos
+                ├── Encapsulación
+                ├── Herencia
+                ├── Polimorfismo
     ├── Funciones prototipo
         ├── Que es una función prototipo?
         ├── Declaración de funciones.

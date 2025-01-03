@@ -26,7 +26,7 @@ ____
             ├── int
             ├── long long
             ├── unsigned
-        ├── Fraccionarios. Números con punto decimal
+        ├── Fraccionarios/Decimales. Números con punto decimal
             ├── float. 7-8 decimales de precisión.
             ├── double. 15-16 decimales de precisión.
         ├── Booleanos. Valor lógico 0,1 {true, false}

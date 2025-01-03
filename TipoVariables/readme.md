@@ -167,3 +167,28 @@ cout << "esta lloviendo?: " << lloviendo << endl;
 ```
 
 ---
+
+## Textos y Caracteres
+
+### string
+
+En C++, puedes trabajar con cadenas de caracteres (strings) utilizando la clase std::string de la biblioteca estándar (Standard Template Library, STL)
+
+### string. Es una representación de cadenas de caracteres que proporciona muchas funcionalidades útiles para manipular cadenas.
+
+> Limite: El límite máximo de una std::string depende de la memoria disponible en el sistema.
+
+Ejemplo:
+
+```cplusplus
+string saludo = "Hola, mundo!";
+cout << saludo << endl;
+
+// Otro ejemplo
+string nombre;
+cout << "¿Cómo te llamas? ";
+getline(cin, nombre);
+cout << "Encantado de conocerte, " << nombre << "!" << endl;
+
+```
+---

@@ -119,9 +119,9 @@ Ejemplo:
 ```cplusplus
 long double h = 3.141592653589793238L;
 ```
----
-
 > NOTA: Usa al final del número f o L para especificar el número que quieres manejar.
+
+---
 
 ### bool. Variable booleana que puede tener solo dos valores {0,1} o {falso,verdadero}.
 

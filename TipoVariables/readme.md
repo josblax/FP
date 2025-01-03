@@ -145,7 +145,7 @@ bool llueve = true; // Esto internamente es 1
 bool tiene_sombrilla = false; // Esto internamente es 0
 ```
 
-## La función boolalpha en C++ 
+### La función boolalpha en C++ 
 
 Se utiliza para imprimir valores booleanos como true o false en lugar de 1 o 0. Esto puede ser útil para hacer que la salida de tu programa sea más legible y comprensible.
 

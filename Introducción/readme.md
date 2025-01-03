@@ -66,6 +66,14 @@ ___
 
 ___
 
+## Porque usar C++
+
+Es un idioma artificial diseñado para ejecutar procesos que pueden ser llevados a cabo por máquinas como las computadoras
+
+Ejemplo de un lenguaje de programación:
+
+**C++, C#, Java, Python**
+
 
 
 

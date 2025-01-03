@@ -27,6 +27,19 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 
 ## No debes...
 
+# Tipos de Variable
+
+Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter
+
+## Enteros. Representa un número entero, son valores simples, que representan un valor numérico.
+
+### Short. Variable entera corta.
+
+> Limite: Rango -32,768 a 32,767.
+> Ejemplo: short a = 100; 
+
+
+
 1. No iniciar el nombre con un número.
 2. No usar caracteres especiales como #,!,%,$ etc...
 3. No existen espacios en ningun punto del nombre de una variable.

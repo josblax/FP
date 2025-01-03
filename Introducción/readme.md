@@ -30,4 +30,13 @@
 
 > Desgraciamente este SW no es soportado por apple.
 
+## Como crear un programa en Visual Studio.
+
+1. Una vez instalado, buscar el ícono que se muestra en la esquina inferior, y hacer click o doble click.
+
+![image](https://github.com/user-attachments/assets/4eddaa43-6da8-41cc-b1e2-e0b68c88129f)
+
+
+
+
 

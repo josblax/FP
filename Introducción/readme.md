@@ -105,6 +105,11 @@ Introducción. El principio fundamental de la programación estructurada es mant
 
 ![image](https://github.com/user-attachments/assets/50389508-a24a-4a75-8b9b-da5c9453e79b)
 
+3. **Estructura iterativa.** Repetimos in bloque de sentencias hasta que sea verdadera una determinada condición.
+
+![image](https://github.com/user-attachments/assets/fd6c53b0-b406-4a76-9e17-eca7c58de2f1)
+
+
 
 
 

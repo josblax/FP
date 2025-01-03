@@ -20,3 +20,6 @@
 
 ![image](https://github.com/user-attachments/assets/d8623733-4936-4635-bf1e-864c18e8aee4)
 
+4. Una vez que seleccionamos e instalamos aparecerá la siguiente pantalla de progreso.
+
+![image](https://github.com/user-attachments/assets/b6d3ba71-065e-4cc6-a7f6-723b459db149)

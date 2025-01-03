@@ -27,6 +27,11 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 
 ## No debes...
 
+1. No iniciar el nombre con un número.
+2. No usar caracteres especiales como #,!,%,$ etc...
+3. No existen espacios en ningun punto del nombre de una variable.
+4. No uses mayúsculas y minúsculas, asumiendo que es la misma variable.
+
 # Tipos de Variable
 
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter
@@ -36,12 +41,11 @@ Los tipos de variable se asocian a la identidad del valor de dicha variable a lo
 ### Short. Variable entera corta.
 
 > Limite: Rango -32,768 a 32,767.
-> Ejemplo: short a = 100; 
+
+```cplusplus
+Ejemplo: short a = 100; 
+```
 
 
 
-1. No iniciar el nombre con un número.
-2. No usar caracteres especiales como #,!,%,$ etc...
-3. No existen espacios en ningun punto del nombre de una variable.
-4. No uses mayúsculas y minúsculas, asumiendo que es la misma variable.
 

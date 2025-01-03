@@ -96,10 +96,13 @@ ___
 
 Introducción. El principio fundamental de la programación estructurada es mantener el programa con controles adecuados, también conocidos como flujo de control y se  basa en 3 estructuras:
 
-1. Estructura Secuencial. Ejecuta una sentencia/instrucción una y después la siguiente ("una tras otra") hasta finalizar todas las instrucciones.
+1. **Estructura Secuencial.** Ejecuta una sentencia/instrucción una y después la siguiente ("una tras otra") hasta finalizar todas las instrucciones.
 
 ![image](https://github.com/user-attachments/assets/325e6658-878c-469b-8656-ff83e67cbbec)
 
+2. **Estructura codicional.** Se evalúa una expresión y, dependiendo del resultado, se decide la siguiente sentencia a ejecutar
+
+![image](https://github.com/user-attachments/assets/05615a72-53af-4dca-9f3a-956ca1f2036a)
 
 
 

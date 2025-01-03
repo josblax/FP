@@ -38,7 +38,8 @@
 
 2. Aparecerá un cuadro de dialogo para crear un proyecto, como el que se muestra en la parte superior, oprimir el botón para crear un proyecto.
 
-![image](https://github.com/user-attachments/assets/ff3c2af7-3a39-4b73-8d26-727d07c5ba2e)
+![image](https://github.com/user-attachments/assets/1d1a1653-f43c-4854-b934-57eca7c6ff65)
+
 
 3. En la siguiente pantalla aparecerá que plantilla a usar, la que debes seleccionar en la parte superior, que dice **"Aplicación de consola"** y dice **C++**. Y oprimir el botón. Siguiente donde se úbica la flecha blanca.
 

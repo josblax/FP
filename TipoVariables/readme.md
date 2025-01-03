@@ -85,9 +85,10 @@ unsigned int e = 2000;
 ```
 ---
 
-### float. Variable decimal con precisión simple.
+### float. Variable decimal con precisión simple. 
 
 > Limite: Rango de una variable float Aproximadamente 1.2E-38 a 3.4E+38
+> Precisión: 6-7 digitos
 
 Ejemplo:
 
@@ -99,6 +100,7 @@ float f = 3.14f;
 ### double. Variable decimal con precisión doble.
 
 > Limite: Rango de una variable float Aproximadamente 2.3E-308 a 1.7E+308
+> Precisión 15-16 digitos
 
 Ejemplo:
 
@@ -110,6 +112,7 @@ double g = 3.1415926535;
 ### long double. Variable decimal con precisión extendida.
 
 > Limite: Varía según el compilador, pero generalmente más grande que double.
+> Precisión: 19-21 digitos
 
 Ejemplo:
 

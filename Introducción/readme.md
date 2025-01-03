@@ -26,9 +26,14 @@
 
 5. Una vez instalado, encontrarás dos íconos de instalación, el programa y el instalador en tu ventana de aplicaciónes.
 
+___
+
 ## Puedo instalar este SW en MacBooks o cualquier HW de apple.
 
 > Desgraciamente este SW no es soportado por apple.
+
+___
+
 
 ### Como crear un programa en Visual Studio.
 
@@ -59,6 +64,7 @@
 
 ![image](https://github.com/user-attachments/assets/f56ffc34-11f1-41d2-8334-941187dd8767)
 
+___
 
 
 

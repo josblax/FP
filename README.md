@@ -5,16 +5,15 @@ Fundamentos de Programación
 ____
 
 ```bash
-├──PARTE I: Fundamentos
-    ├── Analisis de Algoritmos
-    ├── Desarrollo de tipos de datos abstracto
-    ├── Estructuras y funciones básicas
-        ├── Arreglos
-        ├── Clase Arreglo <array>
-        ├── Vectores <vector>
-            ├── Iteradores
-            ├── Modificadores
-    ├── Apuntadores <*>
+├──PARTE I: Introducción
+    ├── Instalación de Visual Studio [Liga Instalación](https://visualstudio.microsoft.com/es/downloads/)
+        ├── Instalación de Visual Studio.
+        ├── Como crear un programa
+    ├── Porque C++
+    ├── Control de un programa
+        ├── Control Secuencial
+        ├── Control de Decisión
+        ├── Control Iterativo o Cíclico
 ├── PARTE II Funciones
     ├── Que es una función?
     ├── Estructura General de una función

@@ -35,8 +35,11 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 # Tipos de Variable
 
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter
+___
 
 ## Enteros. Representa un número entero, son valores simples, que representan un valor numérico.
+
+--- 
 
 ### short. Variable entera corta.
 
@@ -47,6 +50,7 @@ Ejemplo:
 ```cplusplus
 short a = 100; 
 ```
+---
 
 ### int. Variable entera normal.
 
@@ -57,5 +61,15 @@ Ejemplo:
 ```cplusplus
 int b = 1000; 
 ```
+---
 
+### long. Variable entera larga.
 
+> Limite: Rango -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807.
+
+Ejemplo:
+
+```cplusplus
+long long d = 555688722;
+```
+---

@@ -55,6 +55,9 @@
 
 ![image](https://github.com/user-attachments/assets/61086a96-f32c-486c-a732-b7fa519c2c9d)
 
+6. Finalmente aparecerá el editor para poder programar en C++.
+
+![image](https://github.com/user-attachments/assets/f56ffc34-11f1-41d2-8334-941187dd8767)
 
 
 

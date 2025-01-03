@@ -30,11 +30,16 @@
 
 > Desgraciamente este SW no es soportado por apple.
 
-## Como crear un programa en Visual Studio.
+### Como crear un programa en Visual Studio.
 
-1. Una vez instalado, buscar el ícono que se muestra en la esquina inferior, y hacer click o doble click.
+1. Una vez instalado, buscar el ícono que se muestra en la esquina inferior, y hacer click o doble click. 
 
 ![image](https://github.com/user-attachments/assets/4eddaa43-6da8-41cc-b1e2-e0b68c88129f)
+
+2. Aparecerá un cuadro de dialogo para crear un proyecto, como el que se muestra en la parte superior, oprimir el botón para crear un proyecto.
+
+![image](https://github.com/user-attachments/assets/e6055922-479a-4aff-a36e-d4914adafa4f)
+
 
 
 

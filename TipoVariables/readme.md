@@ -170,7 +170,7 @@ cout << "esta lloviendo?: " << lloviendo << endl;
 
 ## Textos y Caracteres
 
-### string Es una representación de cadenas de caracteres que proporciona muchas funcionalidades útiles para manipular cadenas.
+### string. Es una representación de cadenas de caracteres que proporciona muchas funcionalidades útiles para manipular cadenas.
 
 En C++, puedes trabajar con cadenas de caracteres (strings) utilizando la clase std::string de la biblioteca estándar (Standard Template Library, STL)
 

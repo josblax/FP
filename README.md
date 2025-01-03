@@ -24,7 +24,7 @@ ____
         ├── Enteros. Signed/Unsigned. Números sin punto decimal.
             ├── short
             ├── int
-            ├── long
+            ├── long long
             ├── unsigned
         ├── Fraccionarios. Números con punto decimal
             ├── float. 7-8 decimales de precisión.

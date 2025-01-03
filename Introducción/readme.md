@@ -23,3 +23,11 @@
 4. Una vez que seleccionamos e instalamos aparecerá la siguiente pantalla de progreso.
 
 ![image](https://github.com/user-attachments/assets/b6d3ba71-065e-4cc6-a7f6-723b459db149)
+
+5. Una vez instalado, encontrarás dos íconos de instalación, el programa y el instalador en tu ventana de aplicaciónes.
+
+## Puedo instalar este SW en MacBooks o cualquier HW de apple.
+
+> Desgraciamente este SW no es soportado por apple.
+
+

@@ -68,24 +68,19 @@ ___
 
 ## Porque usar C++
 
-Es un idioma artificial diseñado para ejecutar procesos que pueden ser llevados a cabo por máquinas como las computadoras
+1. Es un idioma artificial diseñado para ejecutar procesos que pueden ser llevados a cabo por máquinas como las computadoras. Ejemplo de un lenguaje de programación: **C++, C#, Java, Python**
 
-Ejemplo de un lenguaje de programación:
+2. Es un lenguaje formal para aprender, muy parecido a Java/Python para los ingenieros en Sistemas, o C#/Python para los Animadores Digitales o carreras afines, que continúen su formación en ese lenguaje, no hay cambios significativos.
 
-**C++, C#, Java, Python**
+3. Se conecta con los cursos subsecuentes para sistemas, ciencia de datos, ingeniería de videojuegos además de animación y arte digital.
 
-Es un lenguaje formal para aprender, muy parecido a Java/Python para los ingenieros en Sistemas, o C#/Python para los Animadores Digitales o carreras afines, que continúen su formación en ese lenguaje, no hay cambios significativos.
+4. Aunque Python es más popular para muchas aplicaciones de Inteligencia Artificial y Máquinas de aprendizaje, aprendiendo C++ correctamente, no implica dificultad en moverse a C#, Python o Java posteriormente, ya que Python simplifica la programación de lo aprendido en C++.
 
-Se conecta con los cursos subsecuentes para sistemas, ciencia de datos, ingeniería de videojuegos además de animación y arte digital.
+5. Para robótica o mecatrónica se usan primordialmente dos lenguajes, C++ y Phyton.
 
-Aunque Python es más popular para muchas aplicaciones de Inteligencia Artificial y Máquinas de aprendizaje, aprendiendo C++ correctamente, no implica dificultad en moverse a C#, Python o Java posteriormente, ya que Python simplifica la programación de lo aprendido en C++.
+6. Es un lenguaje de alto nivel, de fácil uso, es un lenguaje formal orientado a objetos desarrollado por Microsoft.
 
-Para robótica o mecatrónica se usan primordialmente dos lenguajes, C++ y Phyton.
-
-Es un lenguaje de alto nivel, de fácil uso, es un lenguaje formal* orientado a objetos desarrollado por Microsoft.
-
-
-C++ esta basado en el lenguaje de programación C.
+7. C++ esta basado en el lenguaje de programación C.
 
 
 

@@ -92,6 +92,17 @@ Características de un programa propio.
 * Todas las instrucciones son ejecutables y no deben existir ciclos infinitos.
 ___
 
+## Flujos de control de un programa
+
+Introducción. El principio fundamental de la programación estructurada es mantener el programa con controles adecuados, también conocidos como flujo de control y se  basa en 3 estructuras:
+
+1. Estructura Secuencial. Ejecuta una sentencia/instrucción una y después la siguiente ("una tras otra") hasta finalizar todas las instrucciones.
+
+![image](https://github.com/user-attachments/assets/325e6658-878c-469b-8656-ff83e67cbbec)
+
+
+
+
 
 
 

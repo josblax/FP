@@ -46,6 +46,11 @@
 ![image](https://github.com/user-attachments/assets/49024eac-73ba-4d4b-a6df-f5a86baa25e8)
 
 
+4. Selecciona el nombre del proyecto, puedes poner FP01, FP02, ... etc para llevar un control o un nombre que tu desees, este nombre no debe de llevar espacios. Los demás parámetros, dejalos como estan y oprime **Crear**.
+
+![image](https://github.com/user-attachments/assets/5e068998-f1f6-4b0a-adeb-c2c808544ba8)
+
+
 
 
 

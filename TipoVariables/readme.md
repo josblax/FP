@@ -38,14 +38,24 @@ Los tipos de variable se asocian a la identidad del valor de dicha variable a lo
 
 ## Enteros. Representa un número entero, son valores simples, que representan un valor numérico.
 
-### Short. Variable entera corta.
+### short. Variable entera corta.
 
 > Limite: Rango -32,768 a 32,767.
 
+Ejemplo: 
+
 ```cplusplus
-Ejemplo: short a = 100; 
+short a = 100; 
 ```
 
+### int. Variable entera normal.
 
+> Limite: Rango -2,147,483,648 a 2,147,483,647.
+
+Ejemplo:
+
+```cplusplus
+int b = 1000; 
+```
 
 

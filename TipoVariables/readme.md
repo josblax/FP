@@ -84,6 +84,7 @@ Ejemplo:
 unsigned int e = 2000;
 ```
 ---
+## Números fraccionarios/con decimales
 
 ### float. Variable decimal con precisión simple. 
 
@@ -123,7 +124,7 @@ long double h = 3.141592653589793238L;
 
 ---
 
-### bool. Variable booleana que puede tener solo dos valores {0,1} o {falso,verdadero}.
+## bool. Variable booleana que puede tener solo dos valores {0,1} o {falso,verdadero}.
 
 > Por que solo usa 1 o 0?
 

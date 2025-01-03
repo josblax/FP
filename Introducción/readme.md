@@ -74,6 +74,16 @@ Ejemplo de un lenguaje de programación:
 
 **C++, C#, Java, Python**
 
+Es un lenguaje formal para aprender, muy parecido a Java/Python para los ingenieros en Sistemas, o C#/Python para los Animadores Digitales o carreras afines, que continúen su formación en ese lenguaje, no hay cambios significativos.
+
+Se conecta con los cursos subsecuentes para sistemas, ciencia de datos, ingeniería de videojuegos además de animación y arte digital.
+
+Aunque Python es más popular para muchas aplicaciones de Inteligencia Artificial y Máquinas de aprendizaje, aprendiendo C++ correctamente, no implica dificultad en moverse a C#, Python o Java posteriormente, ya que Python simplifica la programación de lo aprendido en C++.
+
+Para robótica o mecatrónica se usan primordialmente dos lenguajes, C++ y Phyton.
+
+
+
 
 
 

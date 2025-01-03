@@ -51,6 +51,12 @@
 ![image](https://github.com/user-attachments/assets/5e068998-f1f6-4b0a-adeb-c2c808544ba8)
 
 
+5. Te saldrá un mensaje, creando el proyecto, espera a la siguiente pantalla.
+
+![image](https://github.com/user-attachments/assets/61086a96-f32c-486c-a732-b7fa519c2c9d)
+
+
+
 
 
 

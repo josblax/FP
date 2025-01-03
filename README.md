@@ -14,10 +14,11 @@ ____
         ├── Control Secuencial
         ├── Control de Decisión
         ├── Control Iterativo o Cíclico
-├── PARTE II Funciones
-    ├── Que es una función?
-    ├── Estructura General de una función
-    ├── Como se llama a una función?
+├── PARTE II Fundamentos de Programación.
+    ├── Funciones principales de un lenguaje de programación.
+    ├── Que es una palabra reservada?
+    ├── Estructuras de Salida.
+        ├── Instrucción de Salida $bold cout
     ├── Funciones prototipo
         ├── Que es una función prototipo?
         ├── Declaración de funciones.

@@ -38,7 +38,8 @@
 
 2. Aparecerá un cuadro de dialogo para crear un proyecto, como el que se muestra en la parte superior, oprimir el botón para crear un proyecto.
 
-![image](https://github.com/user-attachments/assets/216cd417-41d1-40f2-b2cc-9d4d20f6d4c4)
+![image](https://github.com/user-attachments/assets/ff3c2af7-3a39-4b73-8d26-727d07c5ba2e)
+
 
 
 

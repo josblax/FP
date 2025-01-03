@@ -16,7 +16,7 @@
 ![image](https://github.com/user-attachments/assets/20fa6e92-fa02-4b5b-b88d-6c5e5844d167)
 
 
-3. Al abrir la aplicación verás diferentes opciones asegurate instalar la que se muestra abajo:
+3. Al abrir la aplicación verás diferentes opciones asegurate instalar la opción  que se muestra abajo:
 
 ![image](https://github.com/user-attachments/assets/d8623733-4936-4635-bf1e-864c18e8aee4)
 

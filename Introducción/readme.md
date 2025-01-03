@@ -82,6 +82,11 @@ Aunque Python es más popular para muchas aplicaciones de Inteligencia Artificia
 
 Para robótica o mecatrónica se usan primordialmente dos lenguajes, C++ y Phyton.
 
+Es un lenguaje de alto nivel, de fácil uso, es un lenguaje formal* orientado a objetos desarrollado por Microsoft.
+
+
+C++ esta basado en el lenguaje de programación C.
+
 
 
 

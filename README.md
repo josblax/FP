@@ -46,22 +46,6 @@ ____
                 ├── Encapsulación
                 ├── Herencia
                 ├── Polimorfismo
-    ├── Funciones prototipo
-        ├── Que es una función prototipo?
-        ├── Declaración de funciones.
-        ├── Definición de una función.
-        ├── Diferencias claves entre definición y declaración de una función.
-    ├── Ejemplos de diferentes tipos de funciones.
-        ├── Función sin retorno y sin parámetros.
-        ├── Se puede definir una función dentro de otra función?
-        ├── Función con retorno y con parámetros.
-        ├── Función Prototipo.
-        ├── Ejemplo integral. Operaciones básicas de un cajero automático.
-    ├── Parámetros por valor y parámetros por referencia.
-        ├── Definición de un parámetro x valor.
-        ├── Definición de un parámetro x referencia.
-    ├── Funciones Overloading
-    ├── Funciones Recursivas
 ├── PARTE III Clases y Objetos
     ├── Estructuras <struct>
         ├── Como se declara?

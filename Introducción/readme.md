@@ -11,6 +11,8 @@
 
 
 
+2. Una vez descargado verás la siguiente imagen en tu Web Browser
 
+![image](https://github.com/user-attachments/assets/20fa6e92-fa02-4b5b-b88d-6c5e5844d167)
 
 

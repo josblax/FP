@@ -84,3 +84,14 @@ Ejemplo:
 unsigned int e = 2000;
 ```
 ---
+
+### float. Variable decimal con precisión simple.
+
+> Limite: Rango de una variable float Aproximadamente 2.3E-308 a 1.7E+308
+
+Ejemplo:
+
+```cplusplus
+double g = 3.1415926535;
+```
+---

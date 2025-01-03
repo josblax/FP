@@ -102,7 +102,8 @@ Introducción. El principio fundamental de la programación estructurada es mant
 
 2. **Estructura codicional.** Se evalúa una expresión y, dependiendo del resultado, se decide la siguiente sentencia a ejecutar
 
-![image](https://github.com/user-attachments/assets/05615a72-53af-4dca-9f3a-956ca1f2036a)
+![image](https://github.com/user-attachments/assets/8cb46290-e7cf-4d52-874c-18cca844c89c)
+
 
 
 

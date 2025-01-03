@@ -18,7 +18,7 @@ ____
     ├── Funciones principales de un lenguaje de programación.
     ├── Que es una palabra reservada?
     ├── Estructuras de Salida.
-        ├── Instrucción de Salida $bold cout
+        ├── Instrucción de Salida $bold{cout}
     ├── Funciones prototipo
         ├── Que es una función prototipo?
         ├── Declaración de funciones.

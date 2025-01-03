@@ -40,7 +40,7 @@
 
 ![image](https://github.com/user-attachments/assets/ff3c2af7-3a39-4b73-8d26-727d07c5ba2e)
 
-3. En la siguiente pantalla aparecerá que plantilla a usar, la que debes seleccionar en la parte superior, que dice aplicación de consola y dice C++. Y oprimir el botón. Siguiente donde se úbica la flecha blanca.
+3. En la siguiente pantalla aparecerá que plantilla a usar, la que debes seleccionar en la parte superior, que dice **"Aplicación de consola"** y dice C++. Y oprimir el botón. Siguiente donde se úbica la flecha blanca.
 
 ![image](https://github.com/user-attachments/assets/2273f790-e72e-4f88-8795-0fc8dcaf2d60)
 

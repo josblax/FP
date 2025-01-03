@@ -22,8 +22,8 @@ ____
     ├── Nombres de Variables/Identificadores
     ├── Tipos de Variables
         ├── Enteros. Signed/Unsigned. Números sin punto decimal.
-            ├── int
             ├── short
+            ├── int
             ├── long
         ├── Fraccionarios. Números con punto decimal
             ├── float. 7-8 decimales de precisión.

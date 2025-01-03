@@ -98,7 +98,8 @@ Introducción. El principio fundamental de la programación estructurada es mant
 
 1. **Estructura Secuencial.** Ejecuta una sentencia/instrucción una y después la siguiente ("una tras otra") hasta finalizar todas las instrucciones.
 
-![image](https://github.com/user-attachments/assets/325e6658-878c-469b-8656-ff83e67cbbec)
+![image](https://github.com/user-attachments/assets/24a27954-23d5-4e1b-a352-c38334f789e4)
+
 
 2. **Estructura codicional.** Se evalúa una expresión y, dependiendo del resultado, se decide la siguiente sentencia a ejecutar
 

@@ -82,6 +82,16 @@ ___
 
 7. C++ esta basado en el lenguaje de programación C.
 
+> Teorema Fundamental de la programación.
+> “Todo programa propio se puede escribir utilizando únicamente las estructuras de control secuencial, condicional e iterativa”
+
+Características de un programa propio.
+
+* Tiene un único o varios  punto(s) de entrada y salida.
+* Existen caminos desde la entrada hasta la salida que pasan por parcial o totalmente por las partes del programa.
+* Todas las instrucciones son ejecutables y no deben existir ciclos infinitos.
+___
+
 
 
 

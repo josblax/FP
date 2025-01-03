@@ -42,7 +42,8 @@
 
 3. En la siguiente pantalla aparecerá que plantilla a usar, la que debes seleccionar en la parte superior, que dice aplicación de consola y dice C#. Y oprimir el botón. Siguiente donde se úbica la flecha blanca.
 
-![image](https://github.com/user-attachments/assets/4bb63a44-fd54-4664-a56b-b24238a7a97d)
+![image](https://github.com/user-attachments/assets/2273f790-e72e-4f88-8795-0fc8dcaf2d60)
+
 
 
 

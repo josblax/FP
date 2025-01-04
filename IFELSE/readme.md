@@ -18,7 +18,7 @@ if (condiciones)
 * Usa **else** para ejecutar el bloque de código en caso de que la condición sea falsa.
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/imagenes/ifelse2.png" alt="Layout app" width="1200" height="900">
+<img src="https://github.com/josblax/FP/blob/main/imagenes/ifelse2.png" alt="Layout app" width="1200" height="768">
 </p>
 
 ## Ejercicios if - else

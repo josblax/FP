@@ -53,14 +53,10 @@ ____
         ├── if doble. if..else
         ├── if's anidados
         ├── instrucción switch
-├── PARTE IV Listas y Árboles
-    ├── Lista Ligada Simple
-        ├── Definición de una Lista Ligada Simple
-        ├── Estructura básica de un nodo.
-        ├── Funciones Básicas de una lista Ligada Simple.
-    ├── Lista Ligada Doble
-        ├── Definición de una Lista Ligada Doble.
-        ├── Funciones Básicas de una lista Ligada Doble.
+├── PARTE IV Instrucciones Cíclicas
+    ├── Instrucción for
+    ├── Instrucción do..while
+    ├── Instrucción while.
 ```
 
 

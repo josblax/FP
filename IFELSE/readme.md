@@ -21,7 +21,7 @@ if (condiciones)
 <img src="https://github.com/josblax/FP/blob/main/imagenes/ifelse2.png" alt="Layout app" width="1200" height="768">
 </p>
 
-## Ejercicios if - else
+### Ejercicios if - else
 
 1.	Encontrar si un número es par o impar.
 2.	Encontrar el mayor de dos números, solicita los dos números de tipo int.

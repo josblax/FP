@@ -47,7 +47,7 @@ ____
                 ├── Encapsulación
                 ├── Herencia
                 ├── Polimorfismo
-├── PARTE III if..else
+├── PARTE III Decisiones
     ├── Tipos de condiciones de if..else
         ├── if simple. solamente if.
         ├── if doble. if..else

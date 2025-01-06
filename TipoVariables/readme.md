@@ -75,6 +75,8 @@ cin >> a; cout << "El número ingresado es: " << a << endl;
 
 ```
 
+____
+
 # Manipulador endl
 
 **endl:** Se utiliza en cojunto con la instrucción cout, que corresponde a un comando que mueve el "cursor" a una nueva linea y funciona igual que la tecla retorno que normalmente usas en una computadora através de un teclado.
@@ -82,6 +84,19 @@ cin >> a; cout << "El número ingresado es: " << a << endl;
 > El uso de endl no solo mueve el cursor a una nueva línea, sino que también garantiza que cualquier contenido pendiente en el búfer se envíe a la salida. Esto puede ser útil para asegurarse de que los datos se impriman inmediatamente,
 > especialmente en situaciones de depuración o cuando se trabaja con dispositivos de salida que requieren una actualización inmediata.
 
+Ejemplo:
+
+```cplusplus
+
+// Como se usa:?
+
+
+cout << "Línea 1: "  << endl;
+cout << "Línea 2: "  << endl;
+
+```
+
+> En este caso, endl asegura que cada mensaje se imprima en una nueva línea y que el búfer de salida se vacíe después de cada inserción.
 ___
 
 # Tipos de Variable

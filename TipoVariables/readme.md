@@ -172,7 +172,14 @@ Ejemplo:
 
 ```cplusplus
 unsigned int e = 2000;
+cout << "Ingresa un número entero: ";
+cin >> e;
+cout << "El número ingresado es: " << e << endl;
 ```
+
+> Que pasa si assigno un número negativo a una variable declarada unsigned? Si asignas un número negativo a una variable declarada como unsigned en C++, el comportamiento que observarás es debido a cómo se representa y se trata la información en binario. Esto puede ser un tanto confuso porque C++ no arroja un error inmediato, sino que realiza una conversión de los bits del valor negativo al rango no negativo representable por el tipo unsigned.
+
+> Qué sucede exactamente? Cuando asignas un número negativo a una variable unsigned, el valor se convierte a su equivalente en el rango positivo utilizando aritmética de módulo. En términos simples, el valor binario del número negativo se interpreta como un número positivo en el espacio de los enteros sin signo.
 ---
 ## Números fraccionarios/con decimales
 

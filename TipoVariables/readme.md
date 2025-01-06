@@ -55,6 +55,35 @@ Las comillas ("") se usan para definir rotúlos o letreros fijos que no cambian 
 > Los valores que contiene una variable también pueden ser impresos mediante esta instrucción, abajo se muestran los ejemplos de cada tipo de variable.
 ___
 
+# Estructuras de Entrada
+
+## Instrucción de entrada cin
+
+**cin:** La instrucción cout se utiliza para recibir entradas desde la consola, normalmente utilizando el teclado, pero no esta reducido a este dispositivo, pueden ser escaners, joysticks, control de videojuegos etc. Pertenece a la biblioteca "Estandar" (std) de entrada y salida (iostream)
+
+### Impresión de valores básicos
+
+Ejemplo:
+
+```cplusplus
+
+// Como se imprime?
+
+int a;
+cout << "Ingresa un número entero: ";
+cin >> a; cout << "El número ingresado es: " << a << endl;
+
+```
+
+# Manipulador endl
+
+**endl:** Se utiliza en cojunto con la instrucción cout, que corresponde a un comando que mueve el "cursor" a una nueva linea y funciona igual que la tecla retorno que normalmente usas en una computadora através de un teclado.
+
+> El uso de endl no solo mueve el cursor a una nueva línea, sino que también garantiza que cualquier contenido pendiente en el búfer se envíe a la salida. Esto puede ser útil para asegurarse de que los datos se impriman inmediatamente,
+> especialmente en situaciones de depuración o cuando se trabaja con dispositivos de salida que requieren una actualización inmediata.
+
+___
+
 # Tipos de Variable
 
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter

@@ -118,7 +118,7 @@ Ejemplo:
 ```cplusplus
 short a = 100;
 // Como se asignan valores desde consola?
-cout << "Ingresa un número entero: ";
+cout << "Ingresa un número short: ";
 cin >> a;
 // Como se imprime en consola?
 cout << "El número ingresado es: " << a << endl;
@@ -133,7 +133,10 @@ cout << "El número ingresado es: " << a << endl;
 Ejemplo:
 
 ```cplusplus
-int b = 1000; 
+int b = 1000;
+cout << "Ingresa un número entero: ";
+cin >> b;
+cout << "El número ingresado es: " << b << endl;
 ```
 ---
 

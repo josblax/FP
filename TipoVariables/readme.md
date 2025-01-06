@@ -71,7 +71,8 @@ Ejemplo:
 
 int a;
 cout << "Ingresa un número entero: ";
-cin >> a; cout << "El número ingresado es: " << a << endl;
+cin >> a;
+cout << "El número ingresado es: " << a << endl;
 
 ```
 
@@ -117,6 +118,10 @@ Ejemplo:
 ```cplusplus
 short a = 100;
 // Como se asignan valores desde consola?
+cout << "Ingresa un número entero: ";
+cin >> a;
+// Como se imprime en consola?
+cout << "El número ingresado es: " << a << endl;
 
 ```
 ---

@@ -32,6 +32,25 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 3. No existen espacios en ningun punto del nombre de una variable.
 4. No uses mayúsculas y minúsculas, asumiendo que es la misma variable.
 
+___
+
+# Estructuras de Salida
+
+## Instrucción de salida cout
+
+**cout:** Se utiliza para imprimir texto o valores de consola. Pertenece a la biblioteca "Estandar" (std) de entrada y salida (iostream) se usa en combinación con el operador de inserción (<<).
+
+Ejemplo:
+
+```cplusplus
+
+// Como se imprime?
+
+cout << "Mi nombre es : " << "Alumno" << endl;
+
+```
+___
+
 # Tipos de Variable
 
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter

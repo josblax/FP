@@ -49,6 +49,8 @@ Ejemplo:
 cout << "Mi nombre es : " << "Alumno" << endl;
 
 ```
+
+Las comillas ("") se usan para definir rotúlos o letreros fijos que no cambian a lo largo de la ejecución de un programa
 ___
 
 # Tipos de Variable

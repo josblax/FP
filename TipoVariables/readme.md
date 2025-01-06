@@ -48,7 +48,9 @@ ___
 Ejemplo: 
 
 ```cplusplus
-short a = 100; 
+short a = 100;
+// Como se asignan valores desde consola?
+
 ```
 ---
 

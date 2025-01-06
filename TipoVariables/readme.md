@@ -147,8 +147,21 @@ cout << "El número ingresado es: " << b << endl;
 Ejemplo:
 
 ```cplusplus
-long long d = 555688722;
+long long c = 555688722;
+cout << "Ingresa un número entero: ";
+cin >> c;
+cout << "El número ingresado es: " << c << endl;
 ```
+
+#### Como se imprime una variable long long separado por comas
+
+long long d = 123456789012345; 
+// Crear un objeto de configuración regional para los números separados por comas 
+locale loc(""); 
+cout.imbue(loc); 
+// Imprimir el número usando la configuración regional establecida 
+cout << d << endl;
+
 ---
 
 ### unsigned. Variable que solo registra números positivos.

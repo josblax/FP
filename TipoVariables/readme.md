@@ -192,6 +192,9 @@ Ejemplo:
 
 ```cplusplus
 float f = 3.14f;
+cout << "Ingresa un número entero: ";
+cin >> f;
+cout << "El número ingresado es: " << f << endl;
 ```
 ---
 
@@ -204,6 +207,9 @@ Ejemplo:
 
 ```cplusplus
 double g = 3.1415926535;
+cout << "Ingresa un número entero: ";
+cin >> g;
+cout << "El número ingresado es: " << g << endl;
 ```
 ---
 
@@ -216,10 +222,13 @@ Ejemplo:
 
 ```cplusplus
 long double h = 3.141592653589793238L;
+cout << "Ingresa un número entero: ";
+cin >> h;
+cout << "El número ingresado es: " << h << endl;
 ```
 > NOTA: Usa al final del número f o L para especificar el número que quieres manejar.
 
----
+___
 
 ## bool. Variable booleana que puede tener solo dos valores {0,1} o {falso,verdadero}.
 
@@ -299,7 +308,10 @@ Ejemplo:
 char letra = 'a';
 char digito = '2';
 char simbolo = '%';
-
+// Como se imprime?
+cout << "Letra: " << letra << endl;
+cout << "digito: " << letra << endl;
+cout << "simbolo: " << letra << endl;
 ```
 
 ---

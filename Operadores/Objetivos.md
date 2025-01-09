@@ -1,18 +1,8 @@
 #Objetivos
 
-* 1\. Operadores aritméticos.
-*    1.1\. Suma **+**
-*    1.2\. Resta **-**
-*    1.3\. Múltiplicación *
-*    1.4\. División **/**
-*    1.5\. Módulo o residuo **%**
-* 2\. Operadores de incremento y decremento.
-*    2.1\. Incremento **++**
-*    2.2\. Decremento **--**
-* 3\. Operadores Lógicos
-*    3.1\. Operador de disyunción "Y" **and**
-*    3.2\. Operador de unión "O" **or**
-*    3.3\. Operador de negación "NO" **not**
+
+* 
+
 * 4\. Operadores de comparación, Magnitud o desigualdad
 *    4.1\. ">" Mayor a - Verdadero si el operando izquierdo es mayor al derecho, x >  y.
 *    4.2\. "<" Menor a - Verdadero si el operando izquierdo es menor al de la derecha, x < y.

@@ -43,14 +43,15 @@ int a = 10;
 int b = 5;
 int division = a / b;
 cout << "Resultado de la division  es : " << division << endl;
-
+```
 ___
 
 5.  Modulo o residuo **%**
 
 Es el residuo de la division (cuanto me resta después de haber aplicado la division.
-
+```cplusplus
 int a = 10;
 int b = 5;
 int residuo = a % b;
 cout << "Resultado del residuo  es : " << residuo << endl;
+```

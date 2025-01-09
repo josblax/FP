@@ -62,6 +62,7 @@ ____
                 ├── Polimorfismo
 ├── PARTE III Operadores
     ├── Operadores de Asignacion
+        ├── "=" Operador de asignacion.
     ├── Operadores de Comparacion
         ├── ">" Mayor a - Verdadero si el operando izquierdo es mayor al derecho, x > y.
         ├── "<" Menor a - Verdadero si el operando izquierdo es menor al de la derecha, x < y.
@@ -70,6 +71,15 @@ ____
         ├── ">=" Mayor o igual - Verdadero si el operando izquierdo es mayor o igual al derecho, x >= y.
         ├── "<=" Menor o igual - Verdadero si el operando izquierdo es menor o igual al derecho, x <= y.
     ├── Operadores Logicos
+        ├── "and" Operador de disyunción.
+        ├── "or" Operador de union.
+        ├── "not" Operador de negacion.
+    ├── Operadores Aritmeticos.
+        ├── "+" Suma
+        ├── "-" Resta
+        ├── "*" Multiplicacion
+        ├── "/" Division
+        ├── "%" Residuo
 ├── PARTE IV Instrucciones de Decision
     ├── Tipos de condiciones de if..else
         ├── if simple. solamente if.

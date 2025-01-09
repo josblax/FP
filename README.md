@@ -90,6 +90,16 @@ ____
     ├── Instrucción for
     ├── Instrucción do..while
     ├── Instrucción while.
+├── PARTE VII C Sharp
+    ├── Tipos de Variable
+    ├── Estructuras de Entrada
+    ├── Estructuras de Salida
+    ├── Operaciones y Funciones Aritmeticas
+    ├── Ciclo while
+    ├── Ciclo do..while
+    ├── Clase Random (generacion de numeros aleatorios)
+    ├── Declaracion, inicializacion e impresión de arreglos de una dimensión.
+    ├── Declaracion, inicializacion e impresión de arreglos de dos dimensiones.
 ```
 
 

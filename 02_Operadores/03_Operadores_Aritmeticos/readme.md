@@ -1,12 +1,16 @@
 # Operadores aritméticos.
 
 1. Suma **+**
-   Adiciona el valor de dos operadores
-   ```cplusplus
+
+   Adiciona el valor de dos operadores.
+
+```cplusplus
 int a = 10;
 int b = 5;
 int suma = a + b;
-   ```
+```
+___
+
 3. Resta **-**
 4.  Múltiplicación *
 5.  División **/**

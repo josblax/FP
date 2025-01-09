@@ -1,18 +1,81 @@
-Operadores comparativos
+# Operadores comparativos
 
 Son usados para comparar valores. Y solo regresan un valor de verdadero o falso. De acuerdo a la expresión evaluada.
+___
 
-">" Mayor a - Verdadero si el operando izquierdo es mayor al derecho, x > y.
+Todos los ejemplos usan las siguientes variables 
 
-"<" Menor a - Verdadero si el operando izquierdo es menor al de la derecha, x < y.
+```cplusplus
+// Enteros
+	int n1 = 10;
+	int n2 = 20;
 
-"==" Igual a - Verdadero si ambos operandos son iguales, x==y.
+	// Floats
+	float f1 = 1.5;
+	float f2 = 5.2;
+```
+___
 
-"!=" Diferente a - Verdadero si ambos operadores son diferentes, x!= y.
+## ">" Mayor a - Verdadero si el operando izquierdo es mayor al derecho, x > y.
 
-">=" Mayor o igual - Verdadero si el operando izquierdo es mayor o igual al derecho, x >= y.
+```cplusplus
+// 1. Mayor que
+	cout << "(n1 > n2): " << (n1 > n2) << endl;
+	cout << "(f1 > f2): " << (f1 > f2) << endl;
+```
 
-"<=" Menor o igual - Verdadero si el operando izquierdo es menor o igual al derecho, x <= y.
+___
+
+## "<" Menor a - Verdadero si el operando izquierdo es menor al de la derecha, x < y.
+
+```cplusplus
+
+// 2. Menor que
+	cout << "(n1 < n2): " << (n1 < n2) << endl;
+	cout << "(f1 < f2): " << (f1 < f2) << endl;
+```
+___
+
+## "==" Igual a - Verdadero si ambos operandos son iguales, x==y.
+
+```cplusplus
+// 3. Igualdad
+	cout << "(n1 == n2): " << (n1 == n2) << endl;
+	cout << "(f1 == f2): " << (f1 == f2) << endl;
+```
+
+___
+
+## "!=" Diferente a - Verdadero si ambos operadores son diferentes, x!= y.
+
+```cpluplus
+// 4. Desigualdad
+	cout << "(n1 != n2): " << (n1 != n2) << endl;
+	cout << "(f1 != f2): " << (f1 != f2) << endl;
+```
+___
+
+## ">=" Mayor o igual - Verdadero si el operando izquierdo es mayor o igual al derecho, x >= y.
+
+```cplusplus
+// 5. Mayor o igual que
+	cout << "(n1 >= n2): " << (n1 >= n2) << endl;
+	cout << "(f1 >= f2): " << (f1 >= f2) << endl;
+```	
+
+___
+
+## "<=" Menor o igual - Verdadero si el operando izquierdo es menor o igual al derecho, x <= y.
+
+```cplusplus
+// 6. Menor o igual que
+	cout << "(n1 <= n2): " << (n1 <= n2) << endl;
+	cout << "(f1 <= f2): " << (f1 <= f2) << endl;
+```
+
+___
+
+## Ejemplos mixtos
 
 ```cplusplus
 	// Enteros
@@ -24,32 +87,6 @@ Son usados para comparar valores. Y solo regresan un valor de verdadero o falso.
 	float f2 = 5.2;
 
 	cout << boolalpha; // Imprime ture en lugar de 1
-
-	// Operaciones con desigualdad, comparaciones, magnitud
-
-	// 1. Igualdad
-	cout << "(n1 == n2): " << (n1 == n2) << endl;
-	cout << "(f1 == f2): " << (f1 == f2) << endl;
-
-	// 2. Desigualdad
-	cout << "(n1 != n2): " << (n1 != n2) << endl;
-	cout << "(f1 != f2): " << (f1 != f2) << endl;
-
-	// 3. Mayor que
-	cout << "(n1 > n2): " << (n1 > n2) << endl;
-	cout << "(f1 > f2): " << (f1 > f2) << endl;
-
-	// 4. Menor que
-	cout << "(n1 < n2): " << (n1 < n2) << endl;
-	cout << "(f1 < f2): " << (f1 < f2) << endl;
-
-	// 5. Mayor o igual que
-	cout << "(n1 >= n2): " << (n1 >= n2) << endl;
-	cout << "(f1 >= f2): " << (f1 >= f2) << endl;
-
-	// 6. Menor o igual que
-	cout << "(n1 <= n2): " << (n1 <= n2) << endl;
-	cout << "(f1 <= f2): " << (f1 <= f2) << endl;
 
 	// 7. Comparaciones de tipos mixtos
 	cout << "(n1 > f2): " << (n1 > f2) << endl;

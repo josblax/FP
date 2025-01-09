@@ -60,13 +60,17 @@ ____
                 ├── Encapsulación
                 ├── Herencia
                 ├── Polimorfismo
-├── PARTE III Decisiones
+├── PARTE III Operadores
+    ├── Operadores de Asignacion
+    ├── Operadores de Comparacion
+    ├── Operadores Logicos
+├── PARTE IV Instrucciones de Decision
     ├── Tipos de condiciones de if..else
         ├── if simple. solamente if.
         ├── if doble. if..else
         ├── if's anidados
         ├── instrucción switch
-├── PARTE IV Instrucciones Cíclicas
+├── PARTE V Instrucciones Cíclicas
     ├── Instrucción for
     ├── Instrucción do..while
     ├── Instrucción while.

@@ -49,9 +49,33 @@ ___
 5.  Modulo o residuo **%**
 
 Es el residuo de la division (cuanto me resta después de haber aplicado la division.
+
 ```cplusplus
 int a = 10;
 int b = 5;
 int residuo = a % b;
 cout << "Resultado del residuo  es : " << residuo << endl;
+```
+___
+
+6. Operadores de incremento y decremento.
+
+* Incremento **++**
+
+Operador unitario que equivale a incrementar o sumar en 1 el valor de la variable al que se le aplica. Sin necesidad de usar una asignación a la variable. (Equivalente a: variable = variable+1)
+
+```cplusplus
+int a = 10;
+a++;
+cout << "Incremento es  : " << a << endl;
+```
+____
+* Decremento **--**
+
+Operador unitario que equivale a decrementar o restar en 1 el valor de la variable al que se le aplica. Sin necesidad de usar una asignación a la variable. (Equivalente a: variable = variable-1)
+
+```cplusplus
+int a = 10;
+a--;
+cout << "Decremento es  : " << a << endl;
 ```

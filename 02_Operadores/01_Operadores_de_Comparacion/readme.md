@@ -15,7 +15,7 @@ Son usados para comparar valores. Y solo regresan un valor de verdadero o falso.
 "<=" Menor o igual - Verdadero si el operando izquierdo es menor o igual al derecho, x <= y.
 
 ```cplusplus
-// Enteros
+	// Enteros
 	int n1 = 10;
 	int n2 = 20;
 

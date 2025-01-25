@@ -20,4 +20,5 @@
 ## Numeros y matematicas
 
 
-![Precedencia](https://github.com/josblax/FP/blob/main/imagenes/precedencia.png)
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/14ee5181-23d4-461b-ac34-a0f4c2a6ac6a" />
+

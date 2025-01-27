@@ -60,7 +60,7 @@ ___
 
 ## Instrucción de entrada cin
 
-**cin:** La instrucción cout se utiliza para recibir entradas desde la consola, normalmente utilizando el teclado, pero no esta reducido a este dispositivo, pueden ser escaners, joysticks, control de videojuegos etc. Pertenece a la biblioteca "Estandar" (std) de entrada y salida (iostream)
+**cin:** La instrucción cin se utiliza para recibir entradas desde la consola, normalmente utilizando el teclado, pero no esta reducido a este dispositivo, pueden ser escaners, joysticks, control de videojuegos etc. Pertenece a la biblioteca "Estandar" (std) de entrada y salida (iostream)
 
 ### Impresión de valores básicos
 

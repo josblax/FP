@@ -31,6 +31,7 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 2. No usar caracteres especiales como #,!,%,$ etc...
 3. No existen espacios en ningun punto del nombre de una variable.
 4. No uses mayúsculas y minúsculas, asumiendo que es la misma variable.
+5. No declares más de una vez la variable en un programa.
 
 ___
 

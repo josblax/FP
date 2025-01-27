@@ -21,7 +21,7 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 
 1. Los nombres de variables pueden ser de cualquier longitud
 3. Los nombres son diferenciables en mayúsculas o minúsculas.
-4. Se pueden separar las asignaciones en la misma línea mediante punto y coma.
+4. Se pueden separar las asignaciones en la misma línea mediante una coma.
 5. Puedes usar guión bajo "_" como separador o iniciador de un nombre de una variable.
 6. Todas las variables deben llevar un tipo de variable.
 

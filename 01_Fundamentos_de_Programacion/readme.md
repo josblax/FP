@@ -296,7 +296,7 @@ getline(cin, nombre);
 cout << "Encantado de conocerte, " << nombre << "!" << endl;
 
 ```
-
+> Antes de usar esta instrucción usa cin.ignore(), para limpiar el buffer y pueda leer correctamente.
 ---
 
 ### char. Variable que almacena un solo caracter.

@@ -300,6 +300,8 @@ string saludo = "Hola, mundo!";
 cout << saludo << endl;
 
 // Otro ejemplo
+// añade la libreria <string> para usar la funcion getline()
+#include <string>
 string nombre;
 cout << "¿Cómo te llamas? ";
 getline(cin, nombre);

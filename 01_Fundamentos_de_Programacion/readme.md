@@ -271,6 +271,16 @@ cout << boolalpha;
 cout << "Con boolalpha:" << endl;
 cout << "es soleado? : " << soleado << endl;
 cout << "esta lloviendo?: " << lloviendo << endl;
+
+// Ejemplo de inferencia
+bool hayCalor = true; // 1 es verdad
+bool hayHumedad = true; // 1 es verdad
+cout << boolalpha;
+cout << "Calor ? " << hayCalor << endl;
+cout << "Humedad ? " << hayHumedad
+	<< endl;
+bool llueve = hayCalor and hayHumedad;
+cout << "Llueve ? " << llueve << endl;
 ```
 
 ---

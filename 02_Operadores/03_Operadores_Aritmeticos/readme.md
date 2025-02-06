@@ -19,7 +19,7 @@ Substrae el valor del segundo operando al primer operando.
 int a = 10;
 int b = 5;
 int resta = a - b;
-cout << "Resultado de la resta es : " << suma << endl;
+cout << "Resultado de la resta es : " << resta << endl;
 ```
 ___
 

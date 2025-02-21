@@ -6,9 +6,7 @@ break;: Termina la ejecución del switch para evitar que se ejecuten los siguien
 default:: Se ejecuta si ninguna de las opciones anteriores coincide.
 
 ```C++
-#include <iostream>
 
-int main() {
     int opcion = 2;
 
     switch (opcion) {
@@ -26,8 +24,7 @@ int main() {
             break;
     }
 
-    return 0;
-}
+    
 
 
 

@@ -115,7 +115,9 @@ ___
 
 
 > [Fuente> ](https://luiselectronic.com/lenguaje-cpp/errores-comunes-en-cpp/) o [Fuente>](https://www.dlsi.ua.es/~slujan/files/errores.pdf).
+
 __
+
 # Tipos de Variable
 
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter

@@ -101,6 +101,21 @@ cout << "Línea 2: "  << endl;
 > En este caso, endl asegura que cada mensaje se imprima en una nueva línea y que el búfer de salida se vacíe después de cada inserción.
 ___
 
+# Errores comunes cuando aprendes programacion
+
+
+1. **Olvidar el punto y coma (`;`)** al final de una instrucción.
+2. **No inicializar variables**, lo que lleva a valores impredecibles.
+3. **Confundir `=` con `==`**, asignando valores en lugar de comparar.
+4. **Usar `cin` sin validar la entrada**, lo que puede generar errores inesperados.
+5. **Escribir fuera de los limites de la funcion main()** Fuera de las llaves {}
+6. **Errores de ortograficos**, usign en lugar de using.
+7. **Ignorar los mensajes de error del compilador**, lo que dificulta la depuración.
+
+
+
+> [Fuente> ](https://luiselectronic.com/lenguaje-cpp/errores-comunes-en-cpp/) o [Fuente>](https://www.dlsi.ua.es/~slujan/files/errores.pdf).
+__
 # Tipos de Variable
 
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter

@@ -262,12 +262,13 @@ using namespace std;
 
 
     int main() {
-        float f = 3.14f;
-        double g = 3.1415926535;
+      float f = 3.1415926f;
+double g = 3.141592653589793238;
 
-        cout << fixed << setprecision(10); // Configuración para mostrar más decimales
-        cout << "El número float es: " << f << endl;
-        cout << "El número double es: " << g << endl;    
+cout << fixed << setprecision(7); // Configuración para mostrar más decimales
+cout << "El número float es: " << f << endl;
+cout << fixed << setprecision(15);
+cout << "El número double es: " << g << endl;
     }
 ```
 

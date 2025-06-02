@@ -250,6 +250,17 @@ cout << "El número ingresado es: " << h << endl;
 
 ### Como imprimir decimales la precisión correcta de decimales.
 
+La librería iomanip en C++ (abreviatura de input-output manipulation) proporciona funciones y manipuladores para formatear la salida de datos en std::cout. Es útil para ajustar la precisión decimal, definir la alineación del texto, controlar el relleno de espacios y modificar la representación numérica.
+
+Algunas funciones clave de iomanip:
+- std::setw(n): Define el ancho mínimo de un campo de salida.
+- std::setprecision(n): Controla el número de decimales en valores de punto flotante.
+- std::fixed: Fuerza la salida de números en formato decimal fijo.
+- std::scientific: Muestra números en notación científica.
+- std::setfill('x'): Rellena los espacios vacíos con un carácter específico.
+- std::left y std::right: Ajustan la alineación del texto.
+
+
 Se necesita añadir la librería <iomanip> y usar la función **fixed** y **setprecision(# de precision de decimales)**
 
 Ejemplo:

@@ -246,6 +246,31 @@ cout << "El número ingresado es: " << h << endl;
 ```
 > NOTA: Usa al final del número f o L para especificar el número que quieres manejar.
 
+---
+
+### Como imprimir decimales la precisión correcta de decimales.
+
+Se necesita añadir la librería <iomanip> y usar la función **fixed** y **setprecision(# de precision de decimales)**
+
+Ejemplo:
+
+```cplusplus
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+
+
+    int main() {
+        float f = 3.14f;
+        double g = 3.1415926535;
+
+        cout << fixed << setprecision(10); // Configuración para mostrar más decimales
+        cout << "El número float es: " << f << endl;
+        cout << "El número double es: " << g << endl;    
+    }
+```
+
 ___
 
 ## bool. Variable booleana que puede tener solo dos valores {0,1} o {falso,verdadero}.

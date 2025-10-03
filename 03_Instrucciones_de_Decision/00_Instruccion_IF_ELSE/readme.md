@@ -56,111 +56,138 @@ ___
 2.	Encontrar el mayor de dos números, solicita los dos números de tipo int.
 
 Comun a todos los ejercicios:
+### Ejercicios `if...else` en C++
 
-```Java
+Aquí tienes los ejercicios de `if...else` convertidos a C++. Para todos ellos, se usa la biblioteca `<iostream>` para la entrada (`std::cin`) y salida (`std::cout`) de datos.
 
-Scanner scanner = new Scanner(System.in);
+-----
 
-```
+### **Ejercicio 1: Par o Impar y Mayor de Dos Números**
 
+```cpp
+#include <iostream>
 
-```Java
+int main() {
+    // Mayor de dos números
+    int n1, n2;
+    std::cout << "Ingresa el primer numero (n1): ";
+    std::cin >> n1;
+    std::cout << "Ingresa el segundo numero (n2): ";
+    std::cin >> n2;
+    
+    if (n1 > n2) {
+        std::cout << "El numero mayor es n1: " << n1 << std::endl;
+    } else {
+        std::cout << "El numero mayor es n2: " << n2 << std::endl;
+    }
 
-int n1, n2;
-System.out.println("n1 : ");
-n1 = scanner.nextInt();
-System.out.println("");
-System.out.println("n2 : ");
-n2 = scanner.nextInt();
-cout << endl;
-if (n1 > n2) 
-{
-    System.out.println("n1 : " + n1);
-}
-else 
-{
-    System.out.println("n2 : " + n2);
-}
-```
+    // Par o Impar
+    int numero;
+    std::cout << "Ingresa un numero para verificar si es par o impar: ";
+    std::cin >> numero;
+    
+    if (numero % 2 == 0) {
+        std::cout << numero << " es un numero par." << std::endl;
+    } else {
+        std::cout << numero << " es un numero impar." << std::endl;
+    }
 
-___ 
-
-
-2.	Solicitar la edad de la persona y si esta es mayor de edad, escribir en pantalla “Mayor de edad” de lo contrario “Menor de edad”
-
-```Java
-int edad;
-System.out.println("Dame tu edad : ");
-edad = scanner.nextInt();
-System.out.println("");
-if (edad >= 18) 
-{
-   System.out.println("mayor de edad ");
-}
-else 
-{
-    System.out.println("menor de edad ");
+    return 0;
 }
 ```
 
-___
+-----
 
+### **Ejercicio 2: Mayoría de Edad**
 
-3.	Solicitar la temperatura si esta es menor a 10 grados, escribir en pantalla “hace mucho frío”, si la temperatura es entre mayor a 10 grados y menor a 17 grados, escribir en pantalla “hace frío” y por último si es mayor a 17 grados, escribir en pantalla “el clima es templado”.
+```cpp
+#include <iostream>
 
-```Java
- int temp;
- System.out.println("temperatura : ");
- temp = scanner.nextDouble();
- cout << endl;
- if (temp < 10) 
- {
-     System.out.println("Hace mucho frio ");
- }
- if (temp >= 10 && temp <= 17) 
- {
-     System.out.println("frio ");;
- }
- if (temp > 17) 
- {
-     System.out.println("Templado");
- }
-```
-___
+int main() {
+    int edad;
+    std::cout << "Dame tu edad: ";
+    std::cin >> edad;
+    
+    if (edad >= 18) {
+        std::cout << "Mayor de edad." << std::endl;
+    } else {
+        std::cout << "Menor de edad." << std::endl;
+    }
 
-4.	Preguntar si al usuario si está a favor de la paz, guardar en una variable tipo char llamada voto, validar si el voto es ‘S’ o el voto es ‘N’ escribir en pantalla “voto valido” en caso de que sea cualquier otro carácter escribir, “voto invalido”
-
-```Java
-char voto = ' ';
-System.out.println("A favor s/n : ");
-voto = input.charAt(0);
-cout << endl;
-if (voto == 's' || voto == 'n' || voto == 'S' ||  voto == 'N')
-{
-    System.out.println("Voto valido ");
-}
-else 
-{
-    System.out.println("Voto invalido ");
+    return 0;
 }
 ```
-___ 
 
-5.	Preguntar al usuario cuantas horas ha trabajado el empleado durante la semana, si, el empleado trabajo más de 40 horas, el excedente de horas se multiplicará por 75 pesos y publicar este cálculo en pantalla que será el bono del empleado.
+-----
 
-```Java
-int horasTrabajadas = 0;
-System.out.println("Horas trabajadas : ");
-horasTrabajadas = scanner.nextInt();
-System.out.println("");
-int horasBono = horasTrabajadas - 40;
-if (horasBono > 0) 
-{
-    horasBono = horasBono * 75;
-    System.out.println("Bono : "+horasBono);
+### **Ejercicio 3: Clima según la Temperatura**
+
+```cpp
+#include <iostream>
+
+int main() {
+    double temp;
+    std::cout << "temperatura: ";
+    std::cin >> temp;
+    
+    if (temp < 10) {
+        std::cout << "Hace mucho frio." << std::endl;
+    } else if (temp >= 10 && temp <= 17) {
+        std::cout << "hace frio." << std::endl;
+    } else { // temp > 17
+        std::cout << "El clima es templado." << std::endl;
+    }
+
+    return 0;
 }
 ```
-___
+
+-----
+
+### **Ejercicio 4: Voto Válido**
+
+```cpp
+#include <iostream>
+
+int main() {
+    char voto;
+    std::cout << "A favor de la paz s/n: ";
+    std::cin >> voto;
+    
+    if (voto == 's' || voto == 'n' || voto == 'S' || voto == 'N') {
+        std::cout << "Voto valido." << std::endl;
+    } else {
+        std::cout << "Voto invalido." << std::endl;
+    }
+
+    return 0;
+}
+```
+
+-----
+
+### **Ejercicio 5: Bono por Horas Extras**
+
+```cpp
+#include <iostream>
+
+int main() {
+    int horasTrabajadas;
+    std::cout << "Horas trabajadas: ";
+    std::cin >> horasTrabajadas;
+    
+    int horasBono = horasTrabajadas - 40;
+    
+    if (horasBono > 0) {
+        int bono = horasBono * 75;
+        std::cout << "Bono: " << bono << " pesos." << std::endl;
+    } else {
+        std::cout << "No tienes bono por horas extras." << std::endl;
+    }
+
+    return 0;
+}
+```
 
 ## Ejercicios
 

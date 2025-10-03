@@ -91,8 +91,6 @@ int main() {
     } else {
         std::cout << numero << " es un numero impar." << std::endl;
     }
-
-    return 0;
 }
 ```
 
@@ -113,8 +111,6 @@ int main() {
     } else {
         std::cout << "Menor de edad." << std::endl;
     }
-
-    return 0;
 }
 ```
 
@@ -137,8 +133,6 @@ int main() {
     } else { // temp > 17
         std::cout << "El clima es templado." << std::endl;
     }
-
-    return 0;
 }
 ```
 
@@ -159,8 +153,6 @@ int main() {
     } else {
         std::cout << "Voto invalido." << std::endl;
     }
-
-    return 0;
 }
 ```
 
@@ -184,8 +176,6 @@ int main() {
     } else {
         std::cout << "No tienes bono por horas extras." << std::endl;
     }
-
-    return 0;
 }
 ```
 

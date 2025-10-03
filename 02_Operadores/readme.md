@@ -17,8 +17,34 @@
 * La evaluación de los operadores aritméticos básicos (+,*,-,/) tienen una propiedad asociativa de izquierda a derecha.
 *  La precedencia es la jerarquía con la que las expresiones son evaluadas, Por ejemplo 10-4*2, donde la multiplicación tiene una mayor prioridad que la suma.
 
-## Numeros y matematicas
+## Jerarquia de Operaciones
 
 
-<img width="442" alt="image" src="https://github.com/user-attachments/assets/14ee5181-23d4-461b-ac34-a0f4c2a6ac6a" />
+| Prioridad | Operadores | Descripción |
+| :---: | :--- | :--- |
+| **Alta** | `::` | **Operador de ámbito** (acceso a miembros de clase/namespace) |
+| | `()` `[]` `.` `->` | **Llamada a función**, **indexación de array**, **acceso a miembro de clase** |
+| | `++` `--` | **Incremento/Decremento postfijo** |
+| | `(tipo)` | **Conversión de tipo explícita** (cast) |
+| | `*` `&` | **Desreferencia de puntero**, **dirección de memoria** |
+| | `!` `~` | **Negación lógica**, **complemento a nivel de bit** |
+| | `+` `-` `++` `--` | **Suma/Resta unaria**, **incremento/decremento prefijo** |
+| | `sizeof` | **Tamaño en bytes** |
+| | `new` `delete` | **Asignación/Liberación de memoria** |
+| | `.*` `->*` | **Puntero a miembro de clase** |
+| | `*` `/` `%` | **Multiplicación**, **división**, **módulo** |
+| | `+` `-` | **Suma**, **resta** |
+| | `<<` `>>` | **Desplazamiento de bits** (izquierda/derecha), **operadores de stream** |
+| | `<` `<=` `>` `>=` | **Comparaciones relacionales** (menor, menor o igual, etc.) |
+| | `==` `!=` | **Comparaciones de igualdad/desigualdad** |
+| | `&` | **Y a nivel de bit** |
+| | `^` | **XOR a nivel de bit** |
+| | `\|` | **O a nivel de bit** |
+| | `&&` | **Y lógico** |
+| | `\|\|` | **O lógico** |
+| | `? :` | **Operador condicional ternario** |
+| | `=` `+=` `-=` `*=` `/=` `%=` `>>=` `<<=` `&=` `^=` `\|=` | **Asignación** y **asignaciones compuestas** |
+| **Baja** | `,` | **Operador de coma** (evalúa expresiones de izquierda a derecha) |
+
+
 

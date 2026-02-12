@@ -6,7 +6,7 @@ Tipo short
 4. Multiplica una edad por 2 y muestra el resultado.
 5. Resta dos edades y muestra la diferencia.
 Tipo int
-6. alcula el área de un rectángulo usando base y altura tipo int.
+6. Calcula el área de un rectángulo usando base y altura tipo int.
 7. Suma los primeros cinco números enteros y muestra el resultado.
 8. Calcula el cuadrado de un número entero.
 9. Verifica si un número entero es par o impar.

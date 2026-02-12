@@ -23,6 +23,7 @@
 13. Calcula el doble de un número tipo long.
 14. Resta dos valores tipo long y muestra la diferencia.
 15. Compara dos números tipo long y muestra cuál es mayor.
+
 ** Tipo float
 
 16. Calcula el promedio de tres calificaciones tipo float.

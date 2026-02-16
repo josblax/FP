@@ -120,6 +120,27 @@ __
 
 # Tipos de Variable
 
+# Tabla Maestra: Tipos de Datos en C++
+
+| Categoría | Declaración de Tipo | Tamaño (Bytes) | Rango de Valores / Precisión |
+| :--- | :--- | :---: | :--- |
+| **Lógico** | `bool` | 1 | `true` (1) o `false` (0) |
+| **Carácter** | `char` | 1 | -128 a 127 (caracteres ASCII) |
+| | `unsigned char` | 1 | 0 a 255 |
+| | `signed char` | 1 | -128 a 127 |
+| **Enteros** | `int` | 4 | -2,147,483,648 a 2,147,483,647 |
+| | `unsigned int` | 4 | 0 a 4,294,967,295 |
+| | `short int` | 2 | -32,768 a 32,767 |
+| | `unsigned short` | 2 | 0 a 65,535 |
+| | `long int` | 4 | Igual que `int` (en 32 bits) |
+| | `unsigned long` | 4 | Igual que `unsigned int` |
+| | `long long` | 8 | -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807 |
+| | `unsigned long long` | 8 | 0 a 18,446,744,073,709,551,615 |
+| **Punto Flotante** | `float` | 4 | ~7 dígitos decimales (precisión simple) |
+| | `double` | 8 | ~15 dígitos decimales (precisión doble) |
+| | `long double` | 12-16 | ~19-21 dígitos (precisión extendida) |
+| **Texto** | `string` | Varía | Cadena de caracteres dinámica (STL) |
+
 Los tipos de variable se asocian a la identidad del valor de dicha variable a lo largo del problema estas identidades se dividen en cuatro tipos básicos: numérico, texto o alfabético, lógico, carácter
 ___
 

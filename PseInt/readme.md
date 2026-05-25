@@ -98,3 +98,8 @@ FinAlgoritmo
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dfd.png" alt="Layout app" width="600" height="600">
 </p>
 
+### Guarda la imagen en un archivo Word usando los comandos Mayusculas+Icono Ventana+S
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dfd1.png" alt="Layout app" width="600" height="600">
+</p>

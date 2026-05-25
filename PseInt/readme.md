@@ -75,3 +75,11 @@ FinAlgoritmo
 ```
 
 > Copia la instrucción a la practica como "fragmento de codigo"  
+
+
+### Ejecuta tu algoritmo
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/ejecutar.png" alt="Layout app" width="600" height="600">
+</p>
+

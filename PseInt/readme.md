@@ -90,3 +90,11 @@ FinAlgoritmo
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/corrida2.png" alt="Layout app" width="600" height="600">
 </p>
 
+### Guarda la imagen en un archivo Word usando los comandos Mayusculas+Icono Ventana+S
+
+### Ejecuta el comando de Diagrama de Flujo de Datos
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dfd.png" alt="Layout app" width="600" height="600">
+</p>
+

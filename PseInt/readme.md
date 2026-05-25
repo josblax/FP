@@ -22,3 +22,11 @@
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/flexible.png" alt="Layout app" width="600" height="600">
 </p>
+
+
+### Asigna nombre a tu algoritmo, dependiendo de tu carrera Soluciones_Carrera
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/nombreAlgoritmo.png" alt="Layout app" width="600" height="600">
+</p>
+

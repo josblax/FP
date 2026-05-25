@@ -92,7 +92,9 @@ FinAlgoritmo
 
 ### Guarda la imagen en un archivo Word usando los comandos Mayusculas+Icono Ventana+S
 
-
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/word1.png" alt="Layout app" width="600" height="600">
+</p>
 
 ### Ejecuta el comando de Diagrama de Flujo de Datos
 
@@ -102,9 +104,7 @@ FinAlgoritmo
 
 ### Guarda la imagen en un archivo Word usando los comandos Mayusculas+Icono Ventana+S
 
-<p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/word1.png" alt="Layout app" width="600" height="600">
-</p>
+
 
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dfd1.png" alt="Layout app" width="600" height="600">

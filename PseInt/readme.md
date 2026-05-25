@@ -54,3 +54,22 @@
 #### Si una variable donde se debe guardar el valor leído no existe, se crea durante la lectura. Si la variable existe se pierde su valor anterior ya que tomará el valor nuevo, razón por la cual se dice que la lectura es "destructiva" (destruye el valor que tenía previamente la variable).
 
 > Si se utiliza sintaxis flexible se permite opcionalmente separar las variables a leer simplemente con espacios en lugar de comas. Esto se configura en el cuadro de Opciones del Pseudocódigo.
+
+
+## Ejemplo
+
+1. **Presión de Fluido**: Pide la fuerza aplicada (Newtons) y el área (m²). Calcula e imprime la presión resultante ($P = F / A$).
+
+   ### Solución
+
+   ```PseInt
+Algoritmo Soluciones_Ing_Mecanica
+	// 1. Presión de Fluido
+    Escribir "1. Fuerza (N):"
+	Leer fuerza
+    Escribir "Área (m2):"
+	Leer area
+    presion = fuerza / area
+    Escribir "Presión: ", presion, " Pa"
+FinAlgoritmo
+```

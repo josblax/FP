@@ -4,4 +4,6 @@
 
 ### Doble click icono PseInt
 
-[/PseInt/imagenes/pseinticon]
+<p align="center">
+<img src="https://github.com/josblax/FP/PseInt/imagenes/blob/main/Images/mc.png" alt="Layout app" width="200" height="400">
+</p>

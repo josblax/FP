@@ -113,3 +113,8 @@ FinAlgoritmo
 </p>
 
 
+### Guarda el archivo en Word en formato PDF
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/pdf.png" alt="Layout app" width="600" height="600">
+</p>

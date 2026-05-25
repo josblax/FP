@@ -73,3 +73,5 @@ Algoritmo Soluciones_Ing_Mecanica
     Escribir "Presión: ", presion, " Pa"
 FinAlgoritmo
 ```
+
+> Copia la instrucción a la practica como "fragmento de codigo"  

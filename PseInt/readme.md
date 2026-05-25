@@ -62,7 +62,7 @@
 
    ### Solución
 
-   ```PseInt
+   ```
 Algoritmo Soluciones_Ing_Mecanica
 	// 1. Presión de Fluido
     Escribir "1. Fuerza (N):"

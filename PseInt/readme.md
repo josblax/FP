@@ -87,6 +87,6 @@ FinAlgoritmo
 
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/corrida.png" alt="Layout app" width="600" height="600">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/corrida2.png" alt="Layout app" width="600" height="600">
 </p>
 

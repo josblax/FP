@@ -14,3 +14,11 @@
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/confpseint.png" alt="Layout app" width="600" height="600">
 </p>
+
+
+
+### Escribe flexible en la ventana que dice "buscar", selecciona el perfil flexible y da click en el boton aceptar
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/flexible.png" alt="Layout app" width="600" height="600">
+</p>

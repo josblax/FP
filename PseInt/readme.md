@@ -83,3 +83,10 @@ FinAlgoritmo
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/ejecutar.png" alt="Layout app" width="600" height="600">
 </p>
 
+### Para ejecutar y guardar los valores en las variables asigna un numero y dar "Enter" para alimentar/guardar las siguientes variables.
+
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/corrida.png" alt="Layout app" width="600" height="600">
+</p>
+

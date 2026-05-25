@@ -77,7 +77,7 @@ FinAlgoritmo
 > Copia la instrucción a la practica como "fragmento de codigo"  
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/fc.png" alt="Layout app" width="200" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/fc.png" alt="Layout app" width="600" height="600">
 </p>
 
 ### Ejecuta tu algoritmo

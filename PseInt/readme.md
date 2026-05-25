@@ -121,3 +121,9 @@ FinAlgoritmo
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/pdf.png" alt="Layout app" width="600" height="600">
 </p>
+
+### Cuando acabes todos tus ejercicios, carga tu PDF a la actividad "INCLUYE TODOS LOS EJERCICIOS A LA VEZ EN UN SOLO ARCHIVO"
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/cargar.png" alt="Layout app" width="600" height="600">
+</p>

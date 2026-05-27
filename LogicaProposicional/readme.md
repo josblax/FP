@@ -6,7 +6,7 @@
 
 Elimina comparaciones innecesarias con True o False.
 
-   * P ∧ V ≡ P
+   * ## P ∧ V ≡ P
    * P ∨ F ≡ P
 
 ```Python

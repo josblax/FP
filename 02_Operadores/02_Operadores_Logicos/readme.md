@@ -1,4 +1,4 @@
-# Los operadores lógicos
+# Operadores Lógicos
 
 Los operadores lógicos son operaciones usadas con valores y variables. Y siempre regresan como resultado Verdadero ó Falso.
 

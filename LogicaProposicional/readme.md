@@ -86,6 +86,18 @@ actualizar_estado_usuario(101, 'ACTIVO')
 
 4. Doble Negación,
    * ¬(¬P) ≡ P
+
+```Python
+
+es_usuario_activo = True
+
+# La doble negación: not (not es_usuario_activo)
+# Es equivalente a: es_usuario_activo
+if not (not es_usuario_activo):
+    print("El usuario está activo.")
+
+```
+  
 5. Conmutativa
    * P ∨ Q ≡ Q ∨ P
    * P ∧ Q ≡ Q ∧ P

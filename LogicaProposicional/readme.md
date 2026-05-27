@@ -85,8 +85,9 @@ actualizar_estado_usuario(101, 'ACTIVO')
 | `DELETE FROM logs WHERE id = 1` | **Sí** | El registro se borra la primera vez; después, simplemente ya no existe. |
 
 
-4. Doble Negación,
-   * ¬(¬P) ≡ P
+## 4. Doble Negación,
+
+   * ### ¬(¬P) ≡ P
 
 ```Python
 

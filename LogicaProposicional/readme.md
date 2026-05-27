@@ -22,8 +22,8 @@ if es_premium:
 
 Usa esta propiedad para proteger tu código contra errores (crash).
 
-   * P ∨ V ≡ V
-   * P ∧ F ≡ F
+   * ### P ∨ V ≡ V
+   * ### P ∧ F ≡ F
   
 ```Python
 # Si lista_usuarios es None, la primera parte es False y la segunda no se ejecuta.
@@ -31,9 +31,10 @@ if lista_usuarios is not None and len(lista_usuarios) > 0:
     print("Usuarios encontrados")
 ```
 
-3. Idempotencia,
-   * P ∨ P ≡ P
-   * P ∧ P ≡ P
+## 3. Idempotencia,
+   
+   * ### P ∨ P ≡ P
+   * ### P ∧ P ≡ P
 
 ```Python
 

@@ -18,7 +18,7 @@ if es_premium:
     print("Acceso total")
 ```
   
-2. Dominación,
+## 2. Dominación,
 
 Usa esta propiedad para proteger tu código contra errores (crash).
 

@@ -49,7 +49,7 @@ if usuario_activo:
 
 ```
 
-### En el diseño de sistemas (APIs y Bases de Datos)
+##### En el diseño de sistemas (APIs y Bases de Datos)
 
 En programación real, este concepto es crítico cuando trabajamos con servicios externos o bases de datos donde una operación podría ejecutarse más de una vez (ej. debido a reintentos de red).
 

@@ -97,7 +97,25 @@ if not (not es_usuario_activo):
     print("El usuario está activo.")
 
 ```
-  
+##### Ejemplo práctico: Refactorización
+
+Imagina que recibes un código donde se hace una validación innecesaria. Eliminar la doble negación hace que tu código sea mucho más limpio y fácil de mantener
+
+```Python
+def es_mayor_de_edad(edad):
+    return edad >= 18
+
+# --- CASO A: Código confuso (Doble negación) ---
+if not (not es_mayor_de_edad(20)):
+    print("Puedes entrar.")
+
+# --- CASO B: Código optimizado (Simplificado) ---
+# Aplicamos la ley: not (not P) = P
+if es_mayor_de_edad(20):
+    print("Puedes entrar.")
+```
+
+
 5. Conmutativa
    * P ∨ Q ≡ Q ∨ P
    * P ∧ Q ≡ Q ∧ P

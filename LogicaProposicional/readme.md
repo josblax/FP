@@ -6,8 +6,8 @@
 
 Elimina comparaciones innecesarias con True o False.
 
-   * ### P ∧ V ≡ P
-   * ### P ∨ F ≡ P
+   ### *  P ∧ V ≡ P
+   ### *  P ∨ F ≡ P
 
 ```Python
 # Identidad: P and True == P

@@ -180,7 +180,7 @@ if abrir_puerta() and activar_alarma():
 
 La Ley Asociativa establece que, cuando tienes tres o más proposiciones unidas por el mismo operador (solo and o solo or), el orden en que agrupas los términos con paréntesis no altera el resultado.
 
-   * ### (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
+   * ### (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R) ≡ P ∨ Q ∨ R
 
 #### En programación, la propiedad asociativa te permite reestructurar condiciones complejas para hacerlas más legibles o para agrupar variables relacionadas por contexto.
 

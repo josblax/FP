@@ -8,6 +8,8 @@
 
 ```Python
 # Identidad: P and True == P
+if es_premium == True:
+    print("Acceso total")
 # En Python, no necesitas comparar contra True.
 if es_premium: 
     print("Acceso total")

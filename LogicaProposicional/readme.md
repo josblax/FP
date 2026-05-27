@@ -118,9 +118,29 @@ if es_mayor_de_edad(20):
 ```
 
 
-5. Conmutativa
-   * P ∨ Q ≡ Q ∨ P
-   * P ∧ Q ≡ Q ∧ P
+## 5. Conmutativa
+
+En programación, la propiedad conmutativa es útil para mejorar la legibilidad y optimización de las condiciones.
+
+   * ### P ∨ Q ≡ Q ∨ P
+   * ### P ∧ Q ≡ Q ∧ P
+
+```Python
+
+# Ejemplo: Validación de acceso
+# La lógica es la misma, pero puedes cambiar el orden según el contexto
+es_admin = True
+tiene_llave_maestra = False
+
+# Aplicando propiedad conmutativa (P and Q) == (Q and P)
+if es_admin and tiene_llave_maestra:
+    print("Acceso total")
+
+if tiene_llave_maestra and es_admin:
+    print("Acceso total")
+
+```
+
 6. Asociativa,
    * (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
 7. Distributiva,

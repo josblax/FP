@@ -6,15 +6,15 @@ Los operadores lógicos son operaciones usados con valores y variables. Y siempr
 
 ### "and", "Y" lógico - Verdadero si ambos operadores son verdaderos, x and y.
 
-**P,  Q,  P∧Q**
+**P,   Q,     P∧Q**
 
-V,  V,  V
+V,     V,      V
 
-V,  F,  F
+V,    F,       F
 
-F,  V,  F
+F,    V,       F
 
-F,  F,  F
+F,    F,       F
 
 * "or", "O" lógico - Verdadero si alguno o ambos operadores son verdaderos, x or y.
 

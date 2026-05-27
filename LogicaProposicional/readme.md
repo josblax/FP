@@ -16,6 +16,9 @@ if es_premium:
 ```
   
 2. Dominación,
+
+Usa esta propiedad para proteger tu código contra errores (crash).
+
    * P ∨ V ≡ V
    * P ∧ F ≡ F
   

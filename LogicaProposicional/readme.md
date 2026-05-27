@@ -156,6 +156,23 @@ if es_admin and verificar_api_externa():
 
 ```
 
+#### Consideración importante: ¡Cuidado con los efectos secundarios!
+
+Aunque la lógica sea conmutativa ($P \land Q \equiv Q \land P$), si las variables son funciones que ejecutan acciones, el orden SÍ importa debido a los efectos secundarios.
+
+```Python
+
+# NO es lo mismo si las funciones cambian algo en el sistema
+if activar_alarma() and abrir_puerta(): 
+    # Aquí se activa la alarma y luego se abre la puerta
+    pass
+
+if abrir_puerta() and activar_alarma():
+    # Aquí se abre la puerta y luego se activa la alarma (¡podría ser inseguro!)
+    pass
+
+```
+
 6. Asociativa,
    * (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
 7. Distributiva,

@@ -184,7 +184,7 @@ La Ley Asociativa establece que, cuando tienes tres o más proposiciones unidas 
 
 #### En programación, la propiedad asociativa te permite reestructurar condiciones complejas para hacerlas más legibles o para agrupar variables relacionadas por contexto.
 
-#### Ejemplo de refactorización por contexto
+##### Ejemplo de refactorización por contexto
 
 Imagina que estás validando permisos de acceso. Tienes tres condiciones: es_admin, es_editor y tiene_invitacion.
 
@@ -201,15 +201,32 @@ if es_admin and (es_editor and tiene_invitacion):
 
 ```
 
-8. Distributiva,
+##### Ejemplo de limpieza de código
+
+A veces, los paréntesis automáticos de los IDEs o una mala escritura crean estructuras innecesarias. La asociatividad te permite eliminar los paréntesis cuando todos los operadores son iguales:
+
+```Python
+
+# Lógica redundante
+if (a and b) and c:
+    hacer_algo()
+
+# Aplicando asociatividad, puedes simplificar a una cadena plana
+# Es mucho más legible y limpio
+if a and b and c:
+    hacer_algo()
+
+```
+
+7. Distributiva,
    * P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)
-9. De Morgan (Negación de conjunción),
+8. De Morgan (Negación de conjunción),
    * ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
-10. De Morgan (Negación de disyunción),
+9. De Morgan (Negación de disyunción),
     * ¬( P ∨ Q) ≡ ¬ P ∧ ¬Q
-11. Absorción,
+10. Absorción,
     * P ∨ (P ∧ Q) ≡ P
     * P ∧ (P ∨ Q) ≡ P
-12. Negación,
+11. Negación,
     * P ∨ ¬P ≡ V
     * P ∧ ¬P ≡ F

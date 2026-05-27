@@ -176,17 +176,40 @@ if abrir_puerta() and activar_alarma():
 > Conclusión: Usa la propiedad conmutativa para limpiar tu código y optimizar el rendimiento (poniendo las condiciones más rápidas primero), pero evita cambiar el orden si una de las condiciones es una función que realiza cambios en tu base de datos o en el estado del sistema.
 
 
-6. Asociativa,
-   * (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
-7. Distributiva,
+## 6. Asociativa,
+
+La Ley Asociativa establece que, cuando tienes tres o más proposiciones unidas por el mismo operador (solo and o solo or), el orden en que agrupas los términos con paréntesis no altera el resultado.
+
+   * ### (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
+
+#### En programación, la propiedad asociativa te permite reestructurar condiciones complejas para hacerlas más legibles o para agrupar variables relacionadas por contexto.
+
+#### Ejemplo de refactorización por contexto
+
+Imagina que estás validando permisos de acceso. Tienes tres condiciones: es_admin, es_editor y tiene_invitacion.
+
+```Python
+
+# Escenario original: agrupa todo junto
+if (es_admin and es_editor) and tiene_invitacion:
+    acceso_total()
+
+# Escenario refactorizado: usando propiedad asociativa para agrupar por lógica
+# Agrupamos los roles primero (es_admin o es_editor) y luego validamos la invitación
+if es_admin and (es_editor and tiene_invitacion):
+    acceso_total()
+
+```
+
+8. Distributiva,
    * P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)
-8. De Morgan (Negación de conjunción),
+9. De Morgan (Negación de conjunción),
    * ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
-9. De Morgan (Negación de disyunción),
+10. De Morgan (Negación de disyunción),
     * ¬( P ∨ Q) ≡ ¬ P ∧ ¬Q
-10. Absorción,
+11. Absorción,
     * P ∨ (P ∧ Q) ≡ P
     * P ∧ (P ∨ Q) ≡ P
-11. Negación,
+12. Negación,
     * P ∨ ¬P ≡ V
     * P ∧ ¬P ≡ F

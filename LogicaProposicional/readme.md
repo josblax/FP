@@ -5,6 +5,14 @@
 1. Identidad,
    * P ∧ V ≡ P
    * P ∨ F ≡ P
+
+```Python
+# Identidad: P and True == P
+# En Python, no necesitas comparar contra True.
+if es_premium: 
+    print("Acceso total")
+```
+  
 2. Dominación,
    * P ∨ V ≡ V
    * P ∧ F ≡ F

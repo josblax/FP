@@ -8,3 +8,8 @@ Los operadores lógicos son operaciones usadas con valores y variables. Y siempr
 * "or", "O" lógico - Verdadero si alguno o ambos operadores son verdaderos, x or y.
 
 * "not", "NO" lógico - Verdadero si el operando es Falso, not(x).
+
+Negacion
+P , ¬P
+V , F
+F , V

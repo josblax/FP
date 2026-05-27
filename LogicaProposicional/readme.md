@@ -49,6 +49,31 @@ if usuario_activo:
 
 ```
 
+## En el diseño de sistemas (APIs y Bases de Datos)
+
+En programación real, este concepto es crítico cuando trabajamos con servicios externos o bases de datos donde una operación podría ejecutarse más de una vez (ej. debido a reintentos de red).
+
+```Python
+
+# Función diseñada para ser idempotente
+def actualizar_estado_usuario(usuario_id, nuevo_estado):
+    """
+    Esta función es idempotente: puedes llamarla 1 o 100 veces
+    y el resultado en la base de datos será el mismo.
+    """
+    # En lugar de "incrementar", usamos "establecer" (SET)
+    db.execute("UPDATE usuarios SET estado = ? WHERE id = ?", (nuevo_estado, usuario_id))
+
+# --- Uso ---
+# Primera llamada: Cambia el estado a 'ACTIVO'
+actualizar_estado_usuario(101, 'ACTIVO')
+
+# Segunda llamada (reintento por error de red): 
+# El estado sigue siendo 'ACTIVO', no causa errores ni cambios inesperados.
+actualizar_estado_usuario(101, 'ACTIVO')
+
+```
+
 4. Doble Negación,
    * ¬(¬P) ≡ P
 5. Conmutativa

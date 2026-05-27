@@ -10,6 +10,7 @@ Los operadores lógicos son operaciones usadas con valores y variables. Y siempr
 * "not", "NO" lógico - Verdadero si el operando es Falso, not(x).
 
 Negacion
-P , ¬P
-V , F
-F , V
+
+ P , ¬P
+ V , F
+ F , V

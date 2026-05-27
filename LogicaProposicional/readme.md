@@ -74,6 +74,16 @@ actualizar_estado_usuario(101, 'ACTIVO')
 
 ```
 
+##### Otros ejemplos:
+
+| Operación | ¿Es Idempotente? | Razón |
+| :--- | :---: | :--- |
+| `x = 5` | **Sí** | No importa cuántas veces lo hagas, `x` siempre será 5. |
+| `x = x + 1` | **No** | Cada vez que lo ejecutas, el valor cambia. |
+| `SET estado = 'V'` | **Sí** | El resultado final es consistente. |
+| `DELETE FROM logs WHERE id = 1` | **Sí** | El registro se borra la primera vez; después, simplemente ya no existe. |
+
+
 4. Doble Negación,
    * ¬(¬P) ≡ P
 5. Conmutativa

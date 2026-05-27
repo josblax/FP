@@ -7,7 +7,9 @@ Ley,Equivalencia Lógica
 1. Identidad,
    * P∧V≡P
    * P∨F≡P
-Dominación,P∨V≡V ; P∧F≡F
+Dominación
+   * P∨V≡V
+   * P∧F≡F
 Idempotencia,P∨P≡P ; P∧P≡P
 Doble Negación,¬(¬P)≡P
 Conmutativa,P∨Q≡Q∨P ; P∧Q≡Q∧P

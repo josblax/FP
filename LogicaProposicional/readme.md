@@ -2,7 +2,7 @@
 
 ## Estas reglas permiten simplificar expresiones complejas, facilitando la optimización de código y la depuración de condiciones.
 
-1. ## Identidad,
+## 1. Identidad,
 
 Elimina comparaciones innecesarias con True o False.
 

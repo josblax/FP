@@ -173,6 +173,9 @@ if abrir_puerta() and activar_alarma():
 
 ```
 
+> Conclusión: Usa la propiedad conmutativa para limpiar tu código y optimizar el rendimiento (poniendo las condiciones más rápidas primero), pero evita cambiar el orden si una de las condiciones es una función que realiza cambios en tu base de datos o en el estado del sistema.
+
+
 6. Asociativa,
    * (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
 7. Distributiva,

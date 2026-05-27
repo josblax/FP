@@ -141,6 +141,21 @@ if tiene_llave_maestra and es_admin:
 
 ```
 
+#### Aplicación de rendimiento:
+
+Aunque el resultado lógico es igual, en Python la evaluación es de izquierda a derecha. Puedes usar la conmutatividad para poner la validación más rápida o segura a la izquierda:
+
+```Python
+
+# Si 'es_admin' es una variable simple (rápida) y 'verificar_api_externa()' es lento,
+# coloca la variable simple primero para aprovechar el cortocircuito.
+
+# Si es_admin es False, Python ni siquiera llamará a la API (y viceversa).
+if es_admin and verificar_api_externa():
+    print("Acceso concedido")
+
+```
+
 6. Asociativa,
    * (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
 7. Distributiva,

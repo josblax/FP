@@ -1,21 +1,32 @@
+# Reglas fundamentales de la lógica proposicional
 
+## Estas reglas permiten simplificar expresiones complejas, facilitando la optimización de código y la depuración de condiciones.
 
-
-
-
-Ley,Equivalencia Lógica
 1. Identidad,
    * P∧V≡P
    * P∨F≡P
-Dominación
+2. Dominación,
    * P∨V≡V
    * P∧F≡F
-Idempotencia,P∨P≡P ; P∧P≡P
-Doble Negación,¬(¬P)≡P
-Conmutativa,P∨Q≡Q∨P ; P∧Q≡Q∧P
-Asociativa,(P∨Q)∨R≡P∨(Q∨R)
-Distributiva,P∨(Q∧R)≡(P∨Q)∧(P∨R)
-De Morgan (Negación de conjunción),¬(P∧Q)≡¬P∨¬Q
-De Morgan (Negación de disyunción),¬(P∨Q)≡¬P∧¬Q
-Absorción,P∨(P∧Q)≡P ; P∧(P∨Q)≡P
-Negación,P∨¬P≡V ; P∧¬P≡F
+3. Idempotencia,
+   * P∨P≡P
+   * P∧P≡P
+4. Doble Negación,
+   * ¬(¬P)≡P
+5. Conmutativa
+   * P∨Q≡Q∨P
+   * P∧Q≡Q∧P
+6. Asociativa,
+   * (P ∨ Q)∨R ≡ P ∨(Q ∨ R)
+7. Distributiva,
+   * P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)
+8. De Morgan (Negación de conjunción),
+   * ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
+9. De Morgan (Negación de disyunción),
+    * ¬( P ∨ Q) ≡ ¬ P ∧ ¬Q
+10. Absorción,
+    * P ∨ (P ∧ Q) ≡ P
+    * P ∧ (P ∨ Q) ≡ P
+11. Negación,
+    * P ∨ ¬P ≡ V
+    * P ∧ ¬P ≡ F

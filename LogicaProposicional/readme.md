@@ -3,21 +3,21 @@
 ## Estas reglas permiten simplificar expresiones complejas, facilitando la optimización de código y la depuración de condiciones.
 
 1. Identidad,
-   * P∧V≡P
-   * P∨F≡P
+   * P ∧ V ≡ P
+   * P ∨ F ≡ P
 2. Dominación,
-   * P∨V≡V
-   * P∧F≡F
+   * P ∨ V ≡ V
+   * P ∧ F ≡ F
 3. Idempotencia,
-   * P∨P≡P
-   * P∧P≡P
+   * P ∨ P ≡ P
+   * P ∧ P ≡ P
 4. Doble Negación,
-   * ¬(¬P)≡P
+   * ¬(¬P) ≡ P
 5. Conmutativa
-   * P∨Q≡Q∨P
-   * P∧Q≡Q∧P
+   * P ∨ Q ≡ Q ∨ P
+   * P ∧ Q ≡ Q ∧ P
 6. Asociativa,
-   * (P ∨ Q)∨R ≡ P ∨(Q ∨ R)
+   * (P ∨ Q)∨ R ≡ P ∨ (Q ∨ R)
 7. Distributiva,
    * P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)
 8. De Morgan (Negación de conjunción),

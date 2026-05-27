@@ -34,6 +34,21 @@ if lista_usuarios is not None and len(lista_usuarios) > 0:
 3. Idempotencia,
    * P ∨ P ≡ P
    * P ∧ P ≡ P
+
+```Python
+
+usuario_activo = True
+
+# Lógica redundante (no es necesario evaluar lo mismo dos veces)
+if usuario_activo and usuario_activo:
+    print("Acceso permitido")
+
+# Aplicando Idempotencia: P and P = P
+if usuario_activo:
+    print("Acceso permitido")
+
+```
+
 4. Doble Negación,
    * ¬(¬P) ≡ P
 5. Conmutativa

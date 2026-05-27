@@ -1,6 +1,6 @@
 # Operadores Lógicos
 
-Los operadores lógicos son operaciones usadas con valores y variables. Y siempre regresan como resultado Verdadero ó Falso.
+Los operadores lógicos son operaciones usados con valores y variables. Y siempre regresan como resultado Verdadero ó Falso.
 
 
 * "and", "Y" lógico - Verdadero si ambos operadores son verdaderos, x and y.

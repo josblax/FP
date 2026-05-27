@@ -9,4 +9,10 @@
    * El monto base es de 10,000 pesos.
    * Si la edad del cliente está entre 18 y 25 años, se aplica un factor de riesgo del 30% adicional sobre el monto base
    * En cualquier otro rango de edad, se mantiene el monto base sin incremento.
-4. **Validación de Capital**: Capturar capital y reserva vía input y hacer casting a double. Si capital < 0, marcar "Insolvente"; si no, evaluar.Tarifas por Edad: Capturar edad (input + casting). Si $< 18$ asignar "Junior", si $\geq 18$ y $< 65$ asignar "Adulto", si no, "Senior".Filtro de Historial: Capturar accidentes (input + casting). Si $< 0$, mostrar "Error"; si no, evaluar si el cliente es apto para descuento.Límite de Cobertura: Capturar solicitado y maximo (input + casting). Si solicitado > maximo, mostrar "Exceso"; si no, calcular.Vencimiento: Capturar fecha (input). Si la fecha ya pasó (comparación lógica), mostrar "Póliza inactiva"; si no, permitir renovación.Capacidad de Pago: Capturar ingresos (input + casting). Si $< 0$, mostrar "Error"; si no, calcular capacidad basada en el 30% del ingreso.Riesgo Compuesto: Capturar edad y enfermedad (boolean). Si edad > 65 AND enfermedad == true, aplicar recargo; si no, calcular normal.
+4. **Validación de Capital**: Capturar capital y reserva vía input y hacer casting a float. Si capital < 0, marcar "Insolvente"; si no, evaluar.
+5. **Tarifas por Edad**: Capturar edad (input + casting). Si $< 18$ asignar "Junior", si $\geq 18$ y $< 65$ asignar "Adulto", si no, "Senior".
+6. **Filtro de Historial**: Capturar accidentes (input + casting). Si $< 0$, mostrar "Error"; si no, evaluar si el cliente es apto para descuento.
+7. **Límite de Cobertura**: Capturar solicitado y maximo (input + casting). Si solicitado > maximo, mostrar "Exceso"; si no, calcular.
+8. **Vencimiento**: Capturar fecha (input). Si la fecha ya pasó (comparación lógica), mostrar "Póliza inactiva"; si no, permitir renovación.
+9. **Capacidad de Pago**: Capturar ingresos (input + casting). Si $< 0$, mostrar "Error"; si no, calcular capacidad basada en el 30% del ingreso.
+10. **Riesgo Compuesto**: Capturar edad y enfermedad (boolean). Si edad > 65 AND enfermedad == true, aplicar recargo; si no, calcular normal.

@@ -2,6 +2,10 @@
 
 ## Iniciar la aplicación
 
+### EN BB click en la siguiente opción
+
+
+
 ### Doble click icono PseInt
 
 <p align="center">

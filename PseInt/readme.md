@@ -5,7 +5,7 @@
 ### EN BB click en la siguiente opción
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/bbpseint.png" alt="Layout app" width="200" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/bbpseint.png" alt="Layout app" width="800" height="800">
 </p>
 
 ### Doble click icono PseInt

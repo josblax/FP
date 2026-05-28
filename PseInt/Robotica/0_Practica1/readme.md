@@ -1,0 +1,21 @@
+## Ingeniería Robótica
+
+1. **Odometría Básica**: Pide el radio de la llanta del robot y la cantidad de vueltas que dio. Calcula la distancia ($2 * 3.1416 * radio * vueltas$).
+
+2. **Frente del Robot (Orientación)**: Pide el total de grados que ha rotado un robot sobre su propio eje (ej. 800°). Usa grados MOD 360 para saber hacia qué ángulo real apunta (0 a 359).
+
+3. **Cinemática Simple**: Pide la longitud de dos eslabones (brazos) alineados en línea recta. Súmalos para encontrar el alcance máximo del efector final.
+
+4. **Consumo de Batería**: Pide la capacidad total de la batería y el consumo por hora. Pide las horas de uso y calcula la batería restante.
+
+5. **Grados a Radianes**: Pide un ángulo en grados para mover un servomotor. Multiplícalo por 3.1416 y divídelo entre 180 para obtener los radianes.
+
+6. **Velocidad de Motor DC**: Pide el voltaje suministrado y la constante del motor (kV). Multiplica para calcular las RPM teóricas del motor.
+
+7. **Resolución de Encoder**: Pide la cantidad de "pulsos por revolución" del sensor. Divide 360 entre los pulsos para saber cuántos grados representa cada pulso.
+
+8. **Carga Útil Efectiva**: Pide el torque de levante total del motor y réstale el peso propio de la estructura del brazo mecánico.
+
+9. **Mapeo de Sensores**: Un sensor lee de 0 a 1023 (10 bits). Pide la lectura actual y divídela entre 1023, luego multiplica por 5 para convertirla a Voltios.
+
+10. **Tiempo de Misión**: Pide la distancia al objetivo y la velocidad máxima del robot móvil. Calcula cuánto tardará en llegar en línea recta.

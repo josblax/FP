@@ -14,12 +14,15 @@
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/descargar.png" alt="Layout app" width="800" height="800">
 </p>
 
+___
+
 ### Extraer el archivo .zip en tu computadora
 
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/extractall.png" alt="Layout app" width="800" height="800">
 </p>
 ___
+
 ### Doble click en los siguientes directorios extraidos
 
 <p align="center">

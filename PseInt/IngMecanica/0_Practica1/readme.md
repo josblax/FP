@@ -1,0 +1,22 @@
+# Ejercicios Ingeniería Mecánica.
+
+1. **Presión de Fluido**: Pide la fuerza aplicada (Newtons) y el área (m²). Calcula e imprime la presión resultante ($P = F / A$).
+
+2. **Volumen de un Cilindro**: Pide el radio de la base y la altura. Calcula el volumen usando la aproximación de Pi como 3.1416 ($V = 3.1416 * radio^2 * altura$).
+
+3. **Densidad de Material**: Pide la masa (kg) y el volumen (m³) de un bloque de metal. Calcula su densidad ($D = M / V$).
+
+4. **Relación de Engranajes**: Pide los dientes del engranaje motor y del engranaje de salida. Calcula la relación dividiendo salida entre motor.
+
+5. **Velocidad de Salida**: Usando los datos del ejercicio anterior, pide las RPM del motor y divídelas entre la relación calculada para obtener las RPM de salida.
+
+6. **Trabajo Mecánico**: Pide la fuerza (N) aplicada a un bloque y la distancia (m) que se desplazó. Imprime el trabajo realizado en Joules ($W = F * d$).
+
+7. **Potencia Mecánica**: Pide el trabajo realizado (J) del ejercicio anterior y el tiempo (s) que tardó. Calcula la potencia en Watts ($P = W / t$).
+
+8. **Energía Cinética**: Pide la masa (kg) de un vehículo y su velocidad (m/s). Calcula su energía ($0.5 * masa * velocidad^2$).
+
+9. **Conversión a Kelvin**: Pide una temperatura de operación en grados Celsius. Súmale 273.15 para convertirla a grados Kelvin.
+
+10. **Eficiencia de Motor**: Pide la energía de entrada y el trabajo útil de salida. Divide salida entre entrada y multiplica por 100 para dar el porcentaje de eficiencia.
+

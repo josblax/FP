@@ -23,18 +23,18 @@ ___
 ### Doble click en los siguientes directorios extraidos
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick.png" alt="Layout app" width="200" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick.png" alt="Layout app" width="800" height="800">
 </p>
 
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick2.png" alt="Layout app" width="200" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick2.png" alt="Layout app" width="800" height="800">
 </p>
 ___
 ### Por último doble click en el siguiente archivo
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick3.png" alt="Layout app" width="200" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick3.png" alt="Layout app" width="800" height="400">
 </p>
 
 ___

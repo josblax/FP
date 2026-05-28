@@ -20,12 +20,16 @@
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/extractall.png" alt="Layout app" width="800" height="800">
 </p>
 
-### Doble click icono PseInt
+### Doble click en los siguientes directorios extraidos
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/pseinticon.png" alt="Layout app" width="200" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick.png" alt="Layout app" width="200" height="400">
 </p>
 
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick2.png" alt="Layout app" width="200" height="400">
+</p>
 
 ### Aparecerá la siguiente pantalla, seleccione la opción 1 : "Perfiles precargados"
 

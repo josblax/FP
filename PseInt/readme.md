@@ -21,7 +21,6 @@ ___
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/extractall.png" alt="Layout app" width="800" height="800">
 </p>
-___
 
 ### Doble click en los siguientes directorios extraidos
 
@@ -33,7 +32,9 @@ ___
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick2.png" alt="Layout app" width="800" height="800">
 </p>
+
 ___
+
 ### Por último doble click en el siguiente archivo
 
 <p align="center">

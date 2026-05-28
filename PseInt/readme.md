@@ -14,6 +14,12 @@
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/descargar.png" alt="Layout app" width="800" height="800">
 </p>
 
+### Extraer el archivo .zip en tu computadora
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/extraer.png" alt="Layout app" width="800" height="800">
+</p>
+
 ### Doble click icono PseInt
 
 <p align="center">

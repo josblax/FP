@@ -38,7 +38,7 @@ ___
 ### Por último doble click en el siguiente archivo
 
 <p align="center">
-<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick3.png" alt="Layout app" width="800" height="400">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/dobleclick3.png" alt="Layout app" width="800" height="800">
 </p>
 
 ___

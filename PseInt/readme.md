@@ -2,10 +2,16 @@
 
 ## Iniciar la aplicación
 
-### EN BB click en la siguiente opción
+### EN BB click en la siguiente opción PseInt Herramienta para crear algoritmos
 
 <p align="center">
 <img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/bbpseint.png" alt="Layout app" width="800" height="800">
+</p>
+
+### Descargar el archivo .zip en tu computadora
+
+<p align="center">
+<img src="https://github.com/josblax/FP/blob/main/PseInt/imagenes/descargar.png" alt="Layout app" width="800" height="800">
 </p>
 
 ### Doble click icono PseInt

@@ -37,6 +37,14 @@ SiNo
 Fin Si
 ```
 
+## Ejercicios Categoría 2: Condicional Doble (Si..Entonces..SiNo)
+*Nota: Estos ejercicios requieren tomar una ruta si la condición es verdadera, y otra ruta distinta si es falsa.*
+
+1. **Aprobado o Reprobado:** Pide al usuario su calificación final (de 0 a 100). Si la calificación es mayor o igual a 60, muestra "Aprobado". De lo contrario, muestra "Reprobado".
+2. **Paridad Numérica:** Solicita un número entero al usuario. Determina y muestra si el número ingresado es "Par" o "Impar" (puedes usar el operador Modulo/Resto).
+3. **Acceso de Seguridad:** Solicita al usuario que ingrese una contraseña. Si la contraseña ingresada es "Admin123", muestra "Acceso Concedido". Si ingresa cualquier otra cosa, muestra "Acceso Denegado".
+4. **Estado del Clima:** Pregunta al usuario el porcentaje de probabilidad de lluvia (0 a 100). Si es mayor al 50%, imprime "Lleva paraguas, es probable que llueva". Si no, imprime "Disfruta tu día, clima despejado".
+5. **Balance de Cuenta:** Lee el saldo actual de una cuenta bancaria. Si el saldo es menor a 0, imprime "Estado crítico: Cuenta en números rojos". Si es 0 o mayor, imprime "Cuenta con saldo positivo".
 
 ## 3. Condicion Multiple o Si's anidados
 

@@ -89,3 +89,9 @@ Segun variable_númerica Hacer
        secuencia_de_acccionesdom
 Fin Segun
 ```
+## Ejercicios Categoría 4: Condicional Múltiple-Casos (Según..Hacer)
+*Nota: Estos ejercicios utilizan un menú de opciones donde una variable numérica se compara caso por caso. Si encuentra una coincidencia, ejecuta las acciones de esa opción.*
+
+1. **Calculadora Básica (Menú de Operaciones):** Muestra al usuario un menú con 3 opciones matemáticas (1. Sumar, 2. Restar, 3. Multiplicar). Solicita que elija una opción. Dependiendo de su elección, pídele dos números, realiza la operación correspondiente y muestra el resultado. Si ingresa una opción fuera del menú, muestra un mensaje de "Opción no válida".
+2. **Sistema de Conversiones Rápidas:** Crea un programa que muestre el siguiente menú: "1. Metros a Centímetros", "2. Horas a Minutos", "3. Dólares a Pesos (Tasa fija 20.0)". Pide al usuario que elija una opción, luego solicita el valor a convertir, realiza el cálculo directo según el caso seleccionado y muestra el resultado en pantalla.
+3. **Selección de Clase (Videojuego):** Muestra un menú de creación de personaje con 3 clases disponibles: 1 para Guerrero, 2 para Mago, y 3 para Arquero. Según el número ingresado por el jugador, imprime en pantalla un mensaje confirmando la clase elegida y sus estadísticas iniciales (Salud, Magia y Ataque). Si ingresa un número distinto, muestra una advertencia indicando que se le asignará la clase "Aldeano" por defecto.

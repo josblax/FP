@@ -64,7 +64,14 @@ SiNo
   Fin Si
 Fin Si
 ```
+## Ejercicios Categoría 3: Condicional Múltiple / If Anidados
+*Nota: Estos ejercicios evalúan más de dos posibles escenarios encadenando estructuras condicionales.*
 
+1. **Categorías de Edad:** Solicita la edad de una persona e imprime su categoría: Si es menor de 12 años, "Niño". Si tiene entre 12 y 17, "Adolescente". Si tiene entre 18 y 64, "Adulto". Si tiene 65 o más, "Adulto Mayor".
+2. **Clasificación de Calificaciones:** Pide una calificación del 1 al 10 y asigna una letra: Si es 10 o 9, "A". Si es 8, "B". Si es 7, "C". Si es 6, "D". Si es menor a 6, "F".
+3. **Índice de Masa Corporal (IMC):** Solicita el valor del IMC calculado de un paciente. Clasifícalo de la siguiente manera: Menos de 18.5 es "Bajo peso". De 18.5 a 24.9 es "Peso normal". De 25 a 29.9 es "Sobrepeso". De 30 en adelante es "Obesidad".
+4. **Tipos de Triángulo:** Solicita la longitud de los tres lados de un triángulo. Si los tres lados son iguales, muestra "Equilátero". Si solo dos lados son iguales, muestra "Isósceles". Si todos los lados son diferentes, muestra "Escaleno".
+5. **Niveles de Batería:** Lee el porcentaje de batería de un dispositivo móvil (0-100). Si es mayor a 80, muestra "Batería Alta". Si está entre 21 y 80, "Batería Media". Si está entre 10 y 20, "Batería Baja". Si es menor a 10, "Nivel Crítico: Conecte el cargador inmediatamente".
 
 ## 4. Multiples casos una instruccion
 

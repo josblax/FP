@@ -1,4 +1,4 @@
-## Condición Simple
+## 1. Condición Simple
 
 ### La condición simple es una expresión lógica. Se ejecutarán las acciones por verdadero, si y solo si, la condición es verdadera.
 
@@ -12,7 +12,7 @@ Fin Si
 <img width="206" height="72" alt="image" src="https://github.com/user-attachments/assets/b9e26208-eccb-4dad-9643-6bace2d2040d" />
 
 ```
-## Condicion Completa o Doble
+## 2. Condicion Completa o Doble
 
 ### La condición doble es una expresión lógica, Se ejecutaran las acciones por verdadero, si y solo si, la condición es verdadera. Si no es así, ejecutará las acciones por falso.
 
@@ -27,7 +27,7 @@ Fin Si
 ```
 
 
-## Condicion Multiple o Si's anidados
+## 3. Condicion Multiple o Si's anidados
 
 ### Existen múltiples expresiones lógicas. (expresión_lógica1, expresión_lógica2, …, expresión_lógican).
 
@@ -49,7 +49,7 @@ Fin Si
 ```
 
 
-## Multiples casos una instruccion
+## 4. Multiples casos una instruccion
 
 ### Existe una opción, este es un valor donde es comparado caso por caso, y donde el valor coincide, entonces se ejecutaran esas acciones
 

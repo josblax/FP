@@ -13,7 +13,7 @@ Fin Si
 
 ```
 
-## Categoría 1: Condicional Simple (Si..Entonces)
+## Ejercicios Categoría 1: Condicional Simple (Si..Entonces)
 *Nota: En estos ejercicios solo debes ejecutar una acción si la condición se cumple. Si no se cumple, el programa simplemente termina sin hacer nada extra.*
 
 1. **Alerta de Temperatura:** Solicita al usuario la temperatura de una máquina en grados. Si la temperatura es mayor a 100, muestra un mensaje que diga "Alerta: Sobrecalentamiento detectado".

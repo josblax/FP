@@ -11,12 +11,13 @@ Enunciado: La opacidad de un sprite (imagen 2D) empieza en 0%. Mientras sea meno
 Mini-Rúbrica: Bucle de incremento aritmético (40%) | Límite porcentual (30%) | Interfaz Gráfica (10%) | DFD (20%).
 
 #### Reducción de Polígonos (Decimation)
+
 Enunciado: Pide el conteo actual de polígonos del modelo. Mientras sea mayor a 10,000 (límite para móviles), recorta la mitad e imprime "Polígonos restantes: [X]". Al terminar, "Modelo optimizado".
 Mini-Rúbrica: División y reasignación de variable (40%) | Condición relacional matemática (30%) | Retopología 3D (10%) | DFD (20%).
 
 ### Instrucción: Repetir ... Hasta Que (Do-While) - 3 Ejercicios
 
-####Ciclo de Caminata (Walk Cycle)
+#### Ciclo de Caminata (Walk Cycle)
 
 Enunciado: Pregunta al usuario si el personaje presionó el botón de saltar (1=Sí, 0=No). Repite el mensaje "Ejecutando animación: Contacto, Bajada, Pase, Subida" hasta que ingrese 1. Entonces: "Transición a animación de Salto".
 Mini-Rúbrica: Condición lógica (30%) | Ciclo de animación ininterrumpido (40%) | Conceptos de los 12 principios (10%) | DFD (20%).

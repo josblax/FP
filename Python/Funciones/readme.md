@@ -146,7 +146,14 @@ ___
 
 
 
-# Practica #6 
+
+
+___
+
+# Practica #6 Funciones
+
+**Objetivo:** Desarrollar el pensamiento computacional y la modularidad del código mediante la creación de funciones en Python (`def`). Cada alumno debe resolver los 10 ejercicios correspondientes a su carrera.
+
 
 ## 0. Ciencia de Datos (Data Science)
 
@@ -198,13 +205,6 @@ Enunciado: La distancia entre la predicción de la computadora y el valor real m
 ### Ejercicio 12: Control de Valores Atípicos (Clip/Tratamiento de Outliers)
 Enunciado: Los valores extremos dañan los análisis estadísticos. Diseña una función que reciba el valor de un sueldo, un limite_inferior y un limite_superior. Si el sueldo es menor al inferior, se iguala al inferior; si supera al superior, se reduce al superior. Retorna el valor corregido.
 
-___
-
-# Practica #6 Funciones Fundamentos de Programación
-
-# Práctica #5: Modelado de Funciones en Python por Disciplina
-
-**Objetivo:** Desarrollar el pensamiento computacional y la modularidad del código mediante la creación de funciones en Python (`def`). Cada alumno debe resolver los 10 ejercicios correspondientes a su carrera.
 
 ---
 

@@ -1,4 +1,6 @@
+
 ## Animación Digital
+
 ### Estos ejercicios se enfocan en la representación matemática del movimiento, color y física de partículas, fundamentales en los motores de render y animación (como Maya, Blender o Unity).
 
 1. **Curva de Aceleración Suave (Ease-In / Ease-Out):** Generar una gráfica de la función Sigmoide que simule el arranque y frenado suave de un personaje.

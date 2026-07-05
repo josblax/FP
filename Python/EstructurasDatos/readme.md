@@ -1,382 +1,545 @@
 # Estructuras de Datos en Python
 
-## En Python, la forma en que agrupamos y almacenamos nuestros datos define qué tan rápido y eficiente será nuestro código. Las cuatro estructuras principales (conocidas como colecciones) son: Listas, Tuplas, Diccionarios y Conjuntos.
-
+En Python, la forma en que agrupamos y almacenamos nuestros datos define qué tan rápido y eficiente será nuestro código. Las cuatro estructuras principales (conocidas como colecciones) son: Listas, Tuplas, Diccionarios y Conjuntos.
 Cuándo usarlas: Cuando tienes una colección de elementos que necesitas recorrer secuencialmente, modificar, agregar o eliminar elementos sobre la marcha.
 
-### 1. Listas (Lists)
+___
+
+## 1. Listas (Lists)
 Las listas son secuencias ordenadas y mutables (modificables). Pueden contener diferentes tipos de datos e incluso listas dentro de listas (anidadas). Al tener un orden específico, cada elemento tiene un índice asignado empezando por el 0.
 
-#### Funciones más comunes:
+### Funciones más comunes:
+* append(item): Añade un elemento al final.
 
-* **append(item):** Añade un elemento al final.
+* extend(iterable): Añade múltiples elementos al final.
 
-* **extend(iterable):** Añade múltiples elementos al final.
+* insert(index, item): Inserta un elemento en una posición específica.
 
-* **insert(index, item):** Inserta un elemento en una posición específica.
+* pop([index]): Elimina y devuelve el elemento en el índice dado (o el último si no se especifica).
 
-* **pop([index]):** Elimina y devuelve el elemento en el índice dado (o el último si no se especifica).
+* remove(item): Elimina la primera aparición del elemento.
 
-* **remove(item):** Elimina la primera aparición del elemento.
+* sort(): Ordena la lista (modifica la original).
 
-* **sort():** Ordena la lista (modifica la original).
+* len(lista): Devuelve la cantidad de elementos.
 
-* **len(lista):** Devuelve la cantidad de elementos.
+### Ejercicios
 
+#### Animación Digital
 
-#### Ejercicios
+Ejemplo: Cola de Renderizado Dinámica
+"Como animador, envías constantemente secuencias de fotogramas a una granja de render. Crea una lista que simule la cola de trabajo, añade un nuevo fotograma urgente al principio de la fila y retira el último que ya fue procesado."
 
-##### Actuarios
-
-###### Ejemplo 1: Registro dinámico de siniestros
-
-"Eres el actuario responsable del ramo de automóviles. A lo largo del mes, la cabina de atención te reporta siniestros de forma secuencial. Crea un programa que registre estos montos iniciales, permita agregar un nuevo reporte que acaba de llegar en tiempo real y, finalmente, calcule la suma del costo total de indemnizaciones del mes."
-
-```python
+```Python
 # ---------------------------------------------------------
-# Ejemplo 1: Registro dinámico de siniestros
+# Ejemplo Animación: Cola de Renderizado
 # ---------------------------------------------------------
-print("\n--- Ejercicio 1: Siniestros Automotrices ---")
-# Generamos una lista inicial de 10 siniestros aleatorios (entre $5,000 y $50,000)
-siniestros_mes = [round(random.uniform(5000, 50000), 2) for _ in range(10)]
-print(f"1. Montos registrados al inicio del día: \n{siniestros_mes}")
+cola_render = ["Frame_001.png", "Frame_002.png", "Frame_003.png"]
+print(f"Cola inicial: {cola_render}")
 
-# Llega un reporte en tiempo real (Generamos el monto aleatorio)
-nuevo_reporte = round(random.uniform(5000, 50000), 2)
-print(f"2. [ALERTA] Nuevo siniestro reportado en cabina: ${nuevo_reporte:,.2f}")
+# Llega un fotograma de prueba urgente, lo insertamos al inicio (índice 0)
+cola_render.insert(0, "Test_Lighting_00.png")
 
-# Usamos append() para meterlo al final de la lista
-siniestros_mes.append(nuevo_reporte)
+# Se termina de procesar el último fotograma de la fila
+frame_procesado = cola_render.pop()
+
+print(f"Se procesó con éxito: {frame_procesado}")
+print(f"Cola actualizada: {cola_render}")
+```
+#### Ingeniería en Sistemas Computacionales
+
+Ejemplo: Gestor de Procesos del Sistema (Task Manager)
+"Un sistema operativo debe administrar los IDs de los procesos (PID) que están corriendo en el CPU. Registra los PIDs activos, agrega nuevos subprocesos que un programa acaba de lanzar en bloque y elimina un proceso específico que el usuario forzó a cerrar."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Sistemas: Gestor de Procesos
+# ---------------------------------------------------------
+pids_activos = [104, 552, 980]
+print(f"Procesos corriendo: {pids_activos}")
+
+# Un navegador web lanza varios subprocesos a la vez
+nuevos_pids = [1102, 1105, 1108]
+pids_activos.extend(nuevos_pids)
+
+# El usuario fuerza el cierre del proceso 552
+pids_activos.remove(552)
+
+# Ordenamos los PIDs para una mejor visualización en el monitor
+pids_activos.sort()
+print(f"Procesos tras actualización: {pids_activos}")
+
 ```
 
-###### Ejemplo 2: Proyección de tasas de interés
 
-"El comité de inversiones ha proyectado las tasas de interés macroeconómicas para los próximos 5 años y las ha guardado en orden cronológico. Sin embargo, tras un sorpresivo anuncio del Banco Central, la proyección del año 3 debe ser ajustada a la baja. Escribe el código para actualizar específicamente ese valor manteniendo la estructura y el orden de los demás años."
+#### Robótica
 
-```python
+Ejemplo: Trayectoria de Puntos (Waypoints)
+"Un brazo robótico industrial tiene programada una secuencia de coordenadas (1D, en grados de giro) para ensamblar una pieza. El ingeniero en planta necesita agregar una nueva coordenada al final de la rutina y saber exactamente cuántos pasos tiene la trayectoria total."
+
+```Python
 # ---------------------------------------------------------
-# Ejemplo 2: Proyección de tasas de interés
+# Ejemplo Robótica: Trayectoria
 # ---------------------------------------------------------
-print("\n--- Ejercicio 2: Ajuste de Tasas ---")
-# Generamos 5 años de tasas base (entre 4% y 8%)
-tasas_proyectadas = [round(random.uniform(4.0, 8.0), 2) for _ in range(5)]
-print(f"1. Proyección macroeconómica original (Años 1 a 5): \n{tasas_proyectadas}")
+grados_articulacion = [0, 45, 90, 135, 90]
+print(f"Rutina original: {grados_articulacion}")
 
-# Calculamos un ajuste aleatorio a la baja para el Año 3
-baja_sorpresa = round(random.uniform(0.5, 1.5), 2)
+# Añadimos la posición final para que el brazo regrese a reposo
+grados_articulacion.append(0)
 
-# El "Año 3" corresponde al índice 2 de la lista (0, 1, 2)
-# Reasignamos el valor modificando la lista original
-tasas_proyectadas[2] = round(tasas_proyectadas[2] - baja_sorpresa, 2)
-
-print(f"2. El Banco Central anunció una baja de {baja_sorpresa}% para el Año 3.")
-print(f"3. Proyección actualizada conservando el orden cronológico: \n{tasas_proyectadas}")
+# Verificamos la longitud de la rutina
+total_pasos = len(grados_articulacion)
+print(f"Nueva rutina: {grados_articulacion} (Total de pasos: {total_pasos})")
 ```
 
-##### Ciencia de Datos
+#### Mecatrónica
 
-###### Ejemplo 1: Limpieza de una columna de datos (Feature Engineering)
+Ejemplo: Buffer de Sensores de Temperatura
+"Un microcontrolador (PLC) lee la temperatura de un motor cada segundo. Guarda las últimas lecturas en una lista. Cuando llega una lectura nueva, añádela y elimina la más antigua para mantener siempre el mismo tamaño de almacenamiento (Buffer)."
 
-"Como científico de datos, recibes de ingeniería de datos una columna con las edades de los usuarios. Lamentablemente, los datos están 'sucios': mezclan edades en texto con frases como 'No disponible'. Utiliza una estructura dinámica para extraer y convertir únicamente los valores numéricos, construyendo un vector de datos limpio y listo para el modelo."
-
-```python
+```Python
 # ---------------------------------------------------------
-# Ejemplo 1: Limpieza de una columna de datos
+# Ejemplo Mecatrónica: Buffer de Sensores
 # ---------------------------------------------------------
-print("\n--- Ejercicio 1: Feature Engineering (Limpieza) ---")
-# Generamos 15 registros "sucios": 80% números y 20% texto
-columna_edades_sucia = [random.randint(18, 65) if random.random() > 0.2 else random.choice(["No disponible", "Error", "NaN"]) for _ in range(15)]
-print(f"1. Datos crudos recibidos desde Ingeniería de Datos: \n{columna_edades_sucia}")
+buffer_temperaturas = [45.2, 45.8, 46.1, 46.5, 47.0]
+print(f"Buffer actual: {buffer_temperaturas} °C")
 
-# Creamos una nueva lista vacía para almacenar los datos limpios
-edades_limpias = []
+# Nueva lectura capturada por el sensor
+nueva_lectura = 47.8
 
-# Iteramos y usamos type() para filtrar solo los números enteros (int)
-for valor in columna_edades_sucia:
-    if type(valor) == int:
-        edades_limpias.append(valor)
+# Añadimos la nueva y sacamos la más vieja (índice 0)
+buffer_temperaturas.append(nueva_lectura)
+buffer_temperaturas.pop(0)
 
-print(f"2. Vector limpio listo para el modelo de ML: \n{edades_limpias}")
+print(f"Buffer actualizado: {buffer_temperaturas} °C")
 ```
 
-###### Ejemplo 2: Almacenamiento de la función de pérdida (Loss Function)
+#### Ingeniería en Videojuegos
 
-"Durante el entrenamiento de tu modelo de Machine Learning, necesitas monitorear si la inteligencia artificial realmente está aprendiendo. Crea un historial que almacene el error de predicción de cada iteración (época). Al finalizar una nueva iteración, añade el nuevo error y verifica mediante código si este último resultado fue mejor (menor) que el anterior."
+Ejemplo: Inventario del Jugador
+"En un RPG, el jugador tiene un inventario de objetos. El personaje abre un cofre y recoge múltiples ítems, pero inmediatamente después consume una 'Poción'. Actualiza la estructura de datos del inventario."
 
-```python
+```Python
 # ---------------------------------------------------------
-# Ejemplo 2: Almacenamiento de la función de pérdida (Loss)
+# Ejemplo Videojuegos: Inventario RPG
 # ---------------------------------------------------------
-print("\n--- Ejercicio 2: Monitoreo del Modelo (Loss Function) ---")
-# Simulamos un historial de pérdida que ha ido bajando durante 5 épocas
-historial_loss = [round(random.uniform(0.8, 1.0) / (i+1), 4) for i in range(5)]
-print(f"1. Historial de Error (Épocas 1 a 5): \n{historial_loss}")
+inventario = ["Espada Rota", "Escudo de Madera"]
+print(f"Inventario al entrar a la cueva: {inventario}")
 
-# Simulamos la Época 6 (añadiendo ruido aleatorio, a veces sube, a veces baja)
-nuevo_error = round(historial_loss[-1] - random.uniform(-0.02, 0.05), 4)
-historial_loss.append(nuevo_error)
-print(f"2. Época 6 finalizada. Nuevo error calculado: {nuevo_error}")
+# Botín del cofre
+botin = ["Poción de Vida", "Moneda de Oro", "Gema Mágica"]
+inventario.extend(botin)
 
-# Verificamos consultando el último [-1] y penúltimo [-2] elemento de la lista
-if historial_loss[-1] < historial_loss[-2]:
-    print("3. Diagnóstico: ¡Excelente! La Inteligencia Artificial sigue aprendiendo (El error bajó).")
-else:
-    print("3. Diagnóstico: ¡Alerta! El modelo se estancó o está sobreajustando (Overfitting). El error aumentó.")
+# El jugador recibe daño y usa la poción
+inventario.remove("Poción de Vida")
+
+print(f"Inventario al salir: {inventario}")
 ```
 
-### Tuplas (Tuples)
+#### Ciencia de Datos
+
+Ejemplo: Limpieza de Valores Atípicos (Outliers)
+"Recibes una lista con los salarios (en miles) encuestados en una empresa. Alguien escribió un valor absurdo por error. Ordena los datos de menor a mayor y elimina el registro más alto (outlier) antes de que contamine el cálculo del promedio."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Ciencia de Datos: Limpieza de Outliers
+# ---------------------------------------------------------
+salarios_k = [35, 42, 1200, 38, 45, 40]
+print(f"Datos crudos: {salarios_k}")
+
+# Ordenamos la lista (el valor gigante quedará al final)
+salarios_k.sort()
+
+# Eliminamos el último valor que está sesgando la muestra
+outlier = salarios_k.pop()
+
+print(f"Valor eliminado: {outlier}")
+print(f"Datos limpios para el modelo: {salarios_k}")
+```
+___
+## 2. Tuplas (Tuples)
+
 Las tuplas son secuencias ordenadas pero inmutables (no se pueden modificar después de crearse). Se definen con paréntesis (). Al ser inmutables, son más seguras y ligeramente más rápidas que las listas en términos de memoria y procesamiento.
 
 Cuándo usarlas: Para proteger datos que "no deben cambiar" bajo ninguna circunstancia (constantes, configuraciones, coordenadas) o para devolver múltiples valores desde una función.
 
-Funciones más comunes:
+### Funciones más comunes:
+
 (Son muy pocas debido a su inmutabilidad)
 
-* **count(item):** Cuenta cuántas veces aparece un elemento.
+* count(item): Cuenta cuántas veces aparece un elemento.
 
-**index(item):** Devuelve el índice de la primera aparición del elemento.
+* index(item): Devuelve el índice de la primera aparición del elemento.
 
-**len(tupla):** Tamaño de la tupla.
+* len(tupla): Tamaño de la tupla.
 
-##### Actuarios
-###### 1. Parámetros fijos de una Tabla de Mortalidad:
+### Ejercicios
 
-"Para garantizar la integridad y auditoría de un modelo de valuación de seguros de vida, necesitas almacenar la 'Edad' y su 'Probabilidad de Muerte ($q_x$)' asociada. Usa una estructura de datos que proteja esta información como de 'solo lectura', garantizando que ningún otro proceso o programador pueda modificar accidentalmente la probabilidad durante la ejecución."
+#### Animación Digital
 
-```python
-import random
+Ejemplo: Colores RGB Exactos
 
-print("--- TUPLAS: ACTUARÍA ---")
-# 1. Parámetros fijos de una Tabla de Mortalidad
-edad_simulada = random.randint(20, 80)
-qx_simulado = round(random.uniform(0.001, 0.05), 5)
+"Al texturizar un modelo 3D, el color base (Rojo, Verde, Azul) debe ser exacto para mantener la identidad visual del estudio. Protégelo en una tupla para evitar que algún script secundario cambie accidentalmente la saturación."
 
-tabla_mortalidad_tupla = (edad_simulada, qx_simulado)
-print(f"1. Datos Inmutables: Edad {tabla_mortalidad_tupla[0]}, Probabilidad de Muerte {tabla_mortalidad_tupla[1]}")
-# Intentar reasignar tabla_mortalidad_tupla[1] = 0.5 daría un TypeError, lo cual asegura la auditoría.
+```Python
+# ---------------------------------------------------------
+# Ejemplo Animación: Constantes RGB
+# ---------------------------------------------------------
+color_corporativo = (255, 80, 0) # Naranja exacto
+print(f"Componente Rojo: {color_corporativo[0]}")
+print(f"Color bloqueado y protegido en memoria: {color_corporativo}")
+# color_corporativo[1] = 100 lanzaría un error protegiendo el diseño
 ```
 
+#### Ingeniería en Sistemas Computacionales
 
-###### 2: Coordenadas de un escenario de estrés
+Ejemplo: Configuración Crítica de Red
+"Un servidor debe escuchar en una dirección IP y un puerto específicos. Almacena este par de valores en una tupla (socket) para asegurar que un bug en el código no cambie el puerto a mitad de la ejecución, tirando el sistema."
 
-"En las pruebas de solvencia del trimestre (Stress Testing), se define un escenario catastrófico estático compuesto por dos valores inamovibles: la Severidad (Costo) y la Frecuencia (Probabilidad). Guarda este escenario en una estructura inmutable y calcula la esperanza matemática del riesgo."
-
-```python
-# 2. Coordenadas de un escenario de estrés
-severidad = round(random.uniform(500000, 5000000), 2) # Costo entre 500k y 5M
-frecuencia = round(random.uniform(0.01, 0.15), 4) # Probabilidad entre 1% y 15%
-
-escenario_estres = (severidad, frecuencia)
-esperanza_matematica = escenario_estres[0] * escenario_estres[1]
-print(f"2. Escenario Estático: {escenario_estres} -> Esperanza del Riesgo: ${esperanza_matematica:,.2f}")
+```Python
+# ---------------------------------------------------------
+# Ejemplo Sistemas: Socket del Servidor
+# ---------------------------------------------------------
+server_config = ("192.168.1.100", 8080)
+print(f"Iniciando servidor web...")
+print(f"Escuchando de forma segura en IP: {server_config[0]} Puerto: {server_config[1]}")
 ```
 
-##### Ciencia de Datos
+#### Robótica
 
-###### Coordenadas Geoespaciales
+Ejemplo: Posición Segura (Home Position)
+"Un dron autónomo siempre debe tener una posición de 'Home' absoluta (X, Y, Z) a la cual regresar si pierde señal. Este punto salva vidas y equipo, por lo que nunca debe mutar dinámicamente en el software de vuelo."
 
-"Estás programando un algoritmo para optimizar rutas de entrega. Las coordenadas geográficas (Latitud y Longitud) del almacén matriz son el centro de gravedad de tu modelo y son fijas. Almacena este par de valores en una estructura de datos segura y protegida contra modificaciones accidentales."
-
-
-```python
-# 1. Coordenadas Geoespaciales
-latitud = round(random.uniform(-90.0, 90.0), 6)
-longitud = round(random.uniform(-180.0, 180.0), 6)
-
-almacen_matriz = (latitud, longitud)
-print(f"3. Coordenadas fijas del almacén: {almacen_matriz}")
-```
-###### Dimensiones de un Tensor (Shape)
-
-"Al procesar un lote de imágenes médicas para una red neuronal, la matriz de píxeles exige una arquitectura estricta de cuatro dimensiones: (cantidad de imágenes, alto, ancho, canales de color). Define estas dimensiones (Shape) de forma estructurada para calcular el total de píxeles a procesar."
-
-```python
-# 2. Dimensiones de un Tensor (Shape)
-lote_imagenes = random.randint(16, 128)
-shape_tensor = (lote_imagenes, 256, 256, 3) # (imagenes, alto, ancho, canales RGB)
-
-total_pixeles = shape_tensor[0] * shape_tensor[1] * shape_tensor[2] * shape_tensor[3]
-print(f"4. Shape del Tensor: {shape_tensor} -> Total de píxeles a procesar: {total_pixeles:,}")
+```Python
+# ---------------------------------------------------------
+# Ejemplo Robótica: Posición Home
+# ---------------------------------------------------------
+home_pos_xyz = (0.0, 0.0, 15.5) 
+print(f"Punto de seguridad establecido en altitud: {home_pos_xyz[2]} mts")
+print(f"Las coordenadas {home_pos_xyz} no pueden ser sobrescritas.")
 ```
 
-### Diccionarios (Dictionaries)
+#### Mecatrónica
+
+Ejemplo: Calibración de Fábrica
+"Un actuador lineal sale de fábrica con un voltaje mínimo y máximo de operación. Si el programa excede estos límites, el equipo se quema. Guarda estos límites operacionales en una estructura inmutable."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Mecatrónica: Límites de Tensión
+# ---------------------------------------------------------
+limites_voltaje = (3.3, 12.0) # Vmin, Vmax
+voltaje_leido = 14.5
+
+if voltaje_leido > limites_voltaje[1]:
+    print("¡ERROR CRÍTICO! Voltaje supera el límite inmutable del motor.")
+```
+
+#### Ingeniería en Videojuegos
+
+Ejemplo: Resolución Base del Motor
+"La lógica de colisiones de tu juego 2D pixel-art depende matemáticamente de que la resolución interna siempre sea 320x240, aunque la pantalla escale. Define la resolución estricta del motor gráfico."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Videojuegos: Resolución del Motor
+# ---------------------------------------------------------
+resolucion_nativa = (320, 240)
+total_pixeles = resolucion_nativa[0] * resolucion_nativa[1]
+print(f"Motor configurado a {resolucion_nativa[0]}x{resolucion_nativa[1]}.")
+print(f"Se renderizarán {total_pixeles} píxeles reales por frame.")
+```
+
+#### Ciencia de Datos
+
+Ejemplo: Arquitectura (Shape) del Dataset
+"Al entrenar un modelo predictivo, la matriz de entrenamiento tiene exactamente 10,000 filas y 50 columnas. Guardar estas dimensiones en una tupla asegura que cualquier transformación posterior pueda validarse contra la forma original."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Ciencia de Datos: Dimensiones de Matriz (Shape)
+# ---------------------------------------------------------
+dataset_shape = (10000, 50)
+print(f"El modelo espera {dataset_shape[1]} variables predictoras exactas.")
+print(f"Si los datos de entrada cambian de forma, el algoritmo lo detectará.")
+```
+
+## 3. Diccionarios (Dictionaries)
 
 Los diccionarios almacenan información en pares de clave: valor (key: value). Son mutables y (desde Python 3.7) mantienen el orden de inserción. Las claves deben ser únicas e inmutables (como textos, números o tuplas), pero los valores pueden ser cualquier cosa. Son la base del formato JSON.
 
 Cuándo usarlos: Cuando necesitas relacionar identificadores únicos con atributos (como una base de datos pequeña) y necesitas buscar información extremadamente rápido por su "nombre" o "ID" sin importar su posición.
 
-#### Funciones más comunes:
+### Funciones más comunes:
 
-* **keys():** Devuelve una vista con todas las claves.
+* keys(): Devuelve una vista con todas las claves.
 
-* **values():** Devuelve una vista con todos los valores.
+* values(): Devuelve una vista con todos los valores.
 
-* **items():** Devuelve pares (clave, valor).
+* items(): Devuelve pares (clave, valor).
 
-* **get(key, [default]):** Obtiene un valor sin dar error si la clave no existe.
+* get(key, [default]): Obtiene un valor sin dar error si la clave no existe.
 
-**update(dict2):** Actualiza o añade múltiples pares desde otro diccionario.
+* update(dict2): Actualiza o añade múltiples pares desde otro diccionario.
 
-##### Actuarios
+### Ejercicios
 
-###### Perfil de Póliza de un Cliente
+#### Animación Digital
 
-"Para alimentar el motor automatizado de cotizaciones, necesitas empaquetar toda la información de un solicitante (ID de póliza, edad, estatus de fumador y suma asegurada) en un solo objeto donde cada dato sea consultable por su 'etiqueta' o 'nombre'. Además, debes programar una regla que consulte este perfil e incremente la prima base un 20% si el cliente es fumador."
+Ejemplo: Propiedades del Rig (Esqueleto)
+"Para animar un modelo complejo, asocias nombres de huesos (claves) a sus grados de rotación (valores). El animador decide girar el cuello 45 grados. Modifica esta propiedad directamente por su nombre de forma rápida."
 
-```python
-# 1. Perfil de Póliza de un Cliente
-perfil_cliente = {
-    "ID_Poliza": f"POL-{random.randint(1000, 9999)}",
-    "edad": random.randint(18, 70),
-    "fumador": random.choice([True, False]),
-    "suma_asegurada": random.choice([500000, 1000000, 2000000]),
-    "prima_base": 5000.0
+```Python
+# ---------------------------------------------------------
+# Ejemplo Animación: Propiedades de Huesos
+# ---------------------------------------------------------
+esqueleto = {
+    "hombro_izq": 15.0,
+    "hombro_der": -15.0,
+    "cuello": 0.0
 }
 
-# Regla de recargo por tabaquismo
-if perfil_cliente["fumador"]:
-    perfil_cliente["prima_base"] *= 1.20 # Aumento del 20%
-    
-print(f"1. Perfil Cliente: {perfil_cliente['ID_Poliza']} | Fumador: {perfil_cliente['fumador']} | Prima Final: ${perfil_cliente['prima_base']:,.2f}")
+# El animador ajusta la pose
+esqueleto["cuello"] = 45.0
+print(f"Nueva pose aplicada: {esqueleto}")
 ```
 
-###### Reservas Técnicas por Ramo
+#### Ingeniería en Sistemas Computacionales
 
-"El departamento de contabilidad te solicita un reporte de las reservas técnicas actuales. Crea una estructura que asocie el nombre de cada ramo (Auto, Vida, Gastos Médicos) con su monto en reservas. Acto seguido, la Comisión Nacional de Seguros aprueba la operación de un nuevo ramo ('Daños'), así que debes incorporarlo dinámicamente al portafolio existente."
+Ejemplo: Paquete JSON de API REST
+"Estás programando un backend. Un usuario hace login, y el servidor debe estructurar sus datos (ID, nombre, rol) en un formato llave-valor para mandarlo al Frontend. El sistema detecta que es su cumpleaños y le añade dinámicamente un token de descuento."
 
-```python
-# 2. Reservas Técnicas por Ramo
-reservas_tecnicas = {
-    "Auto": round(random.uniform(1e6, 5e6), 2),
-    "Vida": round(random.uniform(10e6, 50e6), 2),
-    "Gastos Médicos": round(random.uniform(5e6, 15e6), 2)
+```Python
+# ---------------------------------------------------------
+# Ejemplo Sistemas: Payload de API REST
+# ---------------------------------------------------------
+api_response = {
+    "user_id": 998,
+    "username": "admin_sys",
+    "role": "administrador"
 }
 
-# Incorporación dinámica del nuevo ramo
-reservas_tecnicas["Daños"] = round(random.uniform(2e6, 8e6), 2)
-print(f"2. Portafolio de Reservas Actualizado: {reservas_tecnicas}")
+# Añadir nueva clave-valor dinámicamente
+api_response["discount_token"] = "BDAY2024"
+
+print("Payload JSON listo para ser enviado:")
+for clave, valor in api_response.items():
+    print(f" - {clave}: {valor}")
 ```
 
-##### Ciencia de Datos
+#### Robótica
 
-##### Construcción rápida de un DataFrame
+Ejemplo: Estado de Actuadores
+"Un robot hexápodo tiene múltiples servomotores. Necesitas mapear el ID del motor físico con su estado actual (Temp, RPM, Alarma). Al leer los datos del bus, actualiza los parámetros del 'Motor_1' rápidamente por su llave."
 
-"Antes de importar librerías avanzadas como Pandas, necesitas simular la estructura tabular de una base de datos relacional. Crea un objeto que relacione los nombres de las columnas ('ID_Cliente', 'Ingreso', 'Abandono') con una lista de sus respectivos valores, construyendo así las bases de un DataFrame."
-
-```python
-# 1. Construcción rápida de un DataFrame
-n_registros = 5
-dataframe_simulado = {
-    "ID_Cliente": [f"USR-{random.randint(100, 999)}" for _ in range(n_registros)],
-    "Ingreso": [round(random.uniform(15000, 80000), 2) for _ in range(n_registros)],
-    "Abandono": [random.choice([0, 1]) for _ in range(n_registros)]
+```Python
+# ---------------------------------------------------------
+# Ejemplo Robótica: Telemetría de Motores
+# ---------------------------------------------------------
+estado_motores = {
+    "Motor_1": {"RPM": 1200, "Temp": 35, "Error": False},
+    "Motor_2": {"RPM": 1200, "Temp": 36, "Error": False}
 }
-print(f"3. Base de datos simulada (Columnas): {dataframe_simulado.keys()}")
-print(f"   Datos 'Ingreso': {dataframe_simulado['Ingreso']}")
+
+# El Motor 1 se calienta
+estado_motores["Motor_1"]["Temp"] = 75
+estado_motores["Motor_1"]["Error"] = True
+
+print(f"Diagnóstico Motor_1: {estado_motores.get('Motor_1')}")
 ```
 
-##### Conteo de Frecuencia de Palabras (NLP)
+#### Mecatrónica
 
-"En un proyecto de Análisis de Sentimiento (Procesamiento de Lenguaje Natural) para predecir movimientos de la bolsa, necesitas contar cuántas veces se repite cada palabra dentro del texto de una noticia financiera. Crea una estructura de 'clave-valor' que lea las palabras y vaya sumando 1 al contador de cada término de forma dinámica."
+Ejemplo: Umbrales de Sensores Industriales
+"En una línea de ensamblaje, diferentes sensores miden distintas magnitudes. Usa un diccionario para definir los umbrales de peligro de Presión (PSI) y Humedad (%)."
 
-```python
-# 2. Conteo de Frecuencia de Palabras (NLP)
-vocabulario = ["mercado", "acciones", "baja", "alza", "riesgo", "inversión", "tasa", "fed"]
-# Simulamos un texto aleatorio de 30 palabras
-noticia_financiera = [random.choice(vocabulario) for _ in range(30)]
+```Python
+# ---------------------------------------------------------
+# Ejemplo Mecatrónica: Umbrales de Alarma
+# ---------------------------------------------------------
+umbrales_peligro = {
+    "Sensor_Presion_PSI": 120.0,
+    "Sensor_Humedad_Pct": 85.0
+}
 
-frecuencia_palabras = {}
-for palabra in noticia_financiera:
-    # get(palabra, 0) devuelve 0 si la palabra no existe aún en el diccionario
-    frecuencia_palabras[palabra] = frecuencia_palabras.get(palabra, 0) + 1
-
-print(f"4. Frecuencia de palabras en el texto: {frecuencia_palabras}")
+# Un operario ajusta la tolerancia de presión a través de la HMI
+umbrales_peligro.update({"Sensor_Presion_PSI": 130.0, "Sensor_Luz": 500})
+print(f"Parámetros actualizados en PLC: {umbrales_peligro}")
 ```
 
-### Conjuntos (Sets)
+#### Ingeniería en Videojuegos
+
+Ejemplo: Estadísticas de un Jefe Final (Boss Stats)
+"Un jefe de nivel tiene atributos (Vida, Ataque, Magia). Cuando su 'Vida' llega a un umbral bajo, entra en 'Modo Furia' y su 'Ataque' se multiplica, demostrando cómo modificar un diccionario impacta directamente el gameplay."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Videojuegos: Stats de Enemigo
+# ---------------------------------------------------------
+jefe_final = {
+    "Vida": 10000,
+    "Ataque": 150,
+    "Magia": 80
+}
+
+# El jugador le hace mucho daño
+jefe_final["Vida"] = 2500
+
+if jefe_final["Vida"] <= 3000:
+    jefe_final["Ataque"] *= 2  # Modo furia
+    print("¡El jefe entra en Modo Furia!")
+
+print(f"Stats actuales del Jefe: {jefe_final}")
+```
+
+#### Ciencia de Datos
+
+Ejemplo: Mapeo Categórico (Label Encoding)
+"Los algoritmos de Machine Learning no entienden texto, solo números. Usa un diccionario para crear un traductor que convierta las etiquetas de riesgo crediticio ('Alto', 'Medio', 'Bajo') a valores matemáticos (2, 1, 0)."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Ciencia de Datos: Label Encoding
+# ---------------------------------------------------------
+diccionario_mapeo = {
+    "Bajo": 0,
+    "Medio": 1,
+    "Alto": 2
+}
+
+cliente_riesgo = "Alto"
+# Convertimos el texto a número para el modelo usando get
+riesgo_numerico = diccionario_mapeo.get(cliente_riesgo, -1)
+
+print(f"El texto '{cliente_riesgo}' se tradujo al valor numérico: {riesgo_numerico}")
+```
+___
+
+## 4. Conjuntos (Sets)
 
 Los conjuntos son colecciones desordenadas y no indexadas que NO permiten elementos duplicados. Están basados en la teoría matemática de conjuntos, lo que los hace increíblemente rápidos para verificar si un elemento existe dentro de ellos y para hacer cruces de información. Se definen con llaves {}.
 
 Cuándo usarlos: Cuando te importa qué elementos tienes, pero no cuántos (eliminar duplicados) ni en qué orden están. Son perfectos para operaciones de intersección, unión y diferencia.
 
-#### Funciones más comunes:
+### Funciones más comunes:
 
-* **add(item):** Añade un elemento.
+* add(item): Añade un elemento.
 
-* **remove(item):** Elimina un elemento (da error si no existe; discard no da error).
+* remove(item): Elimina un elemento (da error si no existe; discard no da error).
 
-* **union(set2) o |:** Une ambos conjuntos sin repetir.
+* union(set2) o |: Une ambos conjuntos sin repetir.
 
-* **intersection(set2) o &:** Devuelve elementos comunes en ambos.
+* intersection(set2) o &: Devuelve elementos comunes en ambos.
 
-* **difference(set2) o -:** Devuelve elementos en el primero que no están en el segundo.
+* difference(set2) o -: Devuelve elementos en el primero que no están en el segundo.
 
-##### Actuarios
- 
+### Ejercicios
+Animación Digital
+Ejemplo: Catálogo de Texturas Únicas
+"Al importar cientos de objetos 3D a una escena, la computadora lee una lista de las texturas que necesita cargar. Muchos objetos comparten la misma textura (madera, metal). Usa un conjunto para crear una lista pura, sin duplicados, ahorrando memoria RAM."
 
-##### Auditoría de Pólizas Duplicadas
+```Python
+# ---------------------------------------------------------
+# Ejemplo Animación: Texturas sin duplicar
+# ---------------------------------------------------------
+solicitudes_carga = ["metal.png", "madera.png", "metal.png", "cristal.png", "madera.png"]
 
-"Durante la migración de un sistema legado, la base de datos arrojó un vector de IDs de pólizas facturadas con un grave problema: muchos clientes aparecen duplicados por un error del servidor. Demuestra cómo, utilizando una única línea de código basada en teoría de conjuntos, puedes purgar instantáneamente todos los duplicados para auditar únicamente las pólizas reales."
+# Pasamos la lista a set para eliminar duplicados al instante
+texturas_a_memoria = set(solicitudes_carga)
 
-```python
-# 1. Auditoría de Pólizas Duplicadas
-# Generamos 20 IDs donde seguramente habrá repetidos (rango corto de 1 a 10)
-ids_brutos = [random.randint(1, 10) for _ in range(20)] 
-
-# Purgamos duplicados en una sola línea convirtiendo la lista a conjunto
-ids_purgados = set(ids_brutos)
-print(f"1. IDs Originales (Con duplicados): {len(ids_brutos)} -> IDs Auditados (Únicos): {len(ids_purgados)}")
+print(f"Solicitudes recibidas: {len(solicitudes_carga)}")
+print(f"Texturas reales a cargar en RAM: {len(texturas_a_memoria)} -> {texturas_a_memoria}")
 ```
 
-##### Cruce de Siniestralidad (Intersección)
+#### Ingeniería en Sistemas Computacionales
 
-"El departamento de prevención de fraudes te ha entregado dos listas de clientes: aquellos que reportaron un siniestro total en 2024 y los que lo hicieron en 2025. Utiliza operaciones matemáticas de conjuntos para encontrar de forma inmediata a los clientes reincidentes (la intersección) que deben ser sujetos a investigación."
+Ejemplo: Detección de Intrusos (Firewall)
+"Tienes un conjunto de direcciones IP conocidas por atacar tu servidor (Lista Negra) y otro conjunto de IPs que hoy intentaron loguearse al sistema. Usa la intersección matemática para descubrir al instante si un atacante intentó entrar hoy."
 
-```python
-# 2. Cruce de Siniestralidad (Intersección)
-# Simulamos IDs de clientes que tuvieron siniestros (rango 100 a 200)
-siniestros_2024 = set([random.randint(100, 200) for _ in range(30)])
-siniestros_2025 = set([random.randint(150, 250) for _ in range(30)])
+```Python
+# ---------------------------------------------------------
+# Ejemplo Sistemas: Cruce de Seguridad IP
+# ---------------------------------------------------------
+lista_negra_global = {"10.0.0.5", "192.168.1.99", "172.16.0.4"}
+ips_conexiones_hoy = {"192.168.1.15", "10.0.0.5", "192.168.1.20"}
 
-# Encontramos a los reincidentes usando la intersección
-clientes_reincidentes = siniestros_2024.intersection(siniestros_2025)
-print(f"2. Clientes investigados por reincidencia (Intersección): {clientes_reincidentes}")
+# Intersección matemática inmediata
+ataques_detectados = lista_negra_global.intersection(ips_conexiones_hoy)
+
+print(f"¡Alerta de seguridad! Conexiones maliciosas bloqueadas: {ataques_detectados}")
 ```
 
-##### Ciencia de Datos
+#### Robótica
 
-###### Extracción de Categorías Únicas (Variables Categóricas)
+Ejemplo: Algoritmo de Laberinto (Pathfinding)
+"Un robot de limpieza explora una habitación. Para no quedarse atascado en un bucle barriendo las mismas baldosas por siempre, guarda las coordenadas (X, Y) de las celdas ya visitadas en un conjunto. Si intenta ir a una celda y ya está en el conjunto, cambia de dirección."
 
-"Estás preparando los datos para entrenar un modelo predictivo, y tienes una columna de texto que contiene las 'Ciudades' de los usuarios con miles de registros repetidos. Extrae exclusivamente el catálogo de 'clases únicas' de esa columna (sin repeticiones) para poder transformarlas posteriormente a variables binarias (One-Hot Encoding)."
+```Python
+# ---------------------------------------------------------
+# Ejemplo Robótica: Nodos Visitados
+# ---------------------------------------------------------
+celdas_visitadas = {(0,0), (0,1), (0,2)}
+proximo_movimiento = (0,1)
 
-
-```python
-# 1. Extracción de Categorías Únicas (Variables Categóricas)
-lista_ciudades = ["CDMX", "Monterrey", "Guadalajara", "Puebla", "Tijuana", "Mérida"]
-# Simulamos 100 registros con muchas repeticiones
-columna_ciudades_repetidas = [random.choice(lista_ciudades) for _ in range(100)]
-
-# Extraemos el catálogo de clases únicas
-catalogo_unico = set(columna_ciudades_repetidas)
-print(f"3. De {len(columna_ciudades_repetidas)} registros, las clases únicas para One-Hot Encoding son: {catalogo_unico}")
-```
-
-###### Detección de Fuga de Datos (Data Leakage)
-
-"Tienes dos conjuntos de IDs de pacientes: uno que usaste para 'entrenar' tu modelo y otro que reservaste celosamente para 'probarlo'. En Machine Learning, un paciente no puede estar en ambos grupos. Utiliza una operación de diferencia o intersección para comprobar rápidamente si tu muestra está contaminada (Fuga de Datos)."
-
-```python
-# 2. Detección de Fuga de Datos (Data Leakage)
-# IDs del universo de pacientes: 1 al 100
-# El Train set toma pacientes aleatorios del 1 al 80. El Test toma del 70 al 100 (habrá contaminación intencional).
-train_set = set([random.randint(1, 80) for _ in range(50)])
-test_set = set([random.randint(70, 100) for _ in range(20)])
-
-# Comprobamos fuga de datos viendo si la intersección tiene algún elemento
-fuga_datos = train_set.intersection(test_set)
-
-if len(fuga_datos) > 0:
-    print(f"4. ¡ALERTA! Fuga de datos detectada. Pacientes en ambos grupos: {fuga_datos}")
+# O(1) tiempo de búsqueda: ultra rápido en Sets
+if proximo_movimiento in celdas_visitadas:
+    print(f"La coordenada {proximo_movimiento} ya fue explorada. Recalculando ruta...")
 else:
-    print("4. Modelo seguro: No hay fuga de datos (Intersección vacía).")
+    celdas_visitadas.add(proximo_movimiento)
+```
+
+#### Mecatrónica
+
+Ejemplo: Diagnóstico de Sistemas Híbridos
+"Un vehículo eléctrico reporta códigos de error desde el subsistema de la Batería y desde el subsistema del Motor. Usa la unión de conjuntos para crear un reporte técnico maestro con todas las fallas únicas detectadas en todo el vehículo."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Mecatrónica: Unión de Códigos de Falla
+# ---------------------------------------------------------
+fallas_bateria = {"ERR-01", "ERR-04"}
+fallas_motor = {"ERR-04", "ERR-12", "ERR-40"}
+
+# Unión sin duplicar los errores compartidos (como el ERR-04)
+reporte_maestro = fallas_bateria.union(fallas_motor)
+
+print(f"Reporte de diagnóstico OBD-II completo: {reporte_maestro}")
+```
+
+#### Ingeniería en Videojuegos
+
+Ejemplo: Logros de la Cuenta Global
+"Un jugador tiene un personaje Guerrero y un Mago en la misma cuenta. Ambos han desbloqueado diferentes logros, pero algunos se repiten. Combina ambos conjuntos para mostrar los logros en el perfil principal del jugador."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Videojuegos: Logros Globales
+# ---------------------------------------------------------
+logros_guerrero = {"Primer Golpe", "Cazador de Osos", "Nivel 10"}
+logros_mago = {"Primer Golpe", "Maestro del Fuego", "Nivel 10"}
+
+# Unión ( | ) de logros
+perfil_global = logros_guerrero | logros_mago
+
+print(f"Logros de cuenta desbloqueados: {perfil_global}")
+```
+
+#### Ciencia de Datos
+
+Ejemplo: Diferencia de Vocabularios (NLP)
+"Al entrenar un modelo que lee opiniones de clientes, quieres saber qué palabras nuevas aparecieron en las quejas de este mes frente a las del mes pasado. Utiliza la diferencia de conjuntos para encontrar los términos de tendencia."
+
+```Python
+# ---------------------------------------------------------
+# Ejemplo Ciencia de Datos: Diferencia de Textos
+# ---------------------------------------------------------
+palabras_mes_pasado = {"mal", "servicio", "tarde", "caro"}
+palabras_este_mes = {"servicio", "tarde", "groseros", "sucio", "mal"}
+
+# Diferencia ( - ) ¿Qué hay este mes que no hubo el pasado?
+palabras_nuevas = palabras_este_mes - palabras_mes_pasado
+
+print(f"Análisis de tendencia de quejas. Términos nuevos emergentes: {palabras_nuevas}")
+
 ```

@@ -543,3 +543,322 @@ palabras_nuevas = palabras_este_mes - palabras_mes_pasado
 print(f"Análisis de tendencia de quejas. Términos nuevos emergentes: {palabras_nuevas}")
 
 ```
+
+
+# Catálogo de Ejercicios: Estructuras de Datos por Carrera
+
+Este documento contiene 10 enunciados de ejercicios para cada estructura de datos (Listas, Tuplas, Diccionarios y Conjuntos), adaptados específicamente a 6 carreras diferentes.
+
+---
+
+# Practica #6 Estructura de Datos (Listas, Tuplas, Diccionarios, Conjuntos)
+
+## 1. Animación Digital
+
+### Listas (Lists)
+1. **Cola de Renderizado:** Crea una lista vacía que represente una cola de render. Añade 5 nombres de archivos de fotogramas (ej. "frame_01.png") y elimina el primero cuando "termine de renderizarse".
+2. **Historial de Deshacer (Undo):** Simula el historial de acciones de un animador. Añade tres acciones a una lista y utiliza un método para eliminar la última acción si el usuario presiona Ctrl+Z.
+3. **Fotogramas Clave (Keyframes):** Tienes una lista con los números de fotograma donde ocurren cambios de cámara: `[12, 24, 60, 120]`. Inserta un nuevo fotograma clave en la posición correcta para mantener el orden cronológico.
+4. **Paleta de Colores Dinámica:** Crea una lista con códigos hexadecimales de colores base. Usa un ciclo para añadir 3 nuevos colores que el director de arte acaba de aprobar.
+5. **Capas de un Proyecto:** Un proyecto de After Effects tiene las capas `["Fondo", "Personaje", "Luces"]`. Invierte el orden de la lista para simular un cambio en el orden de renderizado (z-index).
+6. **Filtro de Fotogramas Corruptos:** Dada una lista de fotogramas procesados, elimina todos los elementos que digan `"ERROR_RENDER"`.
+7. **Secuencia de Caminata (Walk Cycle):** Tienes dos listas, una con los fotogramas de la pierna izquierda y otra de la derecha. Concaténalas para formar la animación completa.
+8. **Conteo de Efectos:** Dada una lista de efectos aplicados a una escena, cuenta cuántas veces se ha utilizado el efecto `"Motion Blur"`.
+9. **Extracción de Escenas:** Tienes una lista de 100 escenas. Extrae únicamente las escenas de la 20 a la 35 utilizando "slicing" (rebanado) de listas.
+10. **Ordenamiento de Assets:** Recibes una lista desordenada con los nombres de los modelos 3D de una escena. Ordénalos alfabéticamente para el panel de jerarquía.
+
+### Tuplas (Tuples)
+1. **Resolución de Pantalla:** Almacena la resolución estándar del motor de renderizado (1920, 1080) en una tupla e intenta modificarla para demostrar que está protegida.
+2. **Color RGB Puro:** Protege el color corporativo del cliente principal en una tupla de 3 valores (R, G, B) para evitar alteraciones accidentales.
+3. **Coordenadas de Origen:** Define el centro absoluto de tu espacio 3D (0.0, 0.0, 0.0) como una tupla.
+4. **Límites de la Cámara (Bounding Box):** Guarda las coordenadas máximas y mínimas `(X_min, X_max, Y_min, Y_max)` en las que se puede mover la cámara en una escena 2D.
+5. **Configuración de FPS:** Almacena el framerate estándar del proyecto (24.0, "Cine") y extrae ambos valores en dos variables distintas.
+6. **Vectores de Iluminación:** Define la dirección estática de la luz del sol en una escena exterior usando una tupla de tres dimensiones `(X, Y, Z)`.
+7. **Proporción de Aspecto (Aspect Ratio):** Guarda los valores de la proporción `(16, 9)` y calcula el valor decimal dividiendo el primer elemento entre el segundo.
+8. **Configuración de Exportación:** Crea una tupla que contenga el códec, el contenedor y el bitrate de salida `("H.264", ".mp4", 15000)`.
+9. **Dimensiones de Textura:** Recibes una tupla con las dimensiones de una textura `(2048, 2048)`. Calcula el total de píxeles multiplicando sus índices.
+10. **Bloqueo de Huesos (Rigging):** En un esqueleto 3D, un hueso de la espina dorsal no puede rotar en el eje Z. Guarda sus grados de libertad permitidos `(True, True, False)` en una estructura inmutable.
+
+### Diccionarios (Dictionaries)
+1. **Propiedades del Material:** Crea un diccionario que almacene los atributos de un material de Maya: `Roughness`, `Metallic` y `Base_Color`.
+2. **Metadatos de Escena:** Define un diccionario con la información de la toma: número de toma, animador asignado, duración en fotogramas y estatus de aprobación.
+3. **Actualización de Rig:** Tienes un diccionario con los ángulos de los huesos de la mano. Actualiza el valor del `"dedo_indice_rotX"` a 45 grados.
+4. **Inventario de Assets:** Crea un diccionario donde las claves sean los nombres de los personajes y los valores sean las rutas a sus archivos `.obj`.
+5. **Traductor de Atajos (Shortcuts):** Asigna comandos de Blender a teclas específicas (ej. `"G": "Mover"`, `"S": "Escalar"`). Pide una tecla y devuelve el comando.
+6. **Gestor de Luces:** Crea un diccionario con 3 luces de la escena. Elimina la `"Luz_Trasera"` utilizando su clave.
+7. **Parámetros de Partículas:** Modela un emisor de partículas con claves como `velocidad_inicial`, `vida_media` y `cantidad`. Aumenta la `cantidad` en un 20%.
+8. **Visibilidad de Capas:** Tienes un diccionario con capas y valores booleanos (True/False). Imprime solo los nombres de las capas que están visibles.
+9. **Catálogo de Expresiones:** Relaciona nombres de expresiones faciales (`"Feliz"`, `"Triste"`) con un valor numérico de intensidad (0.0 a 1.0).
+10. **Diccionario Anidado de Escena:** Crea un diccionario general llamado `"Escena_01"` que contenga a su vez diccionarios separados para `"Camara"`, `"Iluminacion"` y `"Personajes"`.
+
+### Conjuntos (Sets)
+1. **Texturas Únicas:** Tienes una lista de materiales aplicados en una ciudad 3D, muchos están repetidos. Conviértela a conjunto para saber exactamente cuántas texturas únicas debes cargar en RAM.
+2. **Selección de Vértices:** El usuario ha seleccionado varios vértices con la herramienta de lazo, pero algunos se seleccionaron dos veces. Usa un conjunto para obtener los IDs únicos.
+3. **Auditoría de Assets:** Tienes un conjunto de assets "Requeridos" y otro de assets "Modelados". Encuentra qué assets faltan por modelar usando la diferencia de conjuntos.
+4. **Fusión de Capas:** Tienes dos conjuntos con los nombres de las capas activas de dos animadores distintos. Únelos para ver todas las capas modificadas hoy.
+5. **Conflictos de Nombres:** Revisa si el conjunto de nombres de texturas importadas intercepta (tiene elementos en común) con el conjunto de texturas ya existentes.
+6. **Purga de Caché:** Elimina del conjunto de `archivos_temporales` el archivo `"render_test_01.exr"`.
+7. **Tags de Escena:** Define un conjunto de etiquetas para una escena `{"Interior", "Noche", "Lluvia"}`. Añade la etiqueta `"Accion"`.
+8. **Compatibilidad de Formatos:** Tienes un conjunto de formatos soportados por Premiere y otro por After Effects. Encuentra los formatos que ambos programas pueden abrir (Intersección).
+9. **Eliminación Segura:** Intenta eliminar un modificador de un conjunto de modificadores usando `.discard()` para evitar errores si el modificador no existía.
+10. **Validación Rápida:** Verifica en una sola línea de código si el material `"Metal_Oxidado"` existe dentro del conjunto de materiales cargados.
+
+---
+
+## 2. Ingeniería en Sistemas Computacionales
+
+### Listas (Lists)
+1. **Gestor de PIDs:** Escribe un programa que almacene en una lista los IDs de los procesos activos. Añade 3 nuevos procesos que acaban de iniciar.
+2. **Cola de Impresión:** Simula una cola de documentos enviados a la impresora. Atiende (elimina y muestra) el primer documento de la lista (FIFO).
+3. **Historial de Comandos:** Crea una lista que actúe como el historial de la terminal. Asegúrate de que, si supera los 50 comandos, se elimine el más antiguo al agregar uno nuevo.
+4. **Puertos Abiertos:** Tienes una lista de puertos lógicos abiertos en el servidor. Ordénalos de menor a mayor para su revisión en el log de auditoría.
+5. **Filtro de IPs Locales:** Dada una lista de direcciones IP mixtas, extrae y guarda en una nueva lista únicamente las que comiencen con `"192.168."`.
+6. **Actualización en Bloque:** Usando el método adecuado, añade a tu lista de `servidores_activos` una lista secundaria de `servidores_respaldo` que acaban de encenderse.
+7. **Rotación de Logs:** Toma una lista de nombres de archivos `.log`. Extrae el último elemento y muévelo al principio de la lista.
+8. **Análisis de Paquetes:** Cuenta cuántas veces aparece el protocolo `"TCP"` en una lista que registra el tráfico de red de los últimos 10 segundos.
+9. **Eliminación de Tareas Zombie:** Busca en una lista de procesos el estado `"Zombie"` y elimínalo.
+10. **Lectura de Memoria Simulada:** Imprime los datos almacenados en las posiciones de índice 10 a la 20 de una lista que simula bloques de memoria.
+
+### Tuplas (Tuples)
+1. **Configuración de Socket:** Almacena la tupla `(IP, Puerto)` de tu servidor backend. Demuestra qué ocurre si intentas modificar el puerto dinámicamente.
+2. **Credenciales de Base de Datos:** Protege las cadenas de conexión (Host, Usuario, Password) en una tupla para que no sean sobrescritas durante la ejecución.
+3. **Dirección MAC:** Guarda los 6 bloques hexadecimales de una dirección MAC física en una estructura inmutable y conéctalos con guiones usando `.join()`.
+4. **Versión del Kernel:** Almacena la versión del sistema operativo en una tupla, por ejemplo `(5, 15, 0)`.
+5. **Parámetros de Encriptación:** Define una tupla fija que contenga el tipo de algoritmo, el tamaño de la llave y el modo de bloque `("AES", 256, "CBC")`.
+6. **Límites de Partición:** Guarda el sector de inicio y el sector final de una partición del disco duro.
+7. **Códigos de Estado HTTP:** Crea tuplas para respuestas estándar, como `(404, "Not Found")`, y desempaquétalas en variables individuales.
+8. **Resolución DNS Fija:** Almacena los servidores DNS principales y secundarios de Google `("8.8.8.8", "8.8.4.4")`.
+9. **Máscara de Subred:** Define la máscara `/24` como una tupla de octetos `(255, 255, 255, 0)` y verifica el valor del tercer octeto.
+10. **Registro de Logs de Sólo Lectura:** Un evento del sistema genera un log con `(Timestamp, Nivel_Error, Mensaje)`. Guárdalo en una tupla para garantizar su integridad forense.
+
+### Diccionarios (Dictionaries)
+1. **Diccionario JSON:** Simula el payload de respuesta de una API REST creando un diccionario con las claves `id_usuario`, `nombre` y `token_acceso`.
+2. **Caché DNS:** Crea un diccionario que funcione como caché, donde la clave sea el dominio (`"www.google.com"`) y el valor sea la IP (`"142.250.190.4"`).
+3. **Mapeo de Errores:** Asocia códigos de error numéricos (ej. `500`) con su descripción en texto (`"Internal Server Error"`). Solicita un código e imprime la descripción.
+4. **Perfiles de Usuarios:** Crea un diccionario anidado donde la clave sea el `username`, y el valor sea otro diccionario con su `rol`, `email` y `ultima_conexion`.
+5. **Configuración del Sistema:** Guarda la configuración de un archivo `.ini` (ej. `autostart`, `max_memory`, `theme`) y cambia el valor de `max_memory`.
+6. **Tabla de Enrutamiento:** Mapea direcciones IP de destino con su respectiva interfaz de red (ej. `"10.0.0.0": "eth0"`).
+7. **Uso de CPU por Proceso:** Tienes un diccionario con PIDs como claves y % de CPU como valores. Encuentra el PID que más recursos consume.
+8. **Traducción de Puertos:** Relaciona números de puertos con los servicios asociados (22: "SSH", 80: "HTTP", 443: "HTTPS").
+9. **Tokens de Sesión:** Verifica si un token específico (`"token_9912"`) existe como clave dentro del diccionario de sesiones activas.
+10. **Actualización Masiva:** Tienes el diccionario de permisos de un usuario. Actualízalo con otro diccionario que contiene los nuevos privilegios otorgados por el administrador.
+
+### Conjuntos (Sets)
+1. **Auditoría de Firewall:** Tienes una lista de IPs que han intentado conexiones fallidas, con muchos duplicados. Conviértela a conjunto para obtener la Lista Negra única.
+2. **Dominios Permitidos (Whitelist):** Define un conjunto de dominios corporativos. Verifica de forma rápida si un correo proviene de un dominio autorizado.
+3. **Detección de Intrusos (Intersección):** Tienes el conjunto de "IPs que accedieron hoy" y la "Lista Negra global". Usa la intersección para alertar si un atacante entró.
+4. **Dependencias Faltantes (Diferencia):** Compara un conjunto de `paquetes_instalados` contra `paquetes_requeridos` para averiguar cuáles faltan por descargar.
+5. **Unión de Redes:** Uniste dos subredes de la empresa. Une ambos conjuntos de IPs asignadas para ver el mapa total de la nueva red.
+6. **Puertos Únicos:** Un escaneo de red te devuelve una lista masiva de puertos abiertos en diferentes servidores. Encuentra los puertos únicos expuestos.
+7. **Control de Sesiones:** Elimina un `session_id` del conjunto de usuarios activos cuando el cliente hace "Logout".
+8. **Paquetes Duplicados:** Demuestra cómo crear un conjunto descarta automáticamente paquetes de red con el mismo ID de secuencia que llegaron dos veces por error.
+9. **Validación de Subconjunto:** Verifica si el conjunto de `permisos_del_usuario` es un subconjunto estricto de los `permisos_de_admin`.
+10. **Vulnerabilidades CVE:** Tienes un conjunto de CVEs corregidos en el Parche A y otro en el Parche B. Encuentra los CVEs que solo fueron corregidos en el Parche A.
+
+---
+
+## 3. Robótica
+
+### Listas (Lists)
+1. **Ruta de Navegación:** Crea una lista de Waypoints (coordenadas 1D). Añade un nuevo punto al final de la ruta para que el robot móvil avance más lejos.
+2. **Buffer de Ultrasonido:** Un sensor ultrasónico toma 10 lecturas por segundo. Almacena las últimas lecturas, añade la nueva y elimina la más antigua (Buffer circular).
+3. **Historial de Posiciones Articulares:** Guarda los ángulos de un brazo robótico. Extrae y elimina el último ángulo para programar un botón de "Deshacer movimiento".
+4. **Comandos de Motores:** Tienes una lista de velocidades PWM `[150, 200, 255]`. Multiplica cada valor por 0.5 para simular un "Modo de ahorro de energía".
+5. **Filtrado de Ruido:** Dada una lista con lecturas de un sensor Infrarrojo, elimina todas las lecturas que sean negativas (errores físicos del sensor).
+6. **Inversión de Trayectoria:** Tienes una lista con los pasos para ir del punto A al punto B. Invierte la lista para que el robot regrese al punto A.
+7. **Pila de Tareas (LIFO):** El robot debe realizar tareas de inspección. Añade 3 tareas a la lista y haz que el robot ejecute siempre la última tarea añadida.
+8. **Clasificación de Objetos:** Un sistema de visión inserta el tamaño de las piezas detectadas en una lista. Ordena las piezas de mayor a menor tamaño.
+9. **Calibración de Servos:** Concatena una lista de servomotores del "Brazo Izquierdo" con la lista del "Brazo Derecho" para inicializarlos todos.
+10. **Conteo de Obstáculos:** En un log de navegación, cuenta cuántas veces apareció la bandera `"OBSTACULO_DETECTADO"`.
+
+### Tuplas (Tuples)
+1. **Parámetros DH (Denavit-Hartenberg):** Almacena la longitud de un eslabón, el ángulo alfa y el desplazamiento de la articulación en una tupla protegida contra modificaciones.
+2. **Posición HOME:** Define la coordenada absoluta de descanso del manipulador industrial `(X, Y, Z)` para que nunca pueda ser reescrita por error en el código.
+3. **Límites de Actuadores:** Guarda en una tupla el ángulo mínimo y máximo `(-180.0, 180.0)` permitidos para un motor a pasos.
+4. **Cinemática Fija:** Almacena el radio de las ruedas y la distancia entre ellas `(r, L)` de un robot diferencial.
+5. **Giroscopio (IMU):** Una lectura instantánea del sensor IMU devuelve Roll, Pitch y Yaw. Guárdalos en una tupla y desempaquétalos para su análisis.
+6. **Mapeo Físico de Pines:** En la placa controladora, el sensor LIDAR siempre va al pin 14 y el Sonar al pin 15. Guarda esta configuración inmutable.
+7. **Velocidad de Baudios:** Fija la tupla de configuración del puerto Serial `(115200, "8-N-1")` para la comunicación con el microcontrolador.
+8. **Centro de Masa:** Define las coordenadas estáticas del centro de gravedad del chasis.
+9. **Restricciones de Espacio de Trabajo:** Crea una tupla de tuplas que delimite el prisma rectangular donde el robot tiene permitido operar.
+10. **Lectura de Encoder:** Un motor devuelve las revoluciones actuales y el sentido de giro (+1 o -1). Retorna ambos valores juntos desde una función usando una tupla.
+
+### Diccionarios (Dictionaries)
+1. **Telemetría del Robot:** Crea un diccionario que contenga el `estado_bateria`, `temperatura_cpu` y `modo_operacion`. Imprime solo el estado de la batería.
+2. **Estado de Articulaciones:** Mapea el nombre de 4 motores (`"J1"`, `"J2"`, etc.) con su ángulo actual en grados.
+3. **Configuración PID:** Almacena las ganancias Proporcional, Integral y Derivativa de un controlador de motor. Modifica la ganancia Proporcional para sintonizarlo.
+4. **Catálogo de Sensores:** Asocia IDs físicos (ej. `0x1A`) con el tipo de sensor correspondiente (`"LIDAR"`, `"Camara_Profundidad"`).
+5. **Máquina de Estados Finita:** Crea un diccionario donde las claves sean los estados actuales (`"ESPERA"`, `"NAVEGANDO"`) y los valores sean las acciones a ejecutar.
+6. **Traductor de Códigos de Error:** Si el CAN Bus del robot envía el código `E_404`, búscalo en el diccionario e imprime `"Falla de comunicación en la rueda trasera"`.
+7. **Posiciones Predefinidas:** Almacena poses guardadas del brazo robótico. Por ejemplo, `"Ataque"`, `"Defensa"`, `"Recarga"`, asociadas a listas de ángulos.
+8. **Consumo Energético:** Tienes un diccionario con cada subsistema y su amperaje consumido. Suma todos los valores para obtener el consumo total del robot.
+9. **Inventario de Piezas:** Verifica si la clave `"Cámara_RGB"` existe en la configuración de hardware actual antes de intentar inicializar el módulo de visión.
+10. **Actualización de Firmware:** Actualiza el diccionario de `versiones_nodos` integrando un nuevo módulo que acaba de ser instalado en la red ROS.
+
+### Conjuntos (Sets)
+1. **Mapa de Nodos Visitados:** El algoritmo de navegación A* explora celdas de una cuadrícula. Usa un conjunto para almacenar las celdas `(X, Y)` ya exploradas y evitar bucles.
+2. **Obstáculos Únicos:** El LIDAR detecta puntos en el espacio. Filtra la lista masiva de rebotes convirtiéndola a conjunto para aislar los obstáculos reales sin duplicados.
+3. **Detección de Colisiones (Intersección):** Tienes el conjunto de coordenadas que ocupa el robot y el conjunto de coordenadas del obstáculo. Si la intersección no está vacía, frena.
+4. **Áreas Limpias:** Un robot aspiradora guarda las baldosas que ya aspiró. Añade nuevas coordenadas dinámicamente conforme avanza.
+5. **Redundancia de Sensores:** Dos cámaras distintas detectan objetos frente al robot. Haz la unión de ambos conjuntos para obtener el panorama total.
+6. **Exclusión de Zonas Peligrosas:** Usa la diferencia matemática para restarle al "Espacio Explorable" el conjunto de "Zonas de Caída".
+7. **Eliminación de Nodos Descartados:** Elimina del conjunto de la frontera de búsqueda las coordenadas que resultaron ser paredes.
+8. **Filtro de IDs de Motores:** En una red RS485, varios motores mandan un ping de "Estoy vivo". Usa un set para purgar los pings duplicados y saber cuántos motores respondieron.
+9. **Nodos Faltantes:** Compara el conjunto de `waypoints_asignados` contra los `waypoints_visitados` para saber cuáles faltan por recorrer.
+10. **Modos Compatibles:** Verifica si el estado actual del robot está dentro de un conjunto de estados seguros `{"REPOSO", "MANUAL", "MANTENIMIENTO"}` antes de abrir la pinza.
+
+---
+
+## 4. Mecatrónica
+
+### Listas (Lists)
+1. **Buffer de Temperatura PLC:** Almacena en una lista las temperaturas del horno de los últimos 5 minutos. Añade la lectura actual y descarta la más vieja.
+2. **Cola de Ensamblaje:** Simula una banda transportadora. Agrega 5 códigos de piezas a la lista y simula que el brazo robótico retira la pieza en la posición 0.
+3. **Registro de Vibraciones:** Un acelerómetro envía lecturas en G's. Ordena la lista de lecturas de mayor a menor para identificar el pico máximo de vibración.
+4. **Limpieza de Señal Analógica:** Tienes una lista de valores ADC. Reemplaza todos los valores menores a 10 con un 0, simulando una zona muerta para eliminar ruido.
+5. **Historial de Revoluciones (RPM):** Extrae el promedio de una lista que contiene las últimas 20 lecturas de velocidad de un servomotor.
+6. **Mapeo de Actuadores:** Crea una lista de válvulas neumáticas `["V1", "V2", "V3"]`. Inserta una válvula de seguridad de emergencia al principio de la línea.
+7. **Subrutina de Corte:** Un CNC tiene una lista de 100 comandos G-Code. Extrae con slicing (rebanado) únicamente el segmento de corte profundo (comandos 40 a 60).
+8. **Conteo de Defectos:** Un sensor de calidad emite "OK" o "DEFECTO". Cuenta la cantidad total de defectos en el lote de producción actual.
+9. **Unión de Módulos:** Concatena la lista de sensores del "Módulo de Empaque" con la lista del "Módulo de Etiquetado" para el panel general de la HMI.
+10. **Inversión de Banda:** Debido a un atasco, los motores de la banda se invierten. Invierte el orden de la lista de piezas en tránsito.
+
+### Tuplas (Tuples)
+1. **Límites de Seguridad (Interlocks):** Almacena en una tupla la presión mínima y máxima (en PSI) permitidas para el sistema neumático; evita su modificación.
+2. **Calibración de Fábrica:** Guarda el factor de escala (Offset, Multiplicador) de un sensor de peso (celda de carga) configurado de fábrica.
+3. **Especificaciones Físicas:** Define las dimensiones inmutables del área de trabajo de una fresadora CNC `(X_max, Y_max, Z_max)` en milímetros.
+4. **Relación de Transmisión (Gear Ratio):** Almacena los dientes del engrane motriz y el conducido `(12, 60)` y desempaquétalos para calcular el torque.
+5. **Configuración de IP de Red Industrial:** El PLC Maestro tiene una IP estática inamovible `("192.168.0.100")`. Guárdala de forma segura.
+6. **Tiempos del Semáforo Industrial (Andon):** Define los segundos de encendido para alertas `(Verde_T, Ambar_T, Rojo_T)`.
+7. **Características Nominales del Motor:** Crea una estructura inmutable para la Frecuencia, Voltaje y Fases `(60, 220, 3)` de una bomba centrífuga.
+8. **Umbrales Termopar:** Establece la temperatura de Alarma Baja y Alarma Alta. Si la lectura excede la tupla, dispara la alerta.
+9. **Matriz de Transformación Simple:** Devuelve las coordenadas de traslación estáticas de un gripper respecto a la muñeca.
+10. **Lectura de Modbus:** Una función de comunicación industrial devuelve el registro leído y un booleano de éxito de la trama `(4096, True)`.
+
+### Diccionarios (Dictionaries)
+1. **Etiquetas del SCADA:** Crea un diccionario que asocie los tags de la HMI (`"T_Horno"`, `"P_Valvula"`) con su lectura en tiempo real.
+2. **Mapeo de Entradas/Salidas (I/O):** Mapea los pines del microcontrolador (ej. `2: "Sensor_Optico"`, `3: "Relevador_Motor"`).
+3. **Parámetros del Variador de Frecuencia:** Almacena la `Rampa_Aceleracion`, `Frecuencia_Max` y `Modo_Control`. Actualiza la Rampa desde la terminal.
+4. **Diagnóstico de Alarmas:** Crea un diccionario donde el código de error numérico del PLC devuelva la instrucción de mantenimiento adecuada.
+5. **Inventario de Componentes:** Tienes un almacén de refacciones. Verifica (usando `.get()`) si hay existencias de la clave `"Fusible_10A"`. Si no, devuelve 0.
+6. **Estados del Proceso:** Asocia números enteros de una máquina de estados (0, 1, 2) con el nombre del estado (`"Reposo"`, `"Llenado"`, `"Sellado"`).
+7. **Recetas de Producción:** Guarda un diccionario anidado para la receta `"Pintura_Roja"`, especificando proporciones de pigmento, solvente y presión.
+8. **Historial de Mantenimiento:** Elimina del diccionario de mantenimiento preventivo la máquina `"Bomba_2"` que acaba de ser dada de baja de la planta.
+9. **Tolerancias de Calidad:** Itera sobre un diccionario de dimensiones de piezas para imprimir qué variables críticas deben ser revisadas hoy por el técnico.
+10. **Fusión de Sensores:** Actualiza el diccionario principal del tablero de control integrando los datos de un nuevo diccionario enviado por un esclavo inalámbrico.
+
+### Conjuntos (Sets)
+1. **Detección de Alarmas Duplicadas:** En un parpadeo de energía, el PLC envió el mismo código de falla 20 veces. Conviértelo a conjunto para ver solo el error raíz.
+2. **Auditoría de Códigos de Barras:** Filtra los números de serie escaneados en la zona de empaque para asegurar que no se haya empacado la misma pieza dos veces.
+3. **Fallas Concurrentes (Intersección):** Tienes el conjunto de fallas del Sistema Hidráulico y el del Sistema Eléctrico. Encuentra qué sensor está fallando en ambos lados simultáneamente.
+4. **Zonas Seguras:** Define un conjunto de celdas de manufactura en las que un humano puede entrar sin que las cortinas láser detengan el proceso.
+5. **Máquinas Fuera de Línea (Diferencia):** Resta el conjunto de `maquinas_respondiendo_ping` al conjunto de `maquinas_totales` para saber cuáles se apagaron.
+6. **Operadores Activos:** Elimina un número de empleado del conjunto de operarios logueados en la HMI cuando termina su turno.
+7. **Herramientas Utilizadas:** Un brazo robótico cambia de herramientas. Guarda los IDs de las herramientas que ha utilizado durante el ciclo para reportar el desgaste.
+8. **Unión de Módulos Operativos:** Tienes la lista de bandas activas en la Nave 1 y la Nave 2. Une ambos para el mapa general de la planta.
+9. **Permisos de Mantenimiento:** Revisa si el permiso `"Override_Hidraulico"` pertenece al conjunto de permisos del técnico logueado actualmente.
+10. **Eliminación Segura (Discard):** Intenta purgar la alarma `"Fuga_Aire"` del conjunto de alertas activas sin detener el programa si dicha alarma no existe.
+
+---
+
+## 5. Ingeniería en Videojuegos
+
+### Listas (Lists)
+1. **Inventario del Jugador:** Crea una lista simulando la mochila del jugador. Agrega la "Espada de Hierro" y luego elimina la "Poción de Vida" tras ser consumida.
+2. **Cola de Partículas:** Simula un sistema de partículas (chispas). Añade 5 partículas, e invierte el orden para destruir primero las más antiguas.
+3. **Puntos de Generación (Spawn Points):** Tienes una lista de coordenadas X. Usa una función de la librería `random` para seleccionar un elemento al azar y hacer spawn de un enemigo.
+4. **Historial de Daño (DPS):** Guarda los últimos 10 números de daño infligidos a un jefe. Extrae el número mayor para mostrar el "Golpe Crítico Máximo".
+5. **Chat Global:** Crea una lista para el log de texto. Evita que la lista supere los 20 mensajes eliminando el índice 0 cada vez que alguien escribe algo nuevo.
+6. **Nodos de Patrullaje:** Un guardia tiene una ruta de 5 puntos. Extrae el punto 3 e insértalo al inicio para cambiar su patrón de vigilancia.
+7. **Ranking de Puntuaciones (Leaderboard):** Tienes las puntuaciones al final de una partida. Ordénalas de forma descendente para mostrar el podio.
+8. **Efectos Alterados (Buffs/Debuffs):** Si el veneno termina, busca la palabra `"Envenenado"` en la lista de estados del jugador y elimínala.
+9. **Secuencia de Niveles:** Concatena la lista de `niveles_mundo_1` con `niveles_mundo_2` para generar el flujo completo de la campaña.
+10. **Conteo de Monedas:** Cuenta en la lista de recolección cuántas veces el jugador agarró el ítem `"Moneda_Oro"` en lugar de `"Moneda_Plata"`.
+
+### Tuplas (Tuples)
+1. **Resolución Nativa:** Fija la resolución base del motor gráfico en pixel-art `(320, 240)` de forma que sea imposible de corromper matemáticamente.
+2. **Gravedad Constante:** Guarda el vector direccional y fuerza de la gravedad `(0, -9.81, 0)` en un motor de físicas 3D.
+3. **Caja de Colisiones (Hitbox):** Define el ancho y el alto fijos del sprite del protagonista.
+4. **Tasa de Caída (Drop Rate):** Define la probabilidad inmutable de que caigan objetos Común, Raro y Legendario `(70.0, 25.0, 5.0)`.
+5. **Configuración de Teclas (Default Bindings):** Guarda las teclas originales para moverse (WASD) en una estructura segura para el botón de "Restaurar a predeterminado".
+6. **Color de Fuente UI:** Almacena el color RGBA para los subtítulos del juego `(255, 255, 255, 255)`.
+7. **Atributos Base del Héroe:** Define la salud máxima y maná inicial `(100, 50)` al nivel 1, desempaquetando los valores al cargar la partida.
+8. **Posición de Origen del Mapa:** El punto donde se centra el mapa de la interfaz del usuario es siempre `(0, 0)`. Protege esto en una tupla.
+9. **Versión del Juego:** Almacena la versión del parche `(1, 4, "b")` para enviarla en los logs de reporte de errores al servidor.
+10. **Matriz de Tileset:** Devuelve desde una función de carga las dimensiones de la hoja de texturas como una tupla `(Columnas, Filas)`.
+
+### Diccionarios (Dictionaries)
+1. **Estadísticas RPG:** Crea el perfil de un personaje con `Fuerza`, `Destreza` y `Magia`. Al subir de nivel, incrementa la Fuerza en +2 puntos buscando la clave.
+2. **Traducción (Localización):** Crea un diccionario donde las claves sean IDs de texto (`"UI_START"`, `"UI_QUIT"`) y los valores los textos en el idioma seleccionado.
+3. **Botín de Enemigo (Loot Table):** Mapea nombres de objetos (`"Dientes_Lobo"`) con sus cantidades caídas al morir el monstruo.
+4. **Mapeo de Entradas (Keybinds):** Relaciona acciones del juego con teclas (ej. `"Saltar": "Space"`, `"Disparar": "Mouse_1"`). Modifica la tecla de salto a `"W"`.
+5. **Progreso de Misiones (Quests):** Un diccionario guarda el ID de la misión y su estado (`"Completado"`, `"Activo"`, `"Fallido"`). Verifica el estado de `"Mision_03"`.
+6. **Diálogos de NPC:** Relaciona el estado anímico del NPC (`"Enojado"`, `"Feliz"`) con el texto que debe imprimir en el globo de diálogo.
+7. **Atributos del Nivel:** Crea un diccionario con metadatos del nivel: nombre, música_fondo, dificultad y si tiene jefe_final. Elimina la clave de jefe_final.
+8. **Catálogo de Tienda:** Verifica rápidamente si el ítem `"Poción_Mana"` existe en el inventario del mercader antes de que el jugador intente comprarla.
+9. **Configuración de Gráficos:** Guarda un diccionario anidado para `Video`, con subclaves como `AntiAliasing` y `Sombras`.
+10. **Armadura Equipada:** Crea un diccionario con los slots (Cabeza, Pecho, Piernas). Actualiza el Pecho con la `"Armadura de Mitril"`.
+
+### Conjuntos (Sets)
+1. **Logros Desbloqueados:** El jugador mata a 10 osos y el sistema manda 10 veces el logro "Cazador". Usa un set para purgar los duplicados y mostrar que se ganó 1 sola vez.
+2. **Regiones Visitadas (Fog of War):** Almacena las IDs de los cuadrantes del mapa revelados por el jugador. Añade zonas nuevas dinámicamente sin preocuparte por repeticiones.
+3. **Fusión de Cuentas (Unión):** Une el conjunto de "Skins desbloqueadas" del jugador en PC con el conjunto de Skins de su cuenta en Consola (Cross-save).
+4. **Clases de Enemigos Únicos:** Tienes una lista de los 500 enemigos generados en un nivel de horda. Extráe un catálogo rápido de las razas únicas presentes.
+5. **Filtro de Efectos No Acumulables:** Un jugador es golpeado por 3 hechizos de ralentización. Añade los efectos a un conjunto para asegurar que no se estaque el mismo penalizador.
+6. **Amigos en Común (Intersección):** Tienes el conjunto de amigos del Jugador A y del Jugador B. Muestra sus amigos en común.
+7. **Requisitos de Crafteo (Diferencia):** Resta los "Materiales_En_Inventario" de los "Materiales_Requeridos" para imprimirle al jugador qué recursos le faltan recolectar.
+8. **Niveles Completados al 100%:** Elimina del conjunto de niveles bloqueados el `"Nivel_5"` cuando el jugador lo supera.
+9. **Restricción de Equipamiento:** Verifica si el tipo de arma que intenta usar el jugador pertenece al conjunto de "Armas_Permitidas_Para_Mago".
+10. **IDs Jugadores Online:** Mantiene un registro en tiempo real de los IDs únicos de los clientes conectados en el servidor multijugador, usando `.discard()` al desconectarse.
+
+---
+
+## 6. Ciencia de Datos
+
+### Listas (Lists)
+1. **Historial de Pérdida (Loss Function):** Guarda el error del modelo en cada época (iteración). Extrae el error de la primera y la última época para comparar el aprendizaje.
+2. **Columna de Datos Numéricos:** Tienes una lista con edades de clientes. Usa un ciclo para añadir a una nueva lista solo los mayores de 18 años.
+3. **Ingeniería de Características (Feature Engineering):** Dadas dos listas, `Precio` y `Metros_Cuadrados`, divídelas elemento por elemento y guárdalas en una nueva lista `Precio_M2`.
+4. **Limpieza de Texto:** Tienes una lista de palabras extraídas de un tweet. Elimina las menciones que empiecen con "@" recorriendo la lista.
+5. **Validación Cruzada (K-Folds):** Divide (slicing) una lista de 100 índices de datos en un grupo de Entrenamiento (80%) y un grupo de Prueba (20%).
+6. **Medias Móviles:** Calcula el promedio de los últimos 3 elementos de una lista de ingresos diarios y añade el resultado a una lista de tendencias.
+7. **Normalización Manual:** Extrae el valor máximo de una lista de variables continuas y úsalo para dividir todos los demás elementos.
+8. **Series de Tiempo:** Tienes la lista de precios de cierre de una acción de Lunes a Viernes. Invierte la lista para leerla del día más reciente al más antiguo.
+9. **Relleno de Datos (Imputation):** Busca en una lista los valores `"NaN"` (nulos) y reemplázalos por el promedio (o la mediana) de los datos.
+10. **Concat_Dataframes Simulado:** Concatena la lista de filas del trimestre 1 con la lista de filas del trimestre 2.
+
+### Tuplas (Tuples)
+1. **Dimensiones de un Tensor (Shape):** Almacena la arquitectura inmutable de un dataset de imágenes `(Ejemplos, Alto, Ancho, Canales_RGB)`.
+2. **Límites de Hiperparámetros:** Define los límites fijos del espacio de búsqueda para la Tasa de Aprendizaje (Learning Rate) de tu red neuronal `(0.0001, 0.1)`.
+3. **Coordenadas de un Centroide:** En el algoritmo K-Means, fija temporalmente las coordenadas `(X, Y, Z)` del centroide para medir las distancias euclidianas a otros puntos.
+4. **Par Variables Dependientes/Independientes:** Una función que divide datos devuelve `(X_train, y_train)`. Desempaqueta estos dos valores directamente en tu script.
+5. **Ventana de Tiempo Fija:** Para un modelo recurrente (RNN), establece el número inmutable de pasos de tiempo (timesteps) a analizar en el pasado.
+6. **Clases del Modelo:** Guarda las categorías definitivas de un modelo de clasificación de flores `("Setosa", "Versicolor", "Virginica")`.
+7. **Pesos Iniciales Base:** Protege una tupla con los pesos preentrenados genéricos (bias y weights) antes de aplicar transferencia de aprendizaje (Transfer Learning).
+8. **Parámetros de Escalado:** Un objeto MinMax Scaler devuelve el mínimo y el máximo de una columna. Protégelos en una tupla para no descalibrar el modelo de predicción.
+9. **Resultado de Pruebas de Hipótesis:** Una función estadística devuelve el estadístico t y el p-valor `(t_stat, p_value)`. Extrae el p-valor por su índice [1].
+10. **Validación de Dimensión:** Si un vector que entra al modelo predictivo no tiene una tupla de shape `(50, )`, lanza un error, garantizando seguridad dimensional.
+
+### Diccionarios (Dictionaries)
+1. **Codificación Categórica (Label Encoding):** Mapea clases en formato texto (`"Bajo"`, `"Medio"`, `"Alto"`) a formato numérico (`0`, `1`, `2`) para que la computadora las procese.
+2. **Frecuencia de Palabras (NLP):** Lee una oración y crea un diccionario donde las claves sean las palabras únicas y los valores sean la cantidad de veces que se repiten.
+3. **Métricas de Evaluación:** Crea un diccionario para guardar la `Exactitud (Accuracy)`, `Precisión` y `Sensibilidad (Recall)` de tu último modelo Random Forest.
+4. **Configuración de Cuadrícula (Grid Search):** Almacena los hiperparámetros a explorar, por ejemplo: `{"n_estimators": [10, 50, 100], "max_depth": [5, 10]}`.
+5. **Mapeo de Valores Nulos:** Guarda un registro que relacione el nombre de cada columna de tu Dataset con la cantidad exacta de valores vacíos (NaN) que posee.
+6. **Estructura Base de DataFrame:** Construye un diccionario donde las claves sean los nombres de las columnas y los valores sean listas de datos, emulando la creación nativa en Pandas.
+7. **Manejo de Outliers por Columna:** Relaciona el nombre de las características con su límite superior de cuartil (Q3 + 1.5*IQR). Si un dato excede el valor, lo filtras.
+8. **Pesos de Características (Feature Importance):** Tras entrenar el modelo, almacena la variable predictora (ej. `"Edad"`) junto a su peso porcentual (`0.45`).
+9. **Respuesta de API Predictiva:** Genera un diccionario estructurado (JSON) que devuelva la probabilidad calculada, la clase predicha y el ID de ejecución.
+10. **Diccionario de Modelos:** Almacena objetos de diferentes algoritmos: `{"LogReg": modelo_logistico, "Tree": modelo_arbol}` para iterar sobre ellos y entrenarlos en un ciclo.
+
+### Conjuntos (Sets)
+1. **Extracción de Clases Únicas:** Tienes un millón de registros con nombres de ciudades. Transfórmalo a conjunto para encontrar cuántas y cuáles son las ciudades únicas antes de aplicar One-Hot Encoding.
+2. **Fuga de Datos (Data Leakage):** Usa la intersección matemática para verificar que ningún ID de cliente del Conjunto de Entrenamiento (Train Set) aparezca en el Conjunto de Prueba (Test Set).
+3. **Limpieza de Stopwords (NLP):** Crea un conjunto con palabras inútiles (el, la, los). Si una palabra de tu texto está en el conjunto, descártala rápidamente.
+4. **Validación de Identificadores Duplicados:** La base de datos SQL te entregó una tabla. Pasa la columna de llaves primarias (Primary Keys) a conjunto y compara su longitud para detectar anomalías.
+5. **Variables Constantes (Varianza Cero):** Tienes una columna de datos. Si al convertirla a set su longitud es exactamente igual a 1, significa que no aporta información (es constante). Elimínala.
+6. **Diferencia de Distribución (Data Drift):** Compara los valores únicos categóricos que el modelo vio durante el entrenamiento frente a los que están llegando hoy a producción. Resta los conjuntos para ver qué categorías son nuevas o desconocidas.
+7. **Combinación de Universos:** Tienes el conjunto de usuarios que compran y el conjunto de usuarios que ven anuncios. Únelos para obtener tu base activa total sin duplicarlos.
+8. **Optimización de Búsqueda:** Debes verificar si un elemento existe en un catálogo de 10 millones de filas. Hacerlo en una Lista toma segundos, hacerlo convirtiéndola a Conjunto (Set) es instantáneo O(1).
+9. **Purgado de Outliers Eliminados:** Tienes un set de índices que el modelo de Isolation Forest marcó como anomalías. Elimínalos (discard) de tu tabla principal.
+10. **Comparativa de Vocabularios (A/B Testing):** Evalúa un modelo de análisis de sentimientos A y B. Saca la intersección de las palabras clave de las que ambos modelos están aprendiendo.

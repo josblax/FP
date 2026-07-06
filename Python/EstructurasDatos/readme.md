@@ -862,3 +862,91 @@ Este documento contiene 10 enunciados de ejercicios para cada estructura de dato
 8. **Optimización de Búsqueda:** Debes verificar si un elemento existe en un catálogo de 10 millones de filas. Hacerlo en una Lista toma segundos, hacerlo convirtiéndola a Conjunto (Set) es instantáneo O(1).
 9. **Purgado de Outliers Eliminados:** Tienes un set de índices que el modelo de Isolation Forest marcó como anomalías. Elimínalos (discard) de tu tabla principal.
 10. **Comparativa de Vocabularios (A/B Testing):** Evalúa un modelo de análisis de sentimientos A y B. Saca la intersección de las palabras clave de las que ambos modelos están aprendiendo.
+
+
+# 7. Ingeniería Mecánica
+
+### Listas (Lists)
+
+Historial de Revoluciones (RPM): Un tacómetro registra las RPM de un motor en una lista. Añade tres nuevas lecturas que acaban de llegar del sensor y elimina la lectura más antigua para mantener el tamaño del buffer.
+
+Cola de Ensamblaje (Línea de Producción): Tienes una lista con los códigos de las piezas que entrarán a la celda de soldadura. Usa un método para extraer y mostrar la pieza en el índice 0, simulando que ya fue procesada.
+
+Filtro de Tolerancias: Recibes una lista con mediciones de diámetros de ejes mecanizados. Utiliza un ciclo para eliminar todas las mediciones que excedan el límite de tolerancia de 50.05 mm.
+
+Esfuerzos de Von Mises: Un análisis de Elementos Finitos (FEA) arroja una lista de esfuerzos máximos en diferentes nodos. Ordena la lista de mayor a menor para identificar los puntos más críticos de la estructura.
+
+Inventario de Rodamientos: Tienes una lista de rodamientos SKF en el almacén. El proveedor te envía una caja con 5 modelos más. Utiliza el método adecuado para añadir todos los modelos nuevos de golpe al final de tu lista actual.
+
+Reversión de Tren de Engranajes: Tienes una lista que representa la secuencia de transmisión de velocidades de una caja de cambios. Invierte el orden de la lista para simular el análisis del flujo de potencia en reversa.
+
+Extracción de Muestra de Fatiga: Una máquina de ensayos a tracción generó 1000 puntos de datos. Extrae únicamente los datos de la posición 500 a la 550 usando slicing (rebanado) para analizar el momento exacto de la fractura.
+
+Conteo de Fallos: En un registro de calidad, tienes una lista con los motivos de rechazo de un lote de piezas. Cuenta exactamente cuántas veces aparece el string "Fisura_Superficial".
+
+Combinación de Aleaciones: Tienes la lista de proporciones de metales de una Aleación A y otra lista para la Aleación B. Concaténalas para calcular los porcentajes de una mezcla fundida conjunta.
+
+Inserción de Parada de Emergencia: Tienes una lista de comandos secuenciales (G-Code) para una fresadora CNC. Inserta un comando de "PARO_HUSILLO" en el índice 2 antes de que la herramienta colisione.
+
+### Tuplas (Tuples)
+Propiedades Estáticas del Material: Almacena el Módulo de Young (Elasticidad), el Límite Elástico y la Densidad del Acero AISI 1020 en una tupla para garantizar que nadie modifique estas constantes durante la simulación de diseño.
+
+Coordenadas del Centro de Gravedad: Guarda las coordenadas espaciales (X, Y, Z) del centro de gravedad de un chasis automotriz en una tupla.
+
+Límites Termodinámicos: Define una tupla con la temperatura mínima y máxima (T_min, T_max) de operación segura de una turbina de gas. Imprime un error si una variable térmica excede el índice 1.
+
+Configuración de Corte CNC: Fija los parámetros ideales de corte para una broca de carburo en una tupla (Velocidad_Avance, RPM_Husillo, Profundidad_Corte). Desempaqueta la tupla en 3 variables para usarlas en un cálculo.
+
+Relación de Transmisión (Gear Ratio): Almacena el número de dientes del engrane motriz y del engrane conducido (N1, N2) e intenta modificar uno para demostrar el error de inmutabilidad.
+
+Vectores de Fuerza en Armaduras: Representa la fuerza aplicada en un nodo como una tupla tridimensional (Fx, Fy, Fz) en Newtons.
+
+Dimensiones Estandarizadas ISO: Guarda el paso, el diámetro nominal y el tamaño de la cabeza de un Tornillo M8 en una tupla, ya que son medidas de catálogo que no deben mutar.
+
+Retorno Múltiple de Ensayo: Crea una función que simule un cálculo de viga sometida a flexión y que devuelva en una misma tupla el esfuerzo máximo cortante y el esfuerzo flexionante.
+
+Coeficientes de Fricción: Almacena los coeficientes de fricción estática y cinética (Us, Uk) entre dos superficies de acero lubricadas.
+
+Matriz de Rotación Cinemática: Define una fila inmutable de la matriz de rotación direccional de un eslabón para un mecanismo de 4 barras.
+
+### Diccionarios (Dictionaries)
+Ficha Técnica de Motor: Crea un diccionario que mapee las características de un motor de combustión interna: "Cilindrada", "Caballos_Fuerza", "Torque_Max" y "Ciclo_Termodinámico".
+
+Tabla de Propiedades de Fluidos: Mapea el nombre de fluidos de trabajo ("Aceite_SAE30", "Refrigerante_R134a") con su respectiva viscosidad cinemática como valor.
+
+Mapeo de Sensores PID: Crea un diccionario asociando el identificador del sensor de un intercambiador de calor ("Temp_Entrada", "Temp_Salida", "Flujo_Masico") con sus lecturas analógicas actuales. Actualiza el valor de "Temp_Salida".
+
+Catálogo de Materiales: Tienes un diccionario donde las claves son tipos de metales y los valores su densidad. Pide al usuario que ingrese un metal y usa .get() para devolver su densidad o un mensaje de "Material no encontrado".
+
+Configuración de Impresión 3D (FDM): Modela un perfil de laminado (Slicer) con claves como "Altura_Capa", "Densidad_Relleno" y "Temperatura_Extrusor". Cambia la temperatura si el material ingresado es ABS.
+
+Nodos y Desplazamientos: En un análisis estructural, mapea el ID del Nodo ("N_101") con el desplazamiento milimétrico calculado. Elimina el "N_000" (nodo empotrado que no tiene desplazamiento).
+
+Códigos de Diagnóstico OBD-II: Asocia los códigos de falla de un vehículo ("P0300", "P0171") con su respectiva descripción mecánica para crear un escáner virtual automotriz.
+
+Estado de Válvulas Neumáticas: Tienes un diccionario con el estado de 3 válvulas (True abierto, False cerrado). Itera sobre él e imprime únicamente el nombre de las válvulas que están abiertas.
+
+Diccionario de Mantenimiento: Crea un diccionario anidado llamado "Torno_CNC" que contenga sub-diccionarios para "Eje_X", "Eje_Y" y "Husillo", guardando las horas de uso de cada uno.
+
+Suma de Masas de un Ensamble: Crea un diccionario con el nombre de 5 piezas de un ensamble SolidWorks y su masa en Kg. Suma todos los valores (values) para obtener la masa total de la máquina.
+
+### Conjuntos (Sets)
+Materiales Únicos en el Lote: Tienes una lista de envíos de chapa metálica de la acería con muchos lotes repetidos. Conviértela a conjunto para saber cuántas aleaciones únicas recibiste realmente.
+
+Intercambiabilidad de Piezas (Intersección): Tienes un conjunto con los números de parte compatibles con la "Bomba A" y otro conjunto con los de la "Bomba B". Encuentra qué sellos mecánicos sirven para ambas bombas.
+
+Faltantes en la Línea (Diferencia): Resta el conjunto de "Piezas_Ensambladas" al conjunto de "Lista_De_Materiales_BOM" para averiguar de inmediato qué tornillos o placas faltan por montar.
+
+Fusión de Proveedores (Unión): Une el catálogo de herramientas de fresado del "Proveedor 1" con el del "Proveedor 2" para crear tu base de herramientas disponibles en el taller sin tener códigos duplicados.
+
+Modos de Falla Concurrentes: El sistema eléctrico reporta un conjunto de errores y el sistema hidráulico reporta otro conjunto. Verifica si la falla "Caida_Presion" está presente en ambos sistemas.
+
+Limpieza de Nodos Superpuestos: Al importar una malla (Mesh) de AutoCAD, muchos vértices en las esquinas se duplicaron. Usa un conjunto para purgar los vértices superpuestos y sanear el modelo 3D.
+
+Auditoría de Normas ISO: Tienes el conjunto de normas con las que cumple un plano mecánico. Verifica en una sola línea si el conjunto requerido de calidad {"ISO_9001", "GD&T_Y14.5"} es un subconjunto de lo que reporta el plano.
+
+Operarios en Planta: Almacena los IDs de los técnicos que tienen permiso para encender la prensa hidráulica. Si un ID intenta activar la máquina y no está en el conjunto, bloquea el arranque.
+
+Eliminación de Residuos: Intenta eliminar (usando .discard()) el comando de "Enfriamiento_Inactivo" de la lista de rutinas de una caldera, asegurando que no detenga el software si ya había sido desactivado.
+
+Catálogo Rápido de Acabados: Una base de datos tiene miles de registros de producción que incluyen el acabado superficial ("Pulido", "Esmerilado", "Anodizado"). Extrae exclusivamente las clases de acabados únicos en microsegundos usando la matemática de conjuntos.

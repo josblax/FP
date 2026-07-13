@@ -1,7 +1,3 @@
-Aquí tienes el cuestionario de investigación teórica diseñado para contextualizar los conceptos técnicos de cada carrera. Este material está estructurado en formato Markdown, listo para que lo copies y pegues en tu repositorio de GitHub.
-
----
-
 # Cuestionario de Contextualización: Estructuras de Datos y Aplicaciones Técnicas
 
 El objetivo de este cuestionario es que comprendas la jerga y los fundamentos teóricos detrás de las aplicaciones prácticas de programación en tu área de competencia.

@@ -14,6 +14,7 @@ Fundamentos de Programación · 2026
 
 - Resuelve cada ejercicio **a mano, con pluma de tinta azul**, en hoja blanca o de cuadrícula. No se aceptan lápiz, otros colores ni impresiones.
 - Escribe en la parte superior de cada hoja tu **llave** y el **ID del ejercicio** (por ejemplo, `M04`).
+- Trabaja en el **perfil flexible** de PSeInt: no es necesario declarar variables ni su tipo con `Definir`.
 - Escribe el algoritmo completo en pseudocódigo de PSeInt, desde `Algoritmo` hasta `FinAlgoritmo`, con letra legible y la sangría de cada bloque.
 - Debajo del algoritmo, haz la **prueba de escritorio** o **tabla de seguimiento** que se indica en cada ejercicio.
 - No borres con corrector: si te equivocas, tacha con una sola línea y escribe al lado.
@@ -81,7 +82,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -100,7 +101,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -119,7 +120,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -138,7 +139,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -157,7 +158,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -176,7 +177,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -195,7 +196,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -214,7 +215,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -233,7 +234,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
@@ -252,7 +253,7 @@ Fundamentos de Programación · 2026
 **Para resolverlo** (a mano, con pluma azul)
 
 1. Identifica en el enunciado los datos que se leen (entradas) y lo que se muestra (salidas).
-2. Declara cada variable con `Definir` y su tipo (Entero, Real o Caracter).
+2. Elige un nombre claro para cada dato (`base`, `altura`, `area`) y úsalo siempre escrito igual.
 3. Escribe las instrucciones en orden: `Leer` → cálculo con `<-` → `Escribir`.
 4. Haz una prueba de escritorio con un ejemplo numérico y anota el resultado esperado.
 
